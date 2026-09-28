@@ -1,0 +1,34 @@
+# 操作系统与编辑器本地文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 本地配置和密钥（允许提交无敏感值的示例）
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# 依赖与构建缓存；各子项目可补充自己的忽略规则
+node_modules/
+.next/
+.nuxt/
+.cache/
+.vite/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 运行输出
+*.log
+tmp/
+temp/
