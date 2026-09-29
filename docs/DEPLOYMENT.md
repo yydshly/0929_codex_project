@@ -78,3 +78,5 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 发布前及 CI 执行 `node projects/003-mattpocock-skills/build-web.mjs` 与 `node projects/003-mattpocock-skills/verify-web.mjs`，无需安装依赖。检查覆盖 38 项技能、18 个场景步骤、六类图表、固定版本来源、本地资源与七个发布文件。构建与其他已发布项目共用现有 Pages 工作流。
 
 本次发布仅包含项目 003 及相关索引、发布配置；保留其他项目的本地未提交工作。展示中的样张与小组件是教学演示，上游技能没有运行实测。
+
+2026-09-29，[发布工作流 36522363357](https://github.com/yydshly/0929_codex_project/actions/runs/36522363357)构建和部署均成功，内容提交为 `8e06f36baf1c9216d6009a5c830dbdb8719ab502`。项目首页与六个资源均返回 HTTP 200，按文本内容与本地发布版本逐一比对一致；总入口也返回 HTTP 200 并包含项目 003。浏览器确认线上摘要图加载成功，六类能力覆盖 38 项技能，展开列表与技能详情正常。手机布局检查已在同版本本地页面完成，未发现页面横向溢出。
