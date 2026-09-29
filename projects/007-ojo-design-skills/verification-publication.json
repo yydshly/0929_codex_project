@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-29",
+  "commit": "169fcb54be1723f5041d801674d2ea8c74ca91c8",
+  "workflow": "https://github.com/yydshly/0929_codex_project/actions/runs/36524377127",
+  "workflowConclusion": "success",
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "892d5dea2428cb160834ea99beca86791a0dcafe50c1882f06ea091ae7931322"
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "adbb6e304de6daf74fe79b1305d0bfac06202cfb815aedda7fadc959cb98b1a1"
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "08fe20ca399d784ed37fb64ecc5addf37a81c85ea3fd19e7ae6b6569a9b3cf4b"
+    },
+    {
+      "file": "map.html",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "558220ff0e81b87249a9ba401bb497bb8c42b9dcb18ff9c0483f77674fd91253"
+    },
+    {
+      "file": "map.css",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "b9ca6576f8cd765a6612e989d25cb008ca194f2c834acf53cced2ada0e108c35"
+    },
+    {
+      "file": "map.js",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "d1ac35fe8883e33f289a6660ea11a21019d4e66ba661f881ed502f9a42514795"
+    },
+    {
+      "file": "capability-summary.png",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "exact binary",
+      "sha256": "7cd99971f0e00cfc483127e360be69abd3cf3dfad7367e0c2f4747b80ec1674d"
+    },
+    {
+      "file": "capability-summary.svg",
+      "status": 200,
+      "matchesLocal": true,
+      "comparison": "text with normalized line endings",
+      "sha256": "ad38b86e467d337ac72ecb988cde5bec47428141e2847ee17dd8d870ffa14cbf"
+    }
+  ],
+  "siteIndex": "HTTP 200; updated OJO summary visible",
+  "browser": "Published heading visible; five personal scenarios; summary image naturalWidth 2000."
+}

@@ -74,3 +74,11 @@ JavaScript 语法通过 `node --check projects/007-ojo-design-skills/web/app.js`
 - 静态检查通过 348 项；两个前端脚本语法检查通过。
 - 浏览器确认速查表展开显示 10 行、个人场景 5 项、个人导航跳转正常。390px 手机视口页面宽 375px，表格在 303px 容器内横向滚动；1280px 视口页面宽 1265px，摘要四列显示，无页面横向溢出。
 - 浏览器未发现警告或错误。本轮只验证研究网页，不代表上游技能已执行。
+
+## 2026-09-29 · 公开发布验收
+
+内容提交：`169fcb54be1723f5041d801674d2ea8c74ca91c8`。[GitHub Pages 工作流 36524377127](https://github.com/yydshly/0929_codex_project/actions/runs/36524377127)构建与部署成功。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/)及七个页面资源均返回 HTTP 200。PNG 与本地逐字节一致；文本资源统一换行后内容一致。站点总入口返回 HTTP 200 并包含更新后的项目描述。详细结果见 [verification-publication.json](verification-publication.json)。
+
+浏览器确认线上能力摘要、五个个人使用场景可见，原总览图加载尺寸为 2000px；已将浏览器保留在公开页面。发布截图见 [assets/publication-live.png](assets/publication-live.png)。
