@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1340" viewBox="0 0 1600 1340" role="img" aria-labelledby="title desc">
+<title id="title">Agent Skills：25 项研发流程能力摘要</title>
+<desc id="desc">六类工作共24项技能，加一项贯穿全流程的技能发现与路由。展示场景、产出、预期效果、个人意义和扩展方向。</desc>
+<style>text{font-family:"Microsoft YaHei","PingFang SC",sans-serif;fill:#26392e}.small{font-size:21px;fill:#65725d}.body{font-size:23px}.label{font-size:18px;fill:#68765e}.head{font-size:30px;font-weight:700}.out{font-size:21px;fill:#315f45}</style>
+<rect width="1600" height="1340" fill="#f5f6f1"/>
+<text x="48" y="48" class="label">ADDY OSMANI / AGENT SKILLS     ·     能力摘要</text>
+<text x="48" y="106" class="" font-size="43">让 AI 按工程流程，把想法推进到可验证的交付</text>
+<text x="48" y="150" class="body">本质：25 份按需读取的研发工作流，指导模型使用现有工具完成工作。</text>
+<text x="48" y="187" class="body">可推动的结果：清楚的规格 → 小步实现 → 验证与审查 → 发布、记录与维护。</text>
+<rect x="48" y="213" width="1504" height="70" rx="12" fill="#26392e"/>
+<text x="72" y="256" style="fill:#fff;font-size:24px">贯穿全程 · 01 技能发现与路由：识别任务 → 选择相关技能 → 衔接各阶段（1 项）</text>
+<rect x="48" y="305" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="70" y="339" class="label">01 / 4 项技能</text>
+<text x="70" y="382" class="head">把目标说清楚</text>
+<text x="70" y="423" class="small">需求访谈 · 想法细化</text>
+<text x="70" y="453" class="small">规格编写 · 质量约束</text>
+<text x="70" y="524" class="label">场景  想法模糊、反复改需求</text>
+<text x="70" y="555" class="out">产出  需求结论、规格与验收标准</text>
+<text x="70" y="585" class="label">效果  知道做什么，怎样才算完成</text>
+<metadata>[&quot;interview-me&quot;, &quot;idea-refine&quot;, &quot;spec-driven-development&quot;, &quot;constraint-driven-development&quot;]</metadata>
+<rect x="558" y="305" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="580" y="339" class="label">02 / 1 项技能</text>
+<text x="580" y="382" class="head">把工作拆成可执行步骤</text>
+<text x="580" y="423" class="small">计划与任务拆分</text>
+<text x="580" y="524" class="label">场景  任务很大、不知道从哪里开始</text>
+<text x="580" y="555" class="out">产出  带依赖、检查点的实施计划</text>
+<text x="580" y="585" class="label">效果  按小任务推进，便于检查进度</text>
+<metadata>[&quot;planning-and-task-breakdown&quot;]</metadata>
+<rect x="1068" y="305" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="1090" y="339" class="label">03 / 7 项技能</text>
+<text x="1090" y="382" class="head">把规格变成可验证实现</text>
+<text x="1090" y="423" class="small">增量实现 · 测试驱动 · 上下文管理</text>
+<text x="1090" y="453" class="small">官方资料驱动 · 独立质疑</text>
+<text x="1090" y="483" class="small">前端界面工程 · API 与接口设计</text>
+<text x="1090" y="524" class="label">场景  开发网页、工具、接口或新功能</text>
+<text x="1090" y="555" class="out">产出  代码、行为测试、界面与接口契约</text>
+<text x="1090" y="585" class="label">效果  小步实现，用官方资料和反例校验判断</text>
+<metadata>[&quot;incremental-implementation&quot;, &quot;test-driven-development&quot;, &quot;context-engineering&quot;, &quot;source-driven-development&quot;, &quot;doubt-driven-development&quot;, &quot;frontend-ui-engineering&quot;, &quot;api-and-interface-design&quot;]</metadata>
+<rect x="48" y="625" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="70" y="659" class="label">04 / 2 项技能</text>
+<text x="70" y="702" class="head">看见问题，定位并修复</text>
+<text x="70" y="743" class="small">浏览器验证 · 排错与恢复</text>
+<text x="70" y="844" class="label">场景  页面交互异常、测试或运行失败</text>
+<text x="70" y="875" class="out">产出  运行证据、根因分析与修复</text>
+<text x="70" y="905" class="label">效果  从“看起来可用”走向真实路径验证</text>
+<metadata>[&quot;browser-testing-with-devtools&quot;, &quot;debugging-and-error-recovery&quot;]</metadata>
+<rect x="558" y="625" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="580" y="659" class="label">05 / 4 项技能</text>
+<text x="580" y="702" class="head">让改动更可靠、更易维护</text>
+<text x="580" y="743" class="small">代码审查 · 代码简化</text>
+<text x="580" y="773" class="small">安全加固 · 性能优化</text>
+<text x="580" y="844" class="label">场景  合并前检查、代码变乱、安全或速度问题</text>
+<text x="580" y="875" class="out">产出  分级问题、简化改动、安全与性能分析</text>
+<text x="580" y="905" class="label">效果  暴露风险，按证据选择改进项</text>
+<metadata>[&quot;code-review-and-quality&quot;, &quot;code-simplification&quot;, &quot;security-and-hardening&quot;, &quot;performance-optimization&quot;]</metadata>
+<rect x="1068" y="625" width="484" height="298" rx="15" fill="#fff" stroke="#d9e0d1"/>
+<text x="1090" y="659" class="label">06 / 6 项技能</text>
+<text x="1090" y="702" class="head">把成果交付并持续维护</text>
+<text x="1090" y="743" class="small">Git 与版本 · CI/CD 自动化</text>
+<text x="1090" y="773" class="small">弃用与迁移 · 文档与架构决策</text>
+<text x="1090" y="803" class="small">可观测性 · 发布与上线</text>
+<text x="1090" y="844" class="label">场景  版本发布、系统升级、长期运行</text>
+<text x="1090" y="875" class="out">产出  流水线、迁移说明、观测与发布准备</text>
+<text x="1090" y="905" class="label">效果  交付可追溯，故障可发现、可恢复</text>
+<metadata>[&quot;git-workflow-and-versioning&quot;, &quot;ci-cd-and-automation&quot;, &quot;deprecation-and-migration&quot;, &quot;documentation-and-adrs&quot;, &quot;observability-and-instrumentation&quot;, &quot;shipping-and-launch&quot;]</metadata>
+<text x="48" y="984" class="" font-size="30">对你而言：从研究积累，到做出自己的工具</text>
+<text x="48" y="1030" class="body">现在 · 研究开源项目</text>
+<text x="48" y="1065" class="small">借鉴澄清目标、上下文与决策记录</text>
+<text x="48" y="1096" class="small">留下可追溯、下次能接续的结论</text>
+<text x="558" y="1030" class="body">下一步 · 做网页或个人工具</text>
+<text x="558" y="1065" class="small">直接使用规格、实现、界面与验证流程</text>
+<text x="558" y="1096" class="small">把资料变成可运行、可验收的成果</text>
+<text x="1068" y="1030" class="body">以后 · 长期维护或产品化</text>
+<text x="1068" y="1065" class="small">按需补齐审查、流水线与观测流程</text>
+<text x="1068" y="1096" class="small">让改动、发布和故障处理更有依据</text>
+<path d="M48 1130H1552" stroke="#c8d3bd"/>
+<text x="48" y="1170" class="body">可扩展：项目规范与模板 → 浏览器 / CI 等工具连接 → 用真实任务评测和调整流程</text>
+<text x="48" y="1210" class="body">价值：把临时对话中的工程经验，沉淀为可复用的工作方法与检查依据。</text>
+<text x="48" y="1266" class="label">原理：描述匹配 → 按需加载 Markdown → 模型编排工具 → 检查产物；硬门禁需测试或 CI 落实。</text>
+<text x="48" y="1307" class="label">依据上游固定版本 2686b620 · 25/25 覆盖 · 预期效果来自文档分析，未实测；研究用途属于方法迁移。</text>
+</svg>

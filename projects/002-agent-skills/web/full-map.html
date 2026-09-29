@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#24392f"><title>25 项 Skill 全量图 · Agent Skills</title><link rel="stylesheet" href="./full-map.css"><script src="./full-map-layout.js" defer></script><script src="./full-map.js" defer></script></head>
+<body>
+  <header><div class="heading"><a href="./index.html#catalog" aria-label="返回能力目录">←</a><div><h1>Agent Skills 全量图</h1><p>25 项技能全部展开 · 能力、场景、效果、扩展与个人价值</p></div></div><div class="downloads"><a href="./agent-skills-full-map.svg" download>矢量 SVG <span>↗</span></a><a href="./agent-skills-full-map.png" download>高清 PNG <span>↓</span></a></div></header>
+  <div class="toolbar" aria-label="全量图查看工具"><div class="zoom-controls"><button id="zoom-out" aria-label="缩小">−</button><label class="sr-only" for="zoom">缩放比例</label><input type="range" id="zoom" min="4" max="150" value="20" step="1"><output id="zoom-label" for="zoom">20%</output><button id="zoom-in" aria-label="放大">＋</button></div><div class="fit-controls"><button id="fit-all">整图概览</button><button id="fit-width">适应宽度</button><button id="read-size">阅读尺寸</button></div><div class="jump"><label for="jump-skill">定位技能</label><select id="jump-skill"><option value="">选择 01—25</option></select></div></div>
+  <main id="map-viewport" tabindex="0" aria-label="完整能力图画布，可滚动或拖动查看"><div id="map-stage"><img id="full-map" src="./agent-skills-full-map.svg" alt="25 项 Skill 全量能力图。每项均列出能力范围、3 条细化分析、使用场景、预期效果、交付物、边界、扩展建议和对你的意义。图下方汇总库的组成、整体扩展路线和个人价值。" draggable="false"></div></main>
+  <footer><span>拖动或滚动查看 · Ctrl + 滚轮缩放 · 所有内容均在这一张图中</span><span id="map-status" role="status" aria-live="polite">4000 × 7074 · 25 / 25 项</span></footer>
+</body></html>

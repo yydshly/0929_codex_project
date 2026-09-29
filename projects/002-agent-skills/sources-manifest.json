@@ -1,0 +1,184 @@
+{
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
+  "commit_date": "2026-09-26T04:19:37Z",
+  "accessed": "2026-09-29",
+  "files": [
+    {
+      "path": ".claude/commands/build.md",
+      "sha": "2233d909b396296eb3da7b0a50aab4a9954f92fe"
+    },
+    {
+      "path": ".claude/commands/code-simplify.md",
+      "sha": "f914bc81be9b6c8474e88cb7774aef1054957c0b"
+    },
+    {
+      "path": ".claude/commands/constraints.md",
+      "sha": "4f5bb054e15d35145cce5a7b422f3882734dd859"
+    },
+    {
+      "path": ".claude/commands/plan.md",
+      "sha": "96d8cc9bcb8ace4170a79ea3f24af83737e0ff97"
+    },
+    {
+      "path": ".claude/commands/review.md",
+      "sha": "c1d750c8e55d63cb31fa6470a16483a8328f5979"
+    },
+    {
+      "path": ".claude/commands/ship.md",
+      "sha": "1dfaf016cf1212400bf11e66c87980d5fb460aca"
+    },
+    {
+      "path": ".claude/commands/spec.md",
+      "sha": "fc0941975d040ba0fa51690cfb9500bee7829f6c"
+    },
+    {
+      "path": ".claude/commands/test.md",
+      "sha": "a2b9cfd8444e221880b23a290e8db15256089c61"
+    },
+    {
+      "path": ".claude/commands/webperf.md",
+      "sha": "ed27d22a4498f938c8b9b0e7575a1677c0f26f19"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "d67778ada6b9cda6227e9130da182c13e73c8b2e"
+    },
+    {
+      "path": "README.md",
+      "sha": "6361def414ade46622e6cd527d1faeea2b234224"
+    },
+    {
+      "path": "agents/code-reviewer.md",
+      "sha": "156c0908dbd626ac99bbc9394128e37a773ae634"
+    },
+    {
+      "path": "agents/security-auditor.md",
+      "sha": "efb1e4e51d12229e5d6792780f997467d4ea3697"
+    },
+    {
+      "path": "agents/test-engineer.md",
+      "sha": "19a41bad30cc25681754352d11d97f95ce25b2b0"
+    },
+    {
+      "path": "agents/web-performance-auditor.md",
+      "sha": "44bc45d807fa6aa59c001741dec499ddb27122c6"
+    },
+    {
+      "path": "docs/adoption-guide.md",
+      "sha": "e636b824f97c964a0bac7ae3a5f5da036513e1f0"
+    },
+    {
+      "path": "docs/agents.md",
+      "sha": "414177ba07273eb3db25e24d6cdba2fb03b71c0e"
+    },
+    {
+      "path": "docs/skill-anatomy.md",
+      "sha": "fb1f1f2b532625f5c5bbeef181f00078c2f41e45"
+    },
+    {
+      "path": "evals/README.md",
+      "sha": "4f501cdb0da265812458c43f2bc433b056fb357b"
+    },
+    {
+      "path": "skills/api-and-interface-design/SKILL.md",
+      "sha": "820d6d981f90b7802e0ea8b75bb966a3d78b8d0f"
+    },
+    {
+      "path": "skills/browser-testing-with-devtools/SKILL.md",
+      "sha": "9864d2724e273e1164d62ab10b73590ae00fd6a8"
+    },
+    {
+      "path": "skills/ci-cd-and-automation/SKILL.md",
+      "sha": "118456fcb10225c030769a4fee7815b9c536b0ce"
+    },
+    {
+      "path": "skills/code-review-and-quality/SKILL.md",
+      "sha": "f594590a745f040196eec77db43c13a16503bd5d"
+    },
+    {
+      "path": "skills/code-simplification/SKILL.md",
+      "sha": "239b2848489511de30d9e63b0bd183adc4b01347"
+    },
+    {
+      "path": "skills/constraint-driven-development/SKILL.md",
+      "sha": "3028719c0bad95b3e439024b2f52255c0c9f1ffe"
+    },
+    {
+      "path": "skills/context-engineering/SKILL.md",
+      "sha": "fb8bb5f85128302b231d301c1201da1e223f6869"
+    },
+    {
+      "path": "skills/debugging-and-error-recovery/SKILL.md",
+      "sha": "356da20365a7cd6825b4ffad14be39280c92cdfc"
+    },
+    {
+      "path": "skills/deprecation-and-migration/SKILL.md",
+      "sha": "7bf884ca5743d63be448725f88041dde8a10cd5d"
+    },
+    {
+      "path": "skills/documentation-and-adrs/SKILL.md",
+      "sha": "94d1c3622adfa61f40d934b2063a9a6bece2d7d5"
+    },
+    {
+      "path": "skills/doubt-driven-development/SKILL.md",
+      "sha": "472c35ab9f32e8ec8b592e5cc7d228ad8cdce278"
+    },
+    {
+      "path": "skills/frontend-ui-engineering/SKILL.md",
+      "sha": "eaf0fa163876a5274674f42ea208742c50f27119"
+    },
+    {
+      "path": "skills/git-workflow-and-versioning/SKILL.md",
+      "sha": "0e03a2323ed3f0131626660c3142f69c4a6f8830"
+    },
+    {
+      "path": "skills/idea-refine/SKILL.md",
+      "sha": "38955e8943f2ea68c041f10ef1902d94bdfb1cb9"
+    },
+    {
+      "path": "skills/incremental-implementation/SKILL.md",
+      "sha": "9c4f49bc841adb3c0f98baaa9eabd435a5b64ef9"
+    },
+    {
+      "path": "skills/interview-me/SKILL.md",
+      "sha": "200f9186ffa234708aa5deec1946c6dfcb7a7335"
+    },
+    {
+      "path": "skills/observability-and-instrumentation/SKILL.md",
+      "sha": "84d9cb373467fe0e15236e190833ecc90f840c38"
+    },
+    {
+      "path": "skills/performance-optimization/SKILL.md",
+      "sha": "cbc7e950a6f376d25ac88cf310d5a48555db2ec1"
+    },
+    {
+      "path": "skills/planning-and-task-breakdown/SKILL.md",
+      "sha": "296249b64334bcfd1aeaefd27b9e3e5494e38ec0"
+    },
+    {
+      "path": "skills/security-and-hardening/SKILL.md",
+      "sha": "e80e1e9a4f5b2989308c376d4ea0d333fe2c26ef"
+    },
+    {
+      "path": "skills/shipping-and-launch/SKILL.md",
+      "sha": "f3fba8a01265db5547a8755c81902d0aa56c4104"
+    },
+    {
+      "path": "skills/source-driven-development/SKILL.md",
+      "sha": "2704f0e130bc4659951aa552373914b2d63d18c9"
+    },
+    {
+      "path": "skills/spec-driven-development/SKILL.md",
+      "sha": "912bbc0dbbd2a348d95dd769847a862b1164c657"
+    },
+    {
+      "path": "skills/test-driven-development/SKILL.md",
+      "sha": "8898bcbba4c4f6acca473ece95e82105bd9cfea0"
+    },
+    {
+      "path": "skills/using-agent-skills/SKILL.md",
+      "sha": "d56ac03ab057036c1bdcc9127c88952758ee2f0d"
+    }
+  ]
+}

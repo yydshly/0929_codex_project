@@ -11,6 +11,7 @@
 | 编号 | 研究项目 | 摘要 / 关注点 | 进度 | Web 演示 |
 | :--- | :--- | :--- | :--- | :--- |
 | 001 | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 技能与技能集合目录：20 类能力、预期产物和 5 个个人场景；1,108 项中文简介 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) |
+| 002 | [Agent Skills](projects/002-agent-skills/README.md) | 25 项研发流程：能力、产物、场景、扩展与个人价值；摘要图及全量图 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
 
 ## 项目图览
 
@@ -23,6 +24,16 @@
 [完整研究](projects/001-awesome-agent-skills/README.md) · [能力摘要网页](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) · [下载摘要图](projects/001-awesome-agent-skills/assets/capability-summary.svg)
 
 图示为固定版本目录的中文研究归纳；目录包含技能集合，1,108 是入口数，实际技能效果尚未逐项实测。
+
+### 002 · Agent Skills
+
+这是 Addy Osmani 的软件研发流程技能库：25 项工作流指导 AI 澄清需求、规划、实现、验证、审查和发布，产出规格、代码、测试及发布准备材料。摘要图直接展示全部技能类别的能力、场景和预期效果。
+
+![Agent Skills：25项能力、场景、预期效果及个人价值](projects/002-agent-skills/assets/capability-summary.svg)
+
+对你：现在借鉴它组织开源研究的目标、上下文和决策记录；做网页或个人工具时直接采用开发验证流程；长期维护时补齐流水线、观测与发布。价值是让临时对话沉淀为可复用的工程方法。研究场景属于方法迁移，效果未实测。
+
+[完整研究](projects/002-agent-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) · [25 项全量图](https://yydshly.github.io/0929_codex_project/002-agent-skills/full-map.html)
 
 ## 仓库结构
 

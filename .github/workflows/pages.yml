@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'projects/001-awesome-agent-skills/**'
+      - 'projects/002-agent-skills/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -29,6 +30,8 @@ jobs:
         run: node projects/001-awesome-agent-skills/web/build.mjs
       - name: Verify coverage and local links
         run: node projects/001-awesome-agent-skills/web/verify.mjs
+      - name: Verify Agent Skills research and diagrams
+        run: node projects/002-agent-skills/web/verify.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5ef">
+  <meta name="description" content="Agent Skills 将软件研发方法整理为25项工作流：澄清需求、规划、实现、验证、审查与发布。查看全部能力、预期产物、使用场景和个人价值。">
+  <title>Agent Skills 能力图谱 · 开源研究 002</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <aside class="sidebar" aria-label="能力分类导航">
+    <a href="../" class="brand"><span class="brand-icon">a<span>↗</span></span><span>开源研究室<small>OPEN SOURCE NOTES</small></span></a>
+    <div class="collection-label">研究项目 / 002</div>
+    <div class="project-name">Agent Skills<span>addyosmani / agent-skills</span></div>
+    <div class="nav-caption">按工作阶段探索</div>
+    <nav id="phase-nav" class="phase-nav"></nav>
+    <div class="sidebar-bottom"><span class="live-dot"></span> 固定版本研究 <span class="mono">2686b620</span><p>25 项能力，逐项拆解。<br>把工作内容与交付物看清楚。</p><a href="https://github.com/addyosmani/agent-skills/tree/2686b620fc1fed2e8f60c704839c766b8594c6b6" target="_blank" rel="noopener noreferrer">查看上游仓库 <span aria-hidden="true">↗</span></a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>研究集 <span class="slash">/</span> <strong>002 · Agent Skills</strong></span><a href="./full-map.html" style="padding:9px 14px;border:1px solid #bdcbb0;border-radius:6px;background:#e7eddf;color:#32492b;font-size:12px">查看 25 项完整全量图 ↗</a></header>
+    <main id="main" tabindex="-1">
+      <section class="summary-intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span></span> 25 SKILLS / 从能力到实际成果</div>
+        <h1 id="page-title">让 AI 按工程流程，<br><em>把想法推进到可验证的交付。</em></h1>
+        <p>Agent Skills 是 Addy Osmani 整理的<strong>软件研发流程技能库</strong>。它把澄清需求、规划、实现、验证、审查和发布方法写成 25 份工作流，指导大模型使用现有工具，产出规格、代码、测试、问题报告和发布准备材料。</p>
+        <div class="summary-links"><a href="#summary-map">先看能力摘要 ↓</a><a href="#tab-catalog">逐项看 25 个技能 ↓</a><a href="./full-map.html">打开完整全量图 ↗</a></div>
+      </section>
+      <figure id="summary-map" class="summary-figure">
+        <a href="./capability-summary.svg" target="_blank" rel="noopener" aria-label="放大查看25项技能能力摘要图"><img src="./capability-summary.svg" width="1600" height="1340" alt="Agent Skills 能力摘要：1项技能路由贯穿6类工作；明确目标4项、任务规划1项、实现7项、验证排错2项、审查改进4项、交付维护6项。图中包含场景、产物、预期效果和对你的意义。"></a>
+        <figcaption>摘要覆盖全部 25 项技能。窄屏可左右滑动，点击图片可放大；逐项能力、场景、扩展方向见<a href="./full-map.html">完整全量图</a>。<a href="./capability-summary.png" download>下载摘要 PNG ↓</a></figcaption>
+      </figure>
+      <section class="summary-reading" aria-label="原理、意义与扩展">
+        <article><span>它怎样发挥作用</span><h2>把方法变成执行上下文</h2><p>任务描述匹配相关技能，按需加载 Markdown 指令，再由模型调用代码、浏览器或测试工具完成工作。9 个命令与 4 类角色辅助组织流程；模型判断、工具权限和项目条件共同影响结果。</p><p>可推动更完整的工程过程。强制质量标准仍需测试和 CI 执行；技能文本本身不等于质量保证。</p></article>
+        <article><span>你何时值得用它</span><h2>从反复沟通到可复用方法</h2><p><strong>研究阶段：</strong>借鉴访谈、上下文与决策记录，明确研究问题、保存来源和结论。<strong>做工具时：</strong>把需求变成规格，逐步开发网页并验证交互。<strong>长期维护时：</strong>用审查、排错、发布与观测流程管理变更。</p><p>对你的意义是减少重复解释与遗漏检查，让研究积累能延续到实际成果。通用研究场景属于方法迁移。</p></article>
+        <article><span>后期怎样扩展</span><h2>形成适合自己的工程流程</h2><p><strong>内容层：</strong>补充自己的项目规范、技术栈与验收模板。<strong>工具层：</strong>接入浏览器、测试、CI 和观测系统。<strong>验证层：</strong>用真实任务比较质量、成本与失败情况，再调整流程。</p><p>这些是扩展建议；本研究尚未实施工具集成，也未验证效率提升幅度。</p></article>
+      </section>
+      <div class="tabs" role="tablist" aria-label="研究内容"><button id="tab-catalog" role="tab" aria-selected="true" aria-controls="panel-catalog" data-view="catalog">能力目录 <span>25</span></button><button id="tab-compare" role="tab" aria-selected="false" aria-controls="panel-compare" tabindex="-1" data-view="compare">相近技能辨析</button><button id="tab-value" role="tab" aria-selected="false" aria-controls="panel-value" tabindex="-1" data-view="value">对我的意义</button></div>
+      <section id="panel-catalog" role="tabpanel" aria-labelledby="tab-catalog">
+        <div class="catalog-toolbar"><div><h2 id="catalog-title">全部能力</h2><p id="result-count" role="status" aria-live="polite">正在整理能力目录…</p></div><div class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg><label class="sr-only" for="search">搜索技能、工作内容或交付物</label><input id="search" type="search" placeholder="搜索能力，例如：回滚、接口、需求" autocomplete="off"><button id="clear-search" aria-label="清除搜索" hidden>×</button></div></div>
+        <div id="mobile-phases" class="mobile-phases" aria-label="按阶段筛选"></div>
+        <div class="catalog-note"><span>阅读方式</span>先看卡片中的工作内容与产出，展开后查看完整能力、问题示例和边界。</div>
+        <div id="skill-grid" class="skill-grid"></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>没有找到匹配的能力</h3><p>试试更简短的关键词，或清除阶段与搜索条件。</p><button id="reset-filters" class="primary-button">查看全部 25 项能力</button></div>
+      </section>
+      <section id="panel-compare" role="tabpanel" aria-labelledby="tab-compare" hidden><div class="section-heading"><div class="eyebrow">DISTINCTIONS THAT MATTER</div><h2>名字相近，处理的问题不同。</h2><p>看清每项能力接收什么、负责哪一段，以及把什么交给下一步。</p></div><div id="comparison-list" class="comparison-list"></div></section>
+      <section id="panel-value" role="tabpanel" aria-labelledby="tab-value" hidden><div class="section-heading"><div class="eyebrow">YOUR RESEARCH → YOUR WORK</div><h2>从你正在做的事情出发。</h2><p>结合当前的开源项目研究与资料沉淀，区分现在能借鉴的方法和未来开发时的直接能力。</p></div><div class="value-feature"><span class="value-number">01</span><div><div class="eyebrow">当前 / 开源研究</div><h3>让每次研究，都能被下一次接续。</h3><p>整理已有背景，保存来源和判断理由，明确仍未验证的部分。你得到的是可追溯、可继续的研究积累。</p><div class="related-links"><button data-open="context-engineering">上下文管理 ↗</button><button data-open="documentation-and-adrs">决策记录 ↗</button></div><small>这是工程方法向研究工作的迁移；原技能并不自带完整的通用研究流程。</small></div></div><div class="value-grid"><article><span class="value-number">02</span><h3>想法还不够清楚时</h3><p>明确真正目标，比较值得投入的方向，再把确定的工作拆成可检查的任务。</p><div class="related-links"><button data-open="interview-me">需求访谈 ↗</button><button data-open="idea-refine">细化想法 ↗</button><button data-open="planning-and-task-breakdown">任务拆分 ↗</button></div></article><article><span class="value-number">03</span><h3>把研究做成实际工具时</h3><p>定义功能与验收，以可运行的小步骤完成界面，再验证真实交互和错误状态。</p><div class="related-links"><button data-open="spec-driven-development">规格编写 ↗</button><button data-open="frontend-ui-engineering">界面工程 ↗</button><button data-open="browser-testing-with-devtools">浏览器验证 ↗</button></div></article><article><span class="value-number">04</span><h3>工具需要持续维护时</h3><p>定位缺陷、审查代码、观察运行情况，并在每次发布前准备验证与恢复措施。</p><div class="related-links"><button data-open="debugging-and-error-recovery">根因排错 ↗</button><button data-open="code-review-and-quality">代码审查 ↗</button><button data-open="shipping-and-launch">发布准备 ↗</button></div></article></div><div class="value-footnote">判断依据：当前对话与研究仓库。尚未假设你的职业、团队规模或生产系统需求。</div></section>
+      <footer class="page-footer"><div><b>研究边界</b><p>能力说明依据固定版本文档；问题示例为解读性举例，不是实测结果。<br>模型与工具的实际执行效果需要另行验证。</p></div><a href="https://github.com/addyosmani/agent-skills/tree/2686b620fc1fed2e8f60c704839c766b8594c6b6/skills" target="_blank" rel="noopener noreferrer">查看 25 项原始技能 <span aria-hidden="true">↗</span></a></footer>
+    </main>
+  </div>
+  <dialog id="skill-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span>CAPABILITY DETAIL <span id="detail-index"></span></span><button id="close-dialog" aria-label="关闭能力详情">×</button></div><div id="detail-content"></div></dialog>
+  <noscript><p class="noscript">交互目录需要启用 JavaScript；也可阅读项目中的 CAPABILITIES.md 能力文档。</p></noscript>
+</body>
+</html>
