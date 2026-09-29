@@ -119,3 +119,5 @@ CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对
 - 构建与验证：`node projects/009-duix-avatar/web/build.mjs` 和 `node projects/009-duix-avatar/web/verify.mjs`，无需安装前端依赖。
 
 既有 Pages 工作流加入项目 009 的变更触发、构建与检查。页面汇总能力、可实现效果、社区演示、适用场景和个人价值，沿用已有摘要图，并保留模型、硬件及许可来源。发布静态研究网页，不部署 Duix 模型服务；实际运行结果以 GitHub Actions 为准。
+
+2026-09-29，[项目 009 发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36568281365)构建和部署成功，内容提交为 `cbbef2eb8fa252072806f11bad6d66dba1b5c40b`。17 个公开页面与资源均返回 HTTP 200，项目静态文件与本地内容一致，摘要 PNG 字节一致。浏览器确认四项摘要、两个演示入口及 1536×1024 原摘要图正常加载。其他未提交子项目未被带入本次发布。
