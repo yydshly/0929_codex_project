@@ -12,6 +12,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 001 | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 技能与技能集合目录：20 类能力、预期产物和 5 个个人场景；1,108 项中文简介 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) |
 | 002 | [Agent Skills](projects/002-agent-skills/README.md) | 25 项研发流程：能力、产物、场景、扩展与个人价值；摘要图及全量图 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
+| 003 | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作方法：38 项技能、6 类成果摘要图、6 个交互场景与当前到长期的个人价值 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
 | 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
 
 ## 项目图览
@@ -47,6 +48,18 @@
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) · [直接看六种实际效果](https://yydshly.github.io/0929_codex_project/004-mengto-skills/#real-effects) · [可切换风格实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/styles-lab.html) · [放大能力图](https://yydshly.github.io/0929_codex_project/004-mengto-skills/map.html) · [完整研究](projects/004-mengto-skills/README.md)
 
 数量依据固定版本 798db0a。六种风格为本项目按技能规范实际构造，其余能力按原文归纳，未全部实测。
+
+### 003 · Matt Pocock Skills
+
+把需求澄清、研究、开发验证、协作交接和学习写作组织成可复用的 AI 工作方法。38 项技能按六类用途说明，能留下规格、研究结论、原型、代码与测试、交接材料和文章；摘要图直接展示成果样张。
+
+![Matt Pocock Skills 六类能力、成果样张与个人使用阶段](projects/003-mattpocock-skills/assets/capability-summary.svg)
+
+对你：现在用来核对开源资料、解释能力、整理分享与跨会话续做；以后制作网页和个人工具时增加需求、原型、实施与验证；长期沉淀术语、规则、决策和检查证据。无需把所有技能都纳入日常工作。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) · [直接看场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/#scenarios) · [放大摘要图](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/capability-summary.svg) · [完整研究](projects/003-mattpocock-skills/README.md)
+
+固定版本 c55ee460；成果样张与小组件为本项目制作，上游技能未运行实测，效率收益未量化。
 
 ## 仓库结构
 

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1390" viewBox="0 0 1440 1390" role="img" aria-labelledby="title desc">
+  <title id="title">Matt Pocock Skills：六类能力、可交付成果与个人使用场景</title>
+  <desc id="desc">38 项技能：需求与决策 8，研究与原型 2，开发与质量 8，协作与交付 10，学习与写作 6，专项工具 4。每类展示问题、代表技能和成果样张；下方展示当前研究、以后做工具和长期维护的使用价值。样张为研究归纳，不代表上游运行。</desc>
+  <rect width="1440" height="1390" fill="#f4f7fc"/>
+  <g font-family="Segoe UI,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+  <rect width="1440" height="218" fill="#172b4d"/>
+  <text x="44" y="43" font-size="16" fill="#9bb8e6" font-weight="400">003 / 开源项目研究集</text>
+  <text x="44" y="99" font-size="43" fill="#ffffff" font-weight="650">Matt Pocock Skills · 能力与成果</text>
+  <text x="44" y="141" font-size="23" fill="#c6d7f1" font-weight="400">把 AI 的需求澄清、研究、开发、验证、交接与写作，组织成可复用的工作方法。</text>
+  <text x="44" y="184" font-size="20" fill="#9fbee9" font-weight="400">38 项技能  =  25 正式 + 9 实验 + 4 专项     ｜     以下按实际用途分成 6 类</text>
+  <g><rect x="44" y="253" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="44" y="271" width="5" height="35" rx="2" fill="#4169b3"/>
+      <text x="68" y="293" font-size="27" fill="#1d3559" font-weight="650">需求与决策 · 8 项</text>
+      <text x="68" y="325" font-size="19" fill="#445c7d" font-weight="400">遇到：想法模糊，讨论反复</text>
+      <text x="68" y="354" font-size="17" fill="#4169b3" font-weight="400">grill-with-docs · to-spec · wayfinder</text>
+      <rect x="66" y="373" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="82" y="401" font-size="15" fill="#7085a4" font-weight="400">功能规格样张 / 预期成果</text>
+      <text x="82" y="430" font-size="20" fill="#28476e" font-weight="400">搜索范围：名称 + 简介</text><text x="82" y="455" font-size="20" fill="#28476e" font-weight="400">分类与关键词同时生效</text><text x="82" y="480" font-size="20" fill="#28476e" font-weight="400">重置后恢复全部 3 项</text></g><g><rect x="742" y="253" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="742" y="271" width="5" height="35" rx="2" fill="#288579"/>
+      <text x="766" y="293" font-size="27" fill="#1d3559" font-weight="650">研究与原型 · 2 项</text>
+      <text x="766" y="325" font-size="19" fill="#445c7d" font-weight="400">遇到：只有介绍，看不出能否适用</text>
+      <text x="766" y="354" font-size="17" fill="#288579" font-weight="400">research · prototype</text>
+      <rect x="764" y="373" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="780" y="401" font-size="15" fill="#7085a4" font-weight="400">研究结论样张 / 预期成果</text>
+      <text x="780" y="430" font-size="20" fill="#28476e" font-weight="400">全仓库：38 项技能</text><text x="780" y="455" font-size="20" fill="#28476e" font-weight="400">正式插件：25 项</text><text x="780" y="480" font-size="20" fill="#28476e" font-weight="400">来源已核对 / 运行未验证</text></g><g><rect x="44" y="537" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="44" y="555" width="5" height="35" rx="2" fill="#8161a6"/>
+      <text x="68" y="577" font-size="27" fill="#1d3559" font-weight="650">开发与质量 · 8 项</text>
+      <text x="68" y="609" font-size="19" fill="#445c7d" font-weight="400">遇到：功能没落地，改动难以确认</text>
+      <text x="68" y="638" font-size="17" fill="#8161a6" font-weight="400">implement · tdd · diagnosing-bugs</text>
+      <rect x="66" y="657" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="82" y="685" font-size="15" fill="#7085a4" font-weight="400">修复对照样张 / 预期成果</text>
+      <text x="82" y="714" font-size="20" fill="#28476e" font-weight="400">输入“写作” → 仅搜名称：0 项</text><text x="82" y="739" font-size="20" fill="#28476e" font-weight="400">同时搜索简介 → 找到：1 项</text><text x="82" y="764" font-size="20" fill="#28476e" font-weight="400">保留相同预期，检查修复</text></g><g><rect x="742" y="537" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="742" y="555" width="5" height="35" rx="2" fill="#ad7537"/>
+      <text x="766" y="577" font-size="27" fill="#1d3559" font-weight="650">协作与交付 · 10 项</text>
+      <text x="766" y="609" font-size="19" fill="#445c7d" font-weight="400">遇到：任务散、背景丢、交付难接手</text>
+      <text x="766" y="638" font-size="17" fill="#ad7537" font-weight="400">to-tickets · handoff · wizard</text>
+      <rect x="764" y="657" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="780" y="685" font-size="15" fill="#7085a4" font-weight="400">交接文件样张 / 预期成果</text>
+      <text x="780" y="714" font-size="20" fill="#28476e" font-weight="400">已完成：38 项能力研究</text><text x="780" y="739" font-size="20" fill="#28476e" font-weight="400">证据：SOURCES.md</text><text x="780" y="764" font-size="20" fill="#28476e" font-weight="400">下一步：核对场景与来源</text></g><g><rect x="44" y="821" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="44" y="839" width="5" height="35" rx="2" fill="#4c799b"/>
+      <text x="68" y="861" font-size="27" fill="#1d3559" font-weight="650">学习与写作 · 6 项</text>
+      <text x="68" y="893" font-size="19" fill="#445c7d" font-weight="400">遇到：资料看不懂，笔记难成文</text>
+      <text x="68" y="922" font-size="17" fill="#4c799b" font-weight="400">teach · writing-shape · writing-for-agents</text>
+      <rect x="66" y="941" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="82" y="969" font-size="15" fill="#7085a4" font-weight="400">文章结构样张 / 预期成果</text>
+      <text x="82" y="998" font-size="20" fill="#28476e" font-weight="400">困惑：知道名字，却不懂何时用</text><text x="82" y="1023" font-size="20" fill="#28476e" font-weight="400">例子：一份能继续工作的交接</text><text x="82" y="1048" font-size="20" fill="#28476e" font-weight="400">判断：按问题选，不按数量收集</text></g><g><rect x="742" y="821" width="654" height="262" rx="14" fill="white" stroke="#d6e1f0"/>
+      <rect x="742" y="839" width="5" height="35" rx="2" fill="#647388"/>
+      <text x="766" y="861" font-size="27" fill="#1d3559" font-weight="650">专项工具 · 4 项</text>
+      <text x="766" y="893" font-size="19" fill="#445c7d" font-weight="400">遇到：特定工程或课程工作重复</text>
+      <text x="766" y="922" font-size="17" fill="#647388" font-weight="400">setup-pre-commit · scaffold-exercises</text>
+      <rect x="764" y="941" width="610" height="122" rx="8" fill="#f2f6fc"/>
+      <text x="780" y="969" font-size="15" fill="#7085a4" font-weight="400">提交检查示意 / 预期成果</text>
+      <text x="780" y="998" font-size="20" fill="#28476e" font-weight="400">准备提交 → 格式检查</text><text x="780" y="1023" font-size="20" fill="#28476e" font-weight="400">继续检查 → 类型与已有测试</text><text x="780" y="1048" font-size="20" fill="#28476e" font-weight="400">存在错误 → 提交前发现</text></g>
+  <text x="44" y="1149" font-size="27" fill="#203f69" font-weight="650">对你：从眼前的资料研究，延伸到以后自己的产品与工作方法</text>
+  <rect x="44" y="1170" width="434" height="107" rx="9" fill="#e6eefb"/><text x="62" y="1202" font-size="21" fill="#335b91" font-weight="600">现在 · 研究与知识整理</text><text x="62" y="1231" font-size="18" fill="#445c7d" font-weight="400">研究结论 · 解释 · 文章 · 交接</text><text x="62" y="1257" font-size="17" fill="#445c7d" font-weight="400">把看过的资料变成能继续使用的成果</text><rect x="509" y="1170" width="434" height="107" rx="9" fill="#e6eefb"/><text x="527" y="1202" font-size="21" fill="#335b91" font-weight="600">下一步 · 做网页与个人工具</text><text x="527" y="1231" font-size="18" fill="#445c7d" font-weight="400">规格 · 原型 · 代码 · 测试</text><text x="527" y="1257" font-size="17" fill="#445c7d" font-weight="400">把想法变成可观察、可验收的行为</text><rect x="974" y="1170" width="434" height="107" rx="9" fill="#e6eefb"/><text x="992" y="1202" font-size="21" fill="#335b91" font-weight="600">长期 · 持续维护自己的项目</text><text x="992" y="1231" font-size="18" fill="#445c7d" font-weight="400">统一术语 · 可复用规则 · 验证证据</text><text x="992" y="1257" font-size="17" fill="#445c7d" font-weight="400">让每次项目经验留在自己的资料里</text>
+  <text x="44" y="1321" font-size="19" fill="#445c7d" font-weight="400">原理：技能给出方法与模板，模型结合宿主工具执行；不自动提供账号、权限或完整产品。</text>
+  <text x="44" y="1358" font-size="17" fill="#7d8da5" font-weight="400">固定版本 c55ee460 · 分类与样张为中文研究归纳 · 6 个交互场景 / 18 个技能 · 上游技能未运行实测</text>
+  </g></svg>

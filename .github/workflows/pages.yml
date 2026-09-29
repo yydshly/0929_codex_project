@@ -6,6 +6,7 @@ on:
     paths:
       - 'projects/001-awesome-agent-skills/**'
       - 'projects/002-agent-skills/**'
+      - 'projects/003-mattpocock-skills/**'
       - 'projects/004-mengto-skills/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
@@ -33,6 +34,10 @@ jobs:
         run: node projects/001-awesome-agent-skills/web/verify.mjs
       - name: Verify Agent Skills research and diagrams
         run: node projects/002-agent-skills/web/verify.mjs
+      - name: Build and verify Matt Pocock Skills summary
+        run: |
+          node projects/003-mattpocock-skills/build-web.mjs
+          node projects/003-mattpocock-skills/verify-web.mjs
       - name: Build and verify MengTo Skills research
         run: |
           python3 projects/004-mengto-skills/scripts/build_web.py

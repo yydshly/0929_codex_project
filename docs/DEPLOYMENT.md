@@ -14,7 +14,7 @@
 
 ## 自动发布流程
 
-工作流位于 `.github/workflows/pages.yml`，在 `main` 的项目 001 / 002 / 004、站点目录或工作流文件变更时触发，也支持手动触发。
+工作流位于 `.github/workflows/pages.yml`，在 `main` 的项目 001 / 002 / 003 / 004、站点目录或工作流文件变更时触发，也支持手动触发。
 
 1. 使用 Node.js 22 执行项目 001 的 `web/build.mjs`，无需安装依赖。
 2. 执行 `web/verify.mjs`，核对 1,108 项双语数据、20 类摘要、5 个场景、SVG 覆盖和本地链接。
@@ -65,3 +65,16 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 2026-09-29，[发布工作流 36520958531](https://github.com/yydshly/0929_codex_project/actions/runs/36520958531)构建和部署均成功，发布提交为 `892ad80744100b74fbf38b86479577b9779e6e62`。17 个公开页面及资源地址均返回 HTTP 200，线上目录包含 146 项技能；浏览器核验摘要、六张实景图、五个个人场景与能力图入口可见。本地验证了筛选、详情与 Escape 关闭、摘要到索引跳转、能力图缩放，390px 手机页面无横向溢出。
 
 本轮只提交项目 004 及相关索引和发布流程更新，其他研究项目的未提交工作保持原状。实际构造与检查范围不代表上游全部技能已运行验证。
+
+## 项目 003 · Matt Pocock Skills
+
+- 能力摘要：https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/
+- 实际场景：https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/#scenarios
+- 全部技能：https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/#catalog
+- 可缩放摘要图：https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/capability-summary.svg
+
+内容包括库定位、38 项技能的六类能力与成果、六个场景、当前到长期的个人价值、技术原理与边界。摘要图直接展示规格、研究结论、修复对照、交接材料、文章结构与提交检查样张。
+
+发布前及 CI 执行 `node projects/003-mattpocock-skills/build-web.mjs` 与 `node projects/003-mattpocock-skills/verify-web.mjs`，无需安装依赖。检查覆盖 38 项技能、18 个场景步骤、六类图表、固定版本来源、本地资源与七个发布文件。构建与其他已发布项目共用现有 Pages 工作流。
+
+本次发布仅包含项目 003 及相关索引、发布配置；保留其他项目的本地未提交工作。展示中的样张与小组件是教学演示，上游技能没有运行实测。

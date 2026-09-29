@@ -9,3 +9,5 @@
 [002 · Agent Skills 能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/)：全部 25 项研发能力按六类工作和技能路由展示，包含场景、产出、预期效果、个人价值、扩展方向与可缩放全量图。
 
 [004 · MengTo/Skills 能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/)：146 项视觉设计与前端能力、完整能力图、六种可切换实景、五个个人使用场景；包含技能类型、组合与企业 AI 页的开发边界。
+
+[003 · Matt Pocock Skills 能力摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/)：38 项技能、六类能力与成果摘要图、六个交互场景、当前到长期的个人使用价值；保留全部技能的检索与相近能力对照。

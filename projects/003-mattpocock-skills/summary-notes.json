@@ -1,0 +1,121 @@
+{
+  "definition": "一套面向 AI 的工程与协作工作方法：把模糊目标、零散资料和开发问题，转成有约定、有来源、可检查、可接手的具体成果。",
+  "effect": "可以产出需求规格、决策记录、研究笔记、交互原型、代码与测试、审查报告、交接文档、课程与文章。价值在于让做事过程与完成标准更稳定；节省时间、减少返工是预期收益，尚未量化实测。",
+  "mechanism": "SKILL.md 规定任务方法，参考文件补充模板和判断依据，少量脚本提供辅助。宿主模型理解你的输入，再使用现有文件、浏览器、终端或任务平台工具执行；技能本身不提供这些账号、权限或统一调度平台。",
+  "types": [
+    {
+      "domain": "需求与决策",
+      "problem": "想法模糊，讨论反复",
+      "ability": "追问目标、统一术语、记录取舍，整理规格与待决问题。",
+      "result": "需求共识、词汇表、规格、决策地图、问卷与流程规格。",
+      "when": "做网页、个人工具或较长项目前，范围和完成标准还不明确。",
+      "demo": "website",
+      "exampleTitle": "功能规格样张",
+      "example": [
+        "搜索范围：名称 + 简介",
+        "分类与关键词同时生效",
+        "重置后恢复全部 3 项"
+      ],
+      "representative": "grill-with-docs · to-spec · wayfinder"
+    },
+    {
+      "domain": "研究与原型",
+      "problem": "只有介绍，看不出能否适用",
+      "ability": "追溯第一手资料，用可操作样本回答设计问题。",
+      "result": "有来源的结论、体验原型与设计取舍。",
+      "when": "选型、研究开源项目，或想先试界面再决定怎么做。",
+      "demo": "research",
+      "exampleTitle": "研究结论样张",
+      "example": [
+        "全仓库：38 项技能",
+        "正式插件：25 项",
+        "来源已核对 / 运行未验证"
+      ],
+      "representative": "research · prototype"
+    },
+    {
+      "domain": "开发与质量",
+      "problem": "功能没落地，改动难以确认",
+      "ability": "实现功能、设计模块，复现错误，用测试与审查核对行为。",
+      "result": "代码、行为测试、定位证据、修复与审查报告。",
+      "when": "真正开发、修改或排查网页与个人工具时。",
+      "demo": "bug",
+      "exampleTitle": "修复对照样张",
+      "example": [
+        "输入“写作” → 仅搜名称：0 项",
+        "同时搜索简介 → 找到：1 项",
+        "保留相同预期，检查修复"
+      ],
+      "representative": "implement · tdd · diagnosing-bugs"
+    },
+    {
+      "domain": "协作与交付",
+      "problem": "任务散、背景丢、交付难接手",
+      "ability": "拆任务、分流请求、协调变更、引导人工步骤并总结交接。",
+      "result": "任务清单、进展摘要、交接文档、向导与 PR 说明。",
+      "when": "工作跨会话、多方协作，或需要提交与移交成果时。",
+      "demo": "handoff",
+      "exampleTitle": "交接文件样张",
+      "example": [
+        "已完成：38 项能力研究",
+        "证据：SOURCES.md",
+        "下一步：核对场景与来源"
+      ],
+      "representative": "to-tickets · handoff · wizard"
+    },
+    {
+      "domain": "学习与写作",
+      "problem": "资料看不懂，笔记难成文",
+      "ability": "围绕目标组织短课与练习，重述解释，把素材变成文章或指令。",
+      "result": "课程、参考页、学习记录、素材、文章与 AI 指令文档。",
+      "when": "持续学习、说明技术概念、整理研究分享时。",
+      "demo": "writing",
+      "exampleTitle": "文章结构样张",
+      "example": [
+        "困惑：知道名字，却不懂何时用",
+        "例子：一份能继续工作的交接",
+        "判断：按问题选，不按数量收集"
+      ],
+      "representative": "teach · writing-shape · writing-for-agents"
+    },
+    {
+      "domain": "专项工具",
+      "problem": "特定工程或课程工作重复",
+      "ability": "配置 Git 防护与提交检查，迁移测试数据，搭建习题目录。",
+      "result": "拦截规则、提交前检查、测试数据改造与课程脚手架。",
+      "when": "确实使用对应开发环境、技术或课程结构时。",
+      "demo": null,
+      "exampleTitle": "提交检查示意",
+      "example": [
+        "准备提交 → 格式检查",
+        "继续检查 → 类型与已有测试",
+        "存在错误 → 提交前发现"
+      ],
+      "representative": "setup-pre-commit · scaffold-exercises"
+    }
+  ],
+  "personal": [
+    {
+      "stage": "现在 · 研究与知识整理",
+      "trigger": "拿到一个仓库、读不懂能力、需要向别人说明，或准备换会话。",
+      "skills": "research、teach、wait-what、handoff；整理文章可看实验写作技能。",
+      "gain": "让“看过资料”变成有出处的判断、可阅读的说明与可续做的记录。",
+      "demo": "research"
+    },
+    {
+      "stage": "下一步 · 做网页与个人工具",
+      "trigger": "想法要交给 AI 实现，或者出现“做出来不是我要的”与反复修错。",
+      "skills": "grill-with-docs → to-spec → prototype → to-tickets / implement；按需补 tdd 与 code-review。",
+      "gain": "把想法变成明确行为，先观察样本，再用检查确认正式交付。",
+      "demo": "website"
+    },
+    {
+      "stage": "长期 · 持续维护自己的项目",
+      "trigger": "研究项目越来越多，协作和更新变复杂，重复提醒开始增加。",
+      "skills": "domain-modeling、writing-for-agents、handoff；工程项目再考虑架构、复盘与提交检查。",
+      "gain": "积累术语、规则、决策与验证证据，形成可重复使用的工作方法。",
+      "demo": "handoff"
+    }
+  ],
+  "boundary": "不是一键生成完整产品的保证，也不等于自动获得工具和账号。原型不等于生产系统，交接不等于永久记忆；写作不应补造事实。简单改字、一次性定义查询通常不用完整流程。"
+}

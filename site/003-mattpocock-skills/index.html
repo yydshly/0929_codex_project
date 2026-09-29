@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142444">
+<meta name="description" content="Matt Pocock Skills 将需求澄清、研究、开发验证、交接与写作组织成 AI 工作方法。38 项技能、6 类成果摘要图、6 个场景演示与个人使用价值。">
+<title>Matt Pocock Skills · 能力摘要与场景</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23142444'/%3E%3Cpath d='M8 9h6v6H8zm10 0h6v6h-6zM8 19h6v6H8zm10 0h6v6h-6z' fill='%237daaff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script defer src="data.js"></script>
+<script defer src="app.js"></script>
+<script defer src="summary.js"></script>
+<script defer src="scenarios.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<aside class="sidebar">
+  <a class="brand" href="#catalog" aria-label="能力图谱首页"><span class="brand-symbol" aria-hidden="true">m<span>p</span></span><span>SKILL ATLAS<small>开源项目研究集 · 003</small></span></a>
+  <div class="side-intro"><p>Matt Pocock</p><h1>Skills 能力图谱</h1><span>从问题，看见具体成果。</span></div>
+  <div class="side-label">按能力领域浏览</div>
+  <nav id="domain-nav" aria-label="能力领域"></nav>
+  <div class="sidebar-bottom"><span class="mini-rule"></span><p>能力是什么<br>结果是什么<br>边界在哪里</p><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">原始仓库 <span aria-hidden="true">↗</span></a></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><span class="breadcrumb">研究档案 <span>/</span> mattpocock/skills</span><span class="snapshot">研究快照 · 2026.09.29</span></header>
+  <main id="main" tabindex="-1">
+    <div class="intro"><div><p class="eyebrow">MATT POCOCK SKILLS / CAPABILITY SUMMARY</p><h2>把 AI 工作方法，<br class="mobile-break">变成可交付的成果。</h2><p class="lead">从需求与研究，到原型、代码、验证、交接和写作。38 项技能，按自己的任务选择。</p></div><div class="total"><strong>38</strong><span>项具体能力</span></div></div>
+    <nav class="view-tabs" aria-label="阅读视角">
+      <button type="button" class="active" data-view="summary" aria-pressed="true">能力摘要</button>
+      <button type="button" data-view="scenarios" aria-pressed="false">场景演示</button>
+      <button type="button" data-view="catalog" aria-pressed="false">能力目录</button>
+      <button type="button" data-view="compare" aria-pressed="false">相近能力对照</button>
+      <button type="button" data-view="value" aria-pressed="false">对你的价值</button>
+    </nav>
+    <section id="summary-view" aria-label="能力、成果与个人价值摘要">
+      <div class="summary-opening"><h3>这个库能做什么？</h3><p id="summary-definition"></p><p id="summary-effect"></p><div class="summary-buttons"><button type="button" data-view="scenarios">直接看 6 个场景演示 →</button><a href="capability-summary.svg" target="_blank" rel="noopener">打开完整摘要图 ↗</a></div></div>
+      <figure class="summary-figure"><a href="capability-summary.svg" target="_blank" rel="noopener" aria-label="放大能力与成果摘要图"><img src="capability-summary.svg" width="1440" height="1390" alt="38 项技能按需求与决策、研究与原型、开发与质量、协作与交付、学习与写作、专项工具分类，展示各类问题、代表技能、成果样张及个人使用阶段"></a><figcaption>直接观察六类成果的形态；点击图片可放大。图中的样张用于解释能力，并非上游运行记录。</figcaption></figure>
+      <div class="section-intro"><p class="eyebrow">TYPES → OUTCOMES</p><h3>六类技能，分别留下什么成果？</h3><p>以下按实际用途归纳，覆盖全部 38 项。上游目录为工程 18、通用 7、实验 9、专项 4；正式插件包含前两类共 25 项。</p></div><div id="summary-types" class="summary-types"></div>
+      <div class="section-intro"><p class="eyebrow">WHEN IT MATTERS TO YOU</p><h3>以后什么情况下，你会需要它？</h3><p>当前先用于研究、理解与沉淀。任务发展到制作和维护工具时，再增加工程流程。</p></div><div id="summary-personal" class="personal-stages"></div>
+      <div class="summary-limits"><h3>技术原理与效果边界</h3><p id="summary-mechanism"></p><p id="summary-boundary"></p><p>本页已实际构造并检查筛选原型、故障规则对照和学习反馈；未安装或执行上游技能，未测量效率提升。</p></div>
+      <noscript><p>摘要图无需脚本即可阅读；完整能力、场景和原理另见仓库中的 SUMMARY.md。</p></noscript>
+    </section>
+    <section id="scenarios-view" hidden aria-label="实际场景演示">
+      <div class="relevance-note"><strong>不必把 38 个技能都用起来。</strong><p>这个库整体偏软件工程与协作。如果你主要做研究、阅读和内容整理，先看“研究、分享、交接、学习”；需要做网页或修问题时，再看开发相关场景。</p><small id="scenario-coverage"></small></div>
+      <div id="scenario-picker" class="scenario-picker" aria-label="选择一个实际场景"></div>
+      <div id="scenario-stage"></div>
+      <div class="scenario-method"><h3>这些技能为什么会影响成果？</h3><p>技能把注意事项、步骤、参考材料和交付格式写成指令，模型再结合你的输入与现有工具执行。例如 research 强调核对来源，handoff 强调接手所需信息。模型本来也可能做到这些；技能的价值在于复用一套做法，实际质量仍需核验。</p><p>下面的过程由研究者整理，按钮用于阅读样张或操作小样本，不会在后台执行上游技能。你可以只取其中一个步骤，不必采用整套流程。</p></div>
+    </section>
+    <section id="catalog-view" hidden aria-label="技能能力目录">
+      <div class="status-grid" aria-label="按收录状态筛选">
+        <button type="button" data-status="all" class="status active" aria-pressed="true"><span>全部能力</span><strong>38</strong><small>覆盖所有技能目录</small></button>
+        <button type="button" data-status="formal" class="status" aria-pressed="false"><span><i class="status-dot formal"></i>正式技能</span><strong>25</strong><small>正式插件收录</small></button>
+        <button type="button" data-status="beta" class="status" aria-pressed="false"><span><i class="status-dot beta"></i>实验技能</span><strong>9</strong><small>仍在演进，需单独评估</small></button>
+        <button type="button" data-status="misc" class="status" aria-pressed="false"><span><i class="status-dot misc"></i>专项技能</span><strong>4</strong><small>面向特定环境与任务</small></button>
+      </div>
+      <div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.7"></circle><path d="m16 16 5 5"></path></svg><input id="search" type="search" placeholder="搜能力或问题，例如：研究、写作、修复错误" aria-label="搜索技能、能力或问题"><kbd aria-hidden="true">/</kbd></label><button type="button" id="reset" class="reset">重置筛选</button></div>
+      <div class="result-heading"><div><h3 id="domain-heading">全部能力</h3><p id="domain-description">先读一句话能力，再看它具体交付什么。</p></div><span id="result-count" role="status" aria-live="polite"></span></div>
+      <div id="skill-grid" class="skill-grid"></div>
+      <div id="empty" class="empty" hidden><span aria-hidden="true">∅</span><h3>没有找到匹配的能力</h3><p>试试更短的关键词，或清除当前类别与状态限制。</p><button type="button" id="empty-reset">查看全部能力</button></div>
+      <noscript><p>请启用 JavaScript 以查看完整技能目录；中文能力说明也保存在子项目 CAPABILITIES.md 中。</p></noscript>
+    </section>
+    <section id="compare-view" hidden aria-labelledby="compare-title"><div class="section-intro"><p class="eyebrow">KNOW THE DIFFERENCE</p><h3 id="compare-title">名称相近，解决的问题不同。</h3><p>用“最终得到什么”来区分，避免把澄清当成规格、把原型当成产品。</p></div><div id="comparison-grid" class="comparison-grid"></div></section>
+    <section id="value-view" hidden aria-labelledby="value-title">
+      <div class="section-intro"><p class="eyebrow">FOR YOUR RESEARCH WORK</p><h3 id="value-title">让每次研究，都留下可继续使用的成果。</h3><p>结合你正在维护的 GitHub 项目研究集，最直接的价值落在以下四件事。</p></div>
+      <div class="value-grid">
+        <article class="value-card"><span class="value-number">01</span><h4>把“看过”变成有依据的判断</h4><p>核对能力、限制和具体版本，让后续选型不只依赖仓库首页的一句介绍。</p><div class="value-outcome"><span>你会留下</span>有来源、有版本、有未验证范围的研究文档。</div><button type="button" data-open="research">了解 research</button></article>
+        <article class="value-card"><span class="value-number">02</span><h4>把“完成”说成同一件事</h4><p>区分文档研究完成、运行已经验证、应用已经部署，防止不同状态被混为一谈。</p><div class="value-outcome"><span>你会留下</span>可复用的定义与一致的验收标准。</div><button type="button" data-open="domain-modeling">了解 domain-modeling</button></article>
+        <article class="value-card"><span class="value-number">03</span><h4>先看到效果，再投入实现</h4><p>把研究目录的展示与交互做成可操作样本，真实比较哪一种更方便查阅。</p><div class="value-outcome"><span>你会留下</span>可体验的原型，以及选择方案的理由。</div><button type="button" data-open="prototype">了解 prototype</button></article>
+        <article class="value-card"><span class="value-number">04</span><h4>让下一次能从当前进度继续</h4><p>把已核对的结论、证据位置和剩余问题交接清楚，减少重复整理背景。</p><div class="value-outcome"><span>你会留下</span>新会话或协作者能接着处理的交接材料。</div><button type="button" data-open="handoff">了解 handoff</button></article>
+      </div>
+      <div class="value-note"><h4>它带来的是工作成果与更清楚的判断依据。</h4><p>研究、规格、测试和交接都有具体产物；是否减少返工、节省时间，还需要用真实任务比较。当前文档研究不包含效率提升的实测数据。</p></div>
+    </section>
+    <footer><div><strong>关于这份图谱</strong><p>基于 <a href="https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7" target="_blank" rel="noopener noreferrer">c55ee460</a> 的源码研究。例子用于解释能力，未作为实际执行案例。技能执行依赖宿主提供的工具与权限。</p></div><span>25 正式 · 9 实验 · 4 专项</span></footer>
+  </main>
+</div>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span id="detail-domain"></span><button type="button" class="close" id="close-detail" aria-label="关闭技能详情">×</button></div><div id="detail-body"></div></dialog>
+</body>
+</html>
