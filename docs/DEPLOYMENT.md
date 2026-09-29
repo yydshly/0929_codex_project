@@ -14,7 +14,7 @@
 
 ## 自动发布流程
 
-工作流位于 `.github/workflows/pages.yml`，在 `main` 的项目 001 / 002、站点目录或工作流文件变更时触发，也支持手动触发。
+工作流位于 `.github/workflows/pages.yml`，在 `main` 的项目 001 / 002 / 004、站点目录或工作流文件变更时触发，也支持手动触发。
 
 1. 使用 Node.js 22 执行项目 001 的 `web/build.mjs`，无需安装依赖。
 2. 执行 `web/verify.mjs`，核对 1,108 项双语数据、20 类摘要、5 个场景、SVG 覆盖和本地链接。
@@ -50,3 +50,18 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 项目 002 的静态文件提交于 `site/002-agent-skills/`，发布前执行 `node projects/002-agent-skills/web/verify.mjs`。该检查核对 25 项技能覆盖、图表、图片尺寸、资源同步与本地链接；不会安装或执行上游技能。
 
 2026-09-29，项目 002 的[发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36519587049)已成功，提交 `d0ad640981d06f92766ccd70f8d51217ab0cc457`。首页、全量图和两种图的 SVG / PNG、网页数据均通过 HTTP 200 检查；浏览器确认摘要图与全部 25 项能力可见。
+
+## 项目 004 · MengTo / Skills
+
+- 能力摘要：https://yydshly.github.io/0929_codex_project/004-mengto-skills/
+- 六种实际效果：项目首页的 `#real-effects`；可切换演示为 `styles-lab.html`。
+- 完整能力图：`map.html` 支持放大；`assets/capability-map.svg` 与同名 PNG 可下载。
+- 全量技能索引：项目首页的 `#catalog`，支持搜索、分类筛选与详情。
+
+内容包括核心能力、各类技能的职责与预期效果、五个个人使用场景、长期价值、组合方式及企业 AI 介绍页和真实系统开发的边界。能力图按实际用途归纳 11 个方向，覆盖全部 146 项；六种视觉实景由本项目按对应技能规范构造。
+
+构建执行 `python3 projects/004-mengto-skills/scripts/build_web.py`；验证执行同目录的 `verify_web.py`。图片使用已提交的资源，CI 无需生成图片或安装绘图依赖。检查覆盖数量、分组、六种效果、摘要章节、链接锚点、资源完整性和源文件同步。
+
+2026-09-29，[发布工作流 36520958531](https://github.com/yydshly/0929_codex_project/actions/runs/36520958531)构建和部署均成功，发布提交为 `892ad80744100b74fbf38b86479577b9779e6e62`。17 个公开页面及资源地址均返回 HTTP 200，线上目录包含 146 项技能；浏览器核验摘要、六张实景图、五个个人场景与能力图入口可见。本地验证了筛选、详情与 Escape 关闭、摘要到索引跳转、能力图缩放，390px 手机页面无横向溢出。
+
+本轮只提交项目 004 及相关索引和发布流程更新，其他研究项目的未提交工作保持原状。实际构造与检查范围不代表上游全部技能已运行验证。
