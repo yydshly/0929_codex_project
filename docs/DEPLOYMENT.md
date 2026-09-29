@@ -111,3 +111,11 @@ CI 执行 `python3 projects/007-ojo-design-skills/scripts/build.py` 和 `python3
 CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对 11 个技能、113 条细化能力、63 个来源文件、三类摘要、五个个人场景、资源同步及内部链接。图像使用已提交资源，CI 不依赖 Windows 字体或图像生成环境。上游技能未安装或运行实测。
 
 2026-09-29，[项目 006 发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36524520398)构建及部署成功，对应内容提交 `e6aed1f258948f9411c492187384330e41b3b625`。首页、3 份样式、脚本、总图阅读页、SVG 和 PNG 共 8 个公开资源均返回 HTTP 200；文本按 Git 换行规则比对一致，PNG 字节一致。浏览器确认三类摘要、五个个人场景及 3300 像素宽的原摘要图正常加载。本地 1280px / 390px 布局与示例展开、技能跳转已验证。
+
+## 项目 009 · Duix Avatar
+
+- 网页地址：`https://yydshly.github.io/0929_codex_project/009-duix-avatar/`
+- 摘要图阅读：项目路径下的 `map.html`，原图为 `capability-summary.png`。
+- 构建与验证：`node projects/009-duix-avatar/web/build.mjs` 和 `node projects/009-duix-avatar/web/verify.mjs`，无需安装前端依赖。
+
+既有 Pages 工作流加入项目 009 的变更触发、构建与检查。页面汇总能力、可实现效果、社区演示、适用场景和个人价值，沿用已有摘要图，并保留模型、硬件及许可来源。发布静态研究网页，不部署 Duix 模型服务；实际运行结果以 GitHub Actions 为准。
