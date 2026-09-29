@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Handraw Style 全量真实图鉴：浏览上游 280 张风格参考图、124 张版式图和 36 张主题色图。"><title>完整图鉴 · Handraw Style 008</title><link rel="icon" href="data:,"><link rel="stylesheet" href="gallery.css"><script src="catalog-data.js" defer></script><script src="gallery.js" defer></script></head>
+<body>
+  <a class="skip" href="#catalog">跳到图鉴</a>
+  <header class="top"><a class="wordmark" href="index.html">← 008 / HANDRAW STYLE</a><a href="scenarios.html">按场景看实际效果 ↗</a></header>
+  <main id="catalog" class="wrap">
+    <div class="intro"><p class="eyebrow">UPSTREAM VISUAL ARCHIVE / v<span id="version"></span></p><h1>完整图鉴，逐张可查。</h1><p>以下图片与描述来自上游仓库固定提交，分别是风格参考图、排版预览和主题色图。它们展示库里<strong>实际收录的素材</strong>；本站的模型生成结果另见<a href="scenarios.html">按场景样例</a>和<a href="trials.html">对照实测</a>。</p><div class="source-row"><span id="revision"></span><a href="https://github.com/yang0/handraw-style" target="_blank" rel="noopener noreferrer">上游仓库 ↗</a><a href="UPSTREAM-LICENSE.txt">上游许可证 ↗</a></div></div>
+    <div class="catalog-controls"><div class="type-tabs" role="group" aria-label="图鉴类型"><button type="button" data-type="styles" aria-pressed="true">风格 <b id="style-count"></b></button><button type="button" data-type="layouts" aria-pressed="false">版式 <b id="layout-count"></b></button><button type="button" data-type="colors" aria-pressed="false">主题色 <b id="color-count"></b></button></div><div class="filter-row"><label class="search-label" for="search">搜索编号、名称或特征</label><input id="search" type="search" placeholder="例如：268、水墨、四格、柿子橙" autocomplete="off"><select id="group" aria-label="筛选分组"></select></div><p class="result-info"><span id="result-count"></span><span>点击图片查看大图、说明与上游原文</span></p></div>
+    <section class="gallery-grid" id="gallery-grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>没有找到匹配条目。试试编号、名称或更短的关键词。</p>
+    <p class="gallery-end">本页为上游资料的固定版本展示。参考图与模型生成的效果是两类证据；查看<a href="trials.html">同题实测</a>了解实际出图。</p>
+  </main>
+  <dialog id="detail" class="detail"><button type="button" class="close" aria-label="关闭详情">×</button><div class="detail-body"><div class="detail-image"><img id="detail-image" alt=""></div><div class="detail-copy"><span id="detail-tag"></span><h2 id="detail-title"></h2><p id="detail-subtitle"></p><div id="detail-description"></div><a id="detail-source" target="_blank" rel="noopener noreferrer">查看该图的上游源文件 ↗</a></div></div></dialog>
+</body></html>

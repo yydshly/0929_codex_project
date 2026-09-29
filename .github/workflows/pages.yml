@@ -11,6 +11,7 @@ on:
       - 'projects/005-skills-hub/**'
       - 'projects/007-ojo-design-skills/**'
       - 'projects/006-jakubkrehel-skills/**'
+      - 'projects/008-handraw-style/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -59,6 +60,10 @@ jobs:
         run: |
           python3 projects/007-ojo-design-skills/scripts/build.py
           python3 projects/007-ojo-design-skills/scripts/verify.py
+      - name: Build and verify Handraw Style showcase
+        run: |
+          node projects/008-handraw-style/web/build.mjs
+          node projects/008-handraw-style/web/verify.mjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
