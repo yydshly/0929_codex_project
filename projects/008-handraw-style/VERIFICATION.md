@@ -20,4 +20,8 @@
 
 截图：[总览桌面整页](assets/showcase-desktop.png)、[总览桌面首屏](assets/showcase-desktop-first-screen.png)、[总览手机整页](assets/showcase-mobile.png)、[总览手机首屏](assets/showcase-mobile-first-screen.png)、[使用判断桌面](assets/assessment-desktop.png)、[使用判断手机](assets/assessment-mobile.png)、[图鉴桌面首屏](assets/gallery-desktop-first-screen.png)、[图鉴手机首屏](assets/gallery-mobile-first-screen.png)、[实测桌面首屏](assets/trials-desktop-first-screen.png)、[实测手机首屏](assets/trials-mobile-first-screen.png)、[合成源照片对比](assets/trials-desktop-photo-source.png)、[工具证据桌面首屏](assets/workflow-desktop-first-screen.png)、[工具证据手机首屏](assets/workflow-mobile-first-screen.png)、[场景判断桌面](assets/scenario-decision-desktop.png)、[场景判断手机](assets/scenario-decision-mobile.png)、[场景样例桌面首屏](assets/scenarios-desktop-first-screen.png)、[场景样例手机首屏](assets/scenarios-mobile-first-screen.png)。
 
-浏览器验证针对本站五个展示页，新增场景页在桌面和手机宽度下均核对 12 张图、六类筛选与无横向溢出。九张对照实验图和十二张场景样例均是内置生图工具的单次实际输出，方法与逐张观察见 [TRIALS.md](TRIALS.md) 和 [SCENARIOS.md](SCENARIOS.md)。另运行上游 CLI 和参考图解析脚本，发现英文输出未完全翻译、启发式推荐偶有偏题、SC-021 命令行未收敛唯一构图，详见[运行证据页](../../site/008-handraw-style/workflow.html)。没有端到端运行上游 Skill，也未做跨模型或大样本一致性测试。站点已准备好由仓库现有 Pages 工作流发布，但截至本记录尚未确认线上部署。
+浏览器验证针对本站五个展示页，新增场景页在桌面和手机宽度下均核对 12 张图、六类筛选与无横向溢出。九张对照实验图和十二张场景样例均是内置生图工具的单次实际输出，方法与逐张观察见 [TRIALS.md](TRIALS.md) 和 [SCENARIOS.md](SCENARIOS.md)。另运行上游 CLI 和参考图解析脚本，发现英文输出未完全翻译、启发式推荐偶有偏题、SC-021 命令行未收敛唯一构图，详见[运行证据页](../../site/008-handraw-style/workflow.html)。没有端到端运行上游 Skill，也未做跨模型或大样本一致性测试。
+
+## 线上发布验证
+
+2026-09-29，提交 `ebb37e58355603546f7638af44c5b74344ef3470` 已推送至 `origin/main`，[GitHub Pages 工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36565437402)执行成功。线上[项目首页](https://yydshly.github.io/0929_codex_project/008-handraw-style/)、[摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png)、全量图鉴、场景页、实测页、运行证据页及必要的样式、脚本、参考图和生成图均返回 HTTP 200；仓库[站点首页](https://yydshly.github.io/0929_codex_project/)也已显示 008 项目入口。

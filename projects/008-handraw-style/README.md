@@ -11,7 +11,7 @@
 | 上游标识 | 固定提交 [`b5c302e`](https://github.com/yang0/handraw-style/tree/b5c302e7164f287230ed80bde2f69f35aac39914)；`version.json` 为 1.2.29；资料查阅于 2026-09-29 |
 | 许可证 | [MIT，Copyright (c) 2026 yang0](https://github.com/yang0/handraw-style/blob/master/LICENSE) |
 | 研究状态 | 已镜像并校验 440 张编号预览；完成 12 组按场景出图、9 组代表性对照出图及 4 组上游 CLI 实际运行；未端到端运行上游 Skill |
-| 展示 | [能力总览](../../site/008-handraw-style/index.html) · [摘要图](../../site/008-handraw-style/capability-map.png) · [440 张全量图鉴](../../site/008-handraw-style/gallery.html) · [按场景的 12 组实测](../../site/008-handraw-style/scenarios.html) · [九组对照实测](../../site/008-handraw-style/trials.html) · [工具运行证据](../../site/008-handraw-style/workflow.html) |
+| 展示 | [线上能力总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [线上摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [440 张全量图鉴](../../site/008-handraw-style/gallery.html) · [按场景的 12 组实测](../../site/008-handraw-style/scenarios.html) · [九组对照实测](../../site/008-handraw-style/trials.html) · [工具运行证据](../../site/008-handraw-style/workflow.html) |
 
 ## 一句话理解
 
