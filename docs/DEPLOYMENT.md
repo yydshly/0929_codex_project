@@ -1,6 +1,6 @@
 # Web 研究站点部署
 
-本仓库使用一个 GitHub Pages 站点，通过子路径托管研究页面。本轮接入项目 001，部署完成状态将在实际访问验证后记录。
+本仓库使用一个 GitHub Pages 站点，通过子路径托管研究页面。项目 001 已于 2026-09-29 部署并完成公开访问验证。
 
 ## 地址与范围
 
@@ -34,3 +34,9 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 所有页面资源使用相对路径，以兼容 `/0929_codex_project/` 项目路径。在线验收应检查首页、中文检索、详情、完整地图、摘要 SVG 和手机布局。
 
 参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+## 首次发布验证
+
+2026-09-29，[首次发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36518299838)构建和部署成功，对应提交 `511572d0f986c78bafb60fc7624b6ff11dfcb212`。
+
+总入口、项目首页、中文目录、完整地图、摘要 SVG 和样式资源均返回 HTTP 200。公开首页在浏览器中显示 20 类能力和 5 个个人场景；本地 390 像素手机布局无横向溢出，技能链接中的搜索条件可定位到中文结果。1,108 项数据覆盖与静态资源链接检查通过。

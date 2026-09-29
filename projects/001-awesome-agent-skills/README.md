@@ -4,7 +4,7 @@
 
 **可实现的结果是具体产物：报告、表格、演示稿、网页、业务接口、数据分析、测试证据、媒体素材或自动化流程。** 产物与效果取决于所选技能、可用工具、输入和验收；本研究未运行全库技能，不报告提效比例或收益保证。
 
-[能力摘要网页（部署目标）](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) · [1,108 项中文目录](web/dist/catalog.html) · [完整能力地图](web/dist/atlas.html) · [下载摘要图](assets/capability-summary.svg)
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) · [1,108 项中文目录](web/dist/catalog.html) · [完整能力地图](web/dist/atlas.html) · [下载摘要图](assets/capability-summary.svg)
 
 ## 能力摘要图
 
