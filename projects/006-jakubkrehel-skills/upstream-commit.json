@@ -1,0 +1,245 @@
+{
+  "sha": "267330e1adfc66a718fb65fa6918c1f06d0a689e",
+  "node_id": "C_kwDOTUP6_9oAKDI2NzMzMGUxYWRmYzY2YTcxOGZiNjVmYTY5MThjMWYwNmQwYTY4OWU",
+  "commit": {
+    "author": {
+      "name": "Jakub Krehel",
+      "email": "87530089+jakubkrehel@users.noreply.github.com",
+      "date": "2026-08-29T17:01:47Z"
+    },
+    "committer": {
+      "name": "Jakub Krehel",
+      "email": "87530089+jakubkrehel@users.noreply.github.com",
+      "date": "2026-08-29T17:01:47Z"
+    },
+    "message": "feat: new skill descriptions",
+    "tree": {
+      "sha": "3186176cfc0f346bda64e4d16a8cbd6aef28175f",
+      "url": "https://api.github.com/repos/jakubkrehel/skills/git/trees/3186176cfc0f346bda64e4d16a8cbd6aef28175f"
+    },
+    "url": "https://api.github.com/repos/jakubkrehel/skills/git/commits/267330e1adfc66a718fb65fa6918c1f06d0a689e",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/jakubkrehel/skills/commits/267330e1adfc66a718fb65fa6918c1f06d0a689e",
+  "html_url": "https://github.com/jakubkrehel/skills/commit/267330e1adfc66a718fb65fa6918c1f06d0a689e",
+  "comments_url": "https://api.github.com/repos/jakubkrehel/skills/commits/267330e1adfc66a718fb65fa6918c1f06d0a689e/comments",
+  "author": {
+    "login": "jakubkrehel",
+    "id": 87530089,
+    "node_id": "MDQ6VXNlcjg3NTMwMDg5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/87530089?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jakubkrehel",
+    "html_url": "https://github.com/jakubkrehel",
+    "followers_url": "https://api.github.com/users/jakubkrehel/followers",
+    "following_url": "https://api.github.com/users/jakubkrehel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jakubkrehel/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jakubkrehel/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jakubkrehel/subscriptions",
+    "organizations_url": "https://api.github.com/users/jakubkrehel/orgs",
+    "repos_url": "https://api.github.com/users/jakubkrehel/repos",
+    "events_url": "https://api.github.com/users/jakubkrehel/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jakubkrehel/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "jakubkrehel",
+    "id": 87530089,
+    "node_id": "MDQ6VXNlcjg3NTMwMDg5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/87530089?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jakubkrehel",
+    "html_url": "https://github.com/jakubkrehel",
+    "followers_url": "https://api.github.com/users/jakubkrehel/followers",
+    "following_url": "https://api.github.com/users/jakubkrehel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jakubkrehel/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jakubkrehel/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jakubkrehel/subscriptions",
+    "organizations_url": "https://api.github.com/users/jakubkrehel/orgs",
+    "repos_url": "https://api.github.com/users/jakubkrehel/repos",
+    "events_url": "https://api.github.com/users/jakubkrehel/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jakubkrehel/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "b5585e520520534f97a990ba140f9cd6646d2003",
+      "url": "https://api.github.com/repos/jakubkrehel/skills/commits/b5585e520520534f97a990ba140f9cd6646d2003",
+      "html_url": "https://github.com/jakubkrehel/skills/commit/b5585e520520534f97a990ba140f9cd6646d2003"
+    }
+  ],
+  "stats": {
+    "total": 40,
+    "additions": 16,
+    "deletions": 24
+  },
+  "files": [
+    {
+      "sha": "a80740e842c49ec13f33a1471074b7bdb6e3cdd6",
+      "filename": ".claude-plugin/plugin.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/.claude-plugin%2Fplugin.json",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/.claude-plugin%2Fplugin.json",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/.claude-plugin%2Fplugin.json?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,7 +1,7 @@\n {\n   \"name\": \"interfaces\",\n   \"description\": \"Skills for building great product interfaces: typography, colors, layout, accessibility, UI polish and writing.\",\n-  \"version\": \"1.6.2\",\n+  \"version\": \"1.6.3\",\n   \"author\": {\n     \"name\": \"Jakub Krehel\",\n     \"email\": \"jakub@kbo.sk\""
+    },
+    {
+      "sha": "04afb429d624256cdd160d9bd9f8e7196f011417",
+      "filename": "AGENTS.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/AGENTS.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/AGENTS.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/AGENTS.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -44,11 +44,11 @@ Those three overlap, and that overlap is the price of a skill that works when in\n \n A user-invoked skill may invoke model-invoked skills, but it can never reach another user-invoked skill. That rule decides the setting; it is not a preference:\n \n-- `interface-review`, `variant`, `break` and `explain-interface` are the user-invoked skills. Each carries `disable-model-invocation: true` in its frontmatter **and** `policy.allow_implicit_invocation: false` in its `agents/openai.yaml`. Those are the Claude Code and Codex halves of the same switch and must be set together, or the skill behaves differently per harness. Their `description` is human-facing: a one-line summary with no trigger list, since nothing but a person can match against it.\n+- `interface-review`, `variant`, `break` and `explain-interface` are the user-invoked skills. Each carries `disable-model-invocation: true` in its frontmatter **and** `policy.allow_implicit_invocation: false` in its `agents/openai.yaml`. Those are the Claude Code and Codex halves of the same switch and must be set together, or the skill behaves differently per harness.\n - `variant` is user-invoked because a design exploration is never something to start on someone's behalf. It writes throwaway code and then asks a question only a person can answer, so an agent firing it unprompted produces work nobody asked for and a harness nobody deletes.\n - `break` is user-invoked for the same reason as `variant`: it writes a throwaway harness, and an agent firing it after every component it touches would litter the repo with test pages.\n - `explain-interface` is user-invoked because studying someone else's interface is only ever something a person asks for. Pasting a URL is not a request to analyse it, and a skill firing on every link would turn each mention of a site into a report.\n-- Every other skill is model-invoked and keeps a trigger list, because something must reach it: `better-interface` routes to every domain skill, and `interface-review` hands its review up to `better-interface`.\n+- Every other skill is model-invoked, because something must reach it: `better-interface` routes to every domain skill, and `interface-review` hands its review up to `better-interface`.\n - `better-interface` therefore cannot start `interface-review`. Where it would want to, it asks the user to run it. Making `better-interface` user-invoked too would sever the upward handoff and force `interface-review` to restate severity, the cap, the format and the verdict.\n \n ### Rule ownership\n@@ -81,7 +81,7 @@ When a concern crosses domains, keep the rule in the owner above and let other s\n - Principles are prescriptive and specific: exact CSS properties, exact values (e.g. scale `0.25` → `1`, blur `4px` → `0px`), not vague advice.\n - Match the degree of prescription to the decision: requirements may be unconditional, while design heuristics name the context and escape conditions before giving exact recipe values.\n - Skills instruct agents to match the target project's existing styling system (Tailwind vs. plain CSS vs. CSS-in-JS) rather than impose one.\n-- Frontmatter `description` is how a skill gets found. Update its triggers whenever the skill's scope changes. It loads on every turn, so it earns harder pruning than the body: one trigger per distinct branch and never two phrasings of the same one. Leave out identity the body already carries, such as which skills it coordinates or which modes it supports.\n+- Frontmatter `description` is how a skill gets found, and it is one or two plain sentences saying what the skill does for the user. It loads on every turn, so it earns harder pruning than the body. No trigger list: a keyword pile is a worse match signal than a clear sentence, and it goes stale the moment the skill's scope moves. The wording is the same as the skill's line in `README.md`, so changing one means changing both.\n - Skills that own a domain use the `better-*` prefix. A user-invoked review entry point may drop it when a plainer name reads better on the command line, as `interface-review` does.\n - A skill's name appears in three places: its directory, its frontmatter `name` and `display_name` in its `agents/openai.yaml`. Renaming means changing all three, then `grep`ing for the old name to confirm nothing survived.\n - Prefer counts and lists that cannot go stale. Say \"every skill in this repository\" rather than a number the next skill invalidates.\n@@ -91,6 +91,6 @@ When a concern crosses domains, keep the rule in the owner above and let other s\n Four checks after an edit, since prose drifts back toward the mean:\n \n - **No sentence over 30 words**, counting a code span as one word. A ceiling, not an average. Averages are the wrong instrument here: aiming for a low mean produces choppy prose, and the well-written references this collection was measured against average about 14 words with a long tail. What makes a file hard to read is the individual 40-word sentence carrying four clauses, so split those and leave the rest alone.\n-- **Around 20 triggers per description.** Two words for one branch is one branch written twice.\n+- **A description that matches its `README.md` line.** Two wordings of one skill is one skill described twice.\n - **One statement of each rule.** Before adding a sentence, check whether the file already says it somewhere else. The reflex to restate a boundary \"for clarity\" produced four copies of one ownership line in `better-interface`. It also produced a mistake table whose every row repeated the principle above it.\n - **A pruning pass, not a word ceiling.** No reference collection caps skill length; `anthropics/skills` runs to nearly 10,000 words in a single file. Read each sentence and ask what it changes. A sentence that cannot be restated as an instruction, a fact, or a number is cut. A sentence that could appear unchanged in another project's docs says nothing about this one. Prose about this repository's own filing decisions belongs in this file, never in a skill."
+    },
+    {
+      "sha": "e680ad3a0aaf1617aa52f5cc9a2a95b94f5a850f",
+      "filename": "skills/better-accessibility/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-accessibility%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-accessibility%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-accessibility%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: better-accessibility\n-description: Accessibility engineering for product interfaces. Use when building or reviewing UI components and custom widgets, or when the user reports a keyboard or screen-reader problem. Triggers on accessibility, a11y, WCAG, aria, focus ring, focus trap, keyboard navigation, tabindex, screen reader, sr-only, alt text, hit area, hover on touch, prefers-reduced-motion, autoplay, skip link, semantic HTML, form errors, disabled buttons, \"not keyboard accessible\".\n+description: Helps your project comply with accessibility standards and best practices.\n ---\n \n # Accessibility"
+    },
+    {
+      "sha": "a68be0be3c8aa8867cfebb5e6b8af8f6e3e57062",
+      "filename": "skills/better-colors/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-colors%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-colors%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-colors%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: better-colors\n-description: Color systems for digital products. Use when creating or extending a palette, theming light and dark appearances, or auditing the colors in a codebase. Triggers on color palette, palette generation, color ramp, brand color, accent color, gray palette, status colors, color tokens, token naming, theming, dark mode colors, contrast ratio, APCA, gamut, display p3, oklch, color conversion, gradients, color meaning, increased contrast.\n+description: Helps you build a color system and answer anything about color in your project. You can generate palettes, use semantic tokens, convert between formats, check contrast and more.\n ---\n \n # Colors"
+    },
+    {
+      "sha": "ef905fc9804eb53794b1f8aaa5920432d0d1850f",
+      "filename": "skills/better-interface/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 5,
+      "changes": 6,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-interface%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-interface%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-interface%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,10 +1,6 @@\n ---\n name: better-interface\n-description: >-\n-  Cross-discipline interface review. Routes a screen, flow, or feature to every `better-*`\n-  domain skill and consolidates one ranked verdict. Use when asked for a holistic review\n-  rather than a single domain and when `interface-review` hands up a change to route.\n-  Triggers on better-interface, holistic interface review, review the whole screen.\n+description: Combines all of the `better-*` skills into a single review across accessibility, layout, writing, typography, color and UI polish.\n ---\n \n # Interface review"
+    },
+    {
+      "sha": "3701eb491a34e50ea626d2c46981c5589b28666d",
+      "filename": "skills/better-layout/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-layout%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-layout%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-layout%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: better-layout\n-description: Layout structure for web interfaces. Use when structuring a page or component, deciding what collapses at small sizes, or reviewing frontend code for layout. Triggers on layout, spacing, alignment, grouping, whitespace, visual hierarchy, reading order, progressive disclosure, breakpoints, container queries, safe area, full-bleed, layout margins, RTL layout, logical properties.\n+description: Helps with grouping, alignment, reading order, progressive disclosure and other details that make a good layout.\n ---\n \n # Layout"
+    },
+    {
+      "sha": "3334cc4173666ba27710a0a0ced04c47228b4204",
+      "filename": "skills/better-typography/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-typography%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-typography%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-typography%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: better-typography\n-description: Web typography. Use when picking or pairing typefaces, setting up a type scale, or styling and truncating text in components. Triggers on typography, font loading, woff2, variable fonts, opentype features, type scale, heading hierarchy, line-height, letter-spacing, measure, text-wrap, truncation, tabular numbers, underlines, text selection, iOS input zoom, font smoothing, smart punctuation, text-box, drop cap.\n+description: Focuses on type scale, spacing, sizing, variable fonts, OpenType features, wrapping, truncation and other details that make typography feel great across your product.\n ---\n \n # Typography"
+    },
+    {
+      "sha": "192223083ff35a6a2cc682aee4be307c60095dcb",
+      "filename": "skills/better-ui/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-ui%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-ui%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-ui%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: better-ui\n-description: Design engineering principles for making interfaces feel polished. Use when building UI components, implementing animations or hover states, or doing any visual detail work. Triggers on UI polish, \"feels off\", stagger animations, enter animations, theme switch transitions, border radius, optical alignment, image outlines, box shadows, icons, icon stroke weight, motion restraint.\n+description: Polishes and improves the UI in your project. Covers concentric border radius, optical alignment, surface depth, contextual icons, hit areas and more.\n ---\n \n # UI polish"
+    },
+    {
+      "sha": "266c840f6195dad239af1bc33257439805cb961e",
+      "filename": "skills/better-writing/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "changes": 5,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-writing%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbetter-writing%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbetter-writing%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,9 +1,6 @@\n ---\n name: better-writing\n-description: >-\n-  UX writing and interface copy. Use when writing or reviewing any user-facing text.\n-  Triggers on UX writing, microcopy, button labels, link text, error messages, empty\n-  states, placeholder text, settings labels, capitalization, sentence case, voice and tone.\n+description: Focuses on improving product copy in your project.\n ---\n \n # Interface writing"
+    },
+    {
+      "sha": "c2ec1f703ac2296f67b43f8e307508258d8054ef",
+      "filename": "skills/break/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbreak%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fbreak%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fbreak%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: break\n-description: Answers \"does this survive?\" for one component. Renders it on a page in every state real use can put it in, and hands that page over as a visual report of what broke.\n+description: Renders a component you choose in every state and scenario on a temporary page and stress tests it.\n disable-model-invocation: true\n ---\n "
+    },
+    {
+      "sha": "c28768e4f1d1fef75b22f900e1a3b992c2516941",
+      "filename": "skills/explain-interface/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fexplain-interface%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fexplain-interface%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fexplain-interface%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: explain-interface\n-description: Answers \"how was this built?\" about an interface. Give it a URL and name the thing you're curious about, and it reads the layers that produce the effect. Reads the whole frontend instead when you don't name a thing. From a screenshot it reconstructs rather than reads and says so.\n+description: Helps you figure out how something was built on the web.\n disable-model-invocation: true\n ---\n "
+    },
+    {
+      "sha": "a5c47e5e94ec170f1ea2df4ab536c1034e376aa7",
+      "filename": "skills/interface-review/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "changes": 3,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Finterface-review%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Finterface-review%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Finterface-review%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,8 +1,7 @@\n ---\n name: interface-review\n disable-model-invocation: true\n-description: >-\n-  Interface review of a change rather than a screen: uncommitted work, the current branch, or a pull request. Covers interface quality, not correctness, tests, or security.\n+description: Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings.\n ---\n \n # Change review"
+    },
+    {
+      "sha": "cccd8845505655ff5453a6ef207c43159c0981e5",
+      "filename": "skills/variant/SKILL.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jakubkrehel/skills/blob/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fvariant%2FSKILL.md",
+      "raw_url": "https://github.com/jakubkrehel/skills/raw/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills%2Fvariant%2FSKILL.md",
+      "contents_url": "https://api.github.com/repos/jakubkrehel/skills/contents/skills%2Fvariant%2FSKILL.md?ref=267330e1adfc66a718fb65fa6918c1f06d0a689e",
+      "patch": "@@ -1,6 +1,6 @@\n ---\n name: variant\n-description: Answers \"which of these?\" rather than \"is this right?\". Builds several genuinely different versions of one piece of UI behind a picker in the real page, so you can flip between them and promote the one that wins.\n+description: Builds multiple variants of a component you're working on and helps you iterate and pick one.\n disable-model-invocation: true\n ---\n "
+    }
+  ]
+}

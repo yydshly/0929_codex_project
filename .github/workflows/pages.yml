@@ -10,6 +10,7 @@ on:
       - 'projects/004-mengto-skills/**'
       - 'projects/005-skills-hub/**'
       - 'projects/007-ojo-design-skills/**'
+      - 'projects/006-jakubkrehel-skills/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -49,6 +50,11 @@ jobs:
         run: |
           node projects/005-skills-hub/web/build.mjs
           node projects/005-skills-hub/web/verify.mjs
+      - name: Build and verify Jakub Krehel Skills research
+        run: |
+          node projects/006-jakubkrehel-skills/web/build.mjs
+          node projects/006-jakubkrehel-skills/web/verify.mjs
+          python3 projects/006-jakubkrehel-skills/scripts/verify.py
       - name: Build and verify OJO Design Skills summary
         run: |
           python3 projects/007-ojo-design-skills/scripts/build.py

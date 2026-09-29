@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>一张图看懂 · Jakub Krehel Skills</title>
+<style>
+*{box-sizing:border-box}body{height:100dvh;display:flex;flex-direction:column;overflow:hidden;margin:0;background:#e8ecdf;color:#243c30;font:15px/1.6 system-ui,"Microsoft YaHei",sans-serif}header{flex-shrink:0;position:sticky;top:0;z-index:1;background:#f7f8f1f5;border-bottom:1px solid #cdd7c1;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}h1{margin:0;font-size:18px}a{color:inherit;text-underline-offset:4px}nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}select{font:inherit;color:inherit;background:#fcfdf8;border:1px solid #acbca0;border-radius:6px;padding:5px}a:focus-visible,select:focus-visible{outline:3px solid #668342;outline-offset:4px}.hint{flex-shrink:0;margin:0;padding:10px 24px;font-size:13px;background:#f7f8f1}main{overflow:auto;flex:1;min-height:0;padding:20px;overscroll-behavior:contain}img{display:block;width:100%;height:auto;max-width:none;box-shadow:0 3px 20px #243c3015;margin:0 auto}footer{flex-shrink:0;padding:8px 24px;font-size:12px;background:#f7f8f1}@media(max-width:650px){header{padding:10px 14px;gap:8px}h1{font-size:16px}nav{gap:12px;font-size:13px}.hint{padding:8px 14px}main{padding:8px;min-height:0}footer{padding:8px 14px}}
+</style>
+</head>
+<body>
+<header><h1>一张图看懂：界面质量技能集</h1><nav aria-label="看图工具"><a href="index.html#scope">返回详细研究</a><label>缩放 <select id="zoom"><option value="fit">适应宽度</option><option value="0.5">50%</option><option value="0.75">75%</option><option value="1">100%</option><option value="1.5">150%</option></select></label><a href="capability-map.png" download>下载高清 PNG</a><a href="capability-map.svg" download>下载 SVG</a></nav></header>
+<p class="hint">一张图包含定位与范围、11 个技能、场景、用法、原理及价值。手机可选择 75% 或 100% 后横向滑动；完整文字也可在详细研究中阅读。</p>
+<main id="canvas" tabindex="0" aria-label="能力总图，可上下及左右滚动"><img id="map" src="capability-map.svg" width="2200" height="4020" alt="Jakub Krehel Skills 能力全图：服务于 Web 界面设计、优化与验证。六个专业领域包括视觉动效、排版、颜色、无障碍、布局、文案；五个工作流程包括整体审查、变更审查、网页解析、极端场景观察和方案探索。另包含六种任务场景、安装和调用步骤、执行原理、团队价值及边界。"></main>
+<footer>依据固定提交 267330e · 2026-09-29 整理 · PNG 3300 × 6030，SVG 可缩放 · 示例为文档归纳，未运行上游技能实测。</footer>
+<script>document.querySelector('#zoom').addEventListener('change',event=>{const value=event.target.value;document.querySelector('#map').style.width=value==='fit'?'100%':`${2200*Number(value)}px`;});</script>
+</body>
+</html>

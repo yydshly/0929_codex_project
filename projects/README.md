@@ -17,3 +17,5 @@
 新增已完成研究：[007 · OJO Design Skills](007-ojo-design-skills/README.md)，产品界面设计方法：一个核心 Skill 与九份参考资料，输出页面方向、视觉参数、组件状态和审查建议；[在线摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/)含全部能力速查、五个个人场景及已确认的总览图。
 
 007 已补充产品开发覆盖、完整能力总览图、六步使用指南及预期价值；总览图支持 PNG / SVG 下载和独立缩放阅读。
+
+新增已完成研究：[006 · Jakub Krehel Skills](006-jakubkrehel-skills/README.md)，面向 Web 界面设计、优化与验证：6 个专业领域、2 个审查流程、3 个探索流程；说明报告、改动、场景与候选效果，以及研究页、个人工具和长期维护中的个人价值；[在线能力摘要](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/)沿用已生成的完整能力图。

@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="4020" viewBox="0 0 2200 4020" role="img" aria-labelledby="title desc">
+<title id="title">Jakub Krehel Skills：11 个界面技能的能力、范围、场景、用法与意义</title>
+<desc id="desc">面向 Web 产品界面质量的技能集合。图中覆盖六个专业领域、五个工作流程、六类典型场景、安装与调用示例、执行链路、价值和边界。全部效果为固定版本文档归纳，未运行上游技能实测。</desc>
+<rect width="2200" height="4020" fill="#F7F8F1"/>
+<text x="80" y="65" font-family="Consolas, monospace" font-size="23" font-weight="400" fill="#5F715B">INTERFACE NOTES  /  006     ·     JAKUB KREHEL / SKILLS</text>
+<text x="80" y="171" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="65" font-weight="700" fill="#243C30">一张图看懂：界面质量技能集</text>
+<text x="80" y="227" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="30" font-weight="400" fill="#243C30">把设计经验转成 AI 可遵循的规则、步骤与验收要求，改善 Web 页面与组件。</text>
+<text x="80" y="276" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">11 个 skill  =  6 个专业领域 + 5 个工作流程     /     113 条能力是本研究的细化归纳，不是 113 个独立技能。</text>
+<path d="M80 303L2120 303" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<text x="80" y="355" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">01</text>
+<text x="136" y="370" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">服务什么方向？</text>
+<text x="80" y="410" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">核心服务于前端界面的设计、优化与验证：看得清、看得懂、能操作、遇到真实内容也不易失效。</text>
+<rect x="80" y="423" width="660" height="222" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="105" y="474" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">核心覆盖</text>
+<text x="105" y="522" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">视觉与排版 · 颜色与主题 · 响应式布局</text>
+<text x="105" y="561" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">键盘与焦点 · 状态与错误 · 产品文案</text>
+<text x="105" y="600" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">页面审查 · 变更检查 · 场景与方案探索</text>
+<rect x="770" y="423" width="660" height="222" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="795" y="474" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">适用对象与时机</text>
+<text x="795" y="522" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">前端开发、设计工程、产品设计协作</text>
+<text x="795" y="561" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">已有页面打磨；新组件或页面设计</text>
+<text x="795" y="600" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">上线前界面检查；学习参考网页实现</text>
+<rect x="1460" y="423" width="660" height="222" rx="12" fill="#F1EEDC" stroke="#D5DECA"/>
+<text x="1485" y="474" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">范围需要分清</text>
+<text x="1485" y="522" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">以 HTML / CSS / 浏览器界面为主</text>
+<text x="1485" y="561" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">涉及可用性，但不替代完整 UX 研究</text>
+<text x="1485" y="600" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">原生端需适配；完整产品还需其他流程</text>
+<text x="80" y="713" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">02</text>
+<text x="136" y="728" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">六个专业领域：定义“怎样才算做好”</text>
+<text x="80" y="768" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">按需用于新实现、已有界面改进或单项审查；沿用项目的设计变量、组件库与样式体系。</text>
+<rect x="80" y="782" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="105" y="830" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">视觉细节与动效</text>
+<text x="485" y="824" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-ui</text>
+<text x="105" y="879" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  圆角与阴影、光学对齐、图标切换、按压反馈、入退场、主题切换与动画节奏。</text>
+<text x="105" y="924" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  细节更协调，状态反馈连贯，频繁操作不拖沓。</text>
+<text x="105" y="967" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  页面粗糙、图标跳动、动效干扰操作。</text>
+<rect x="1115" y="782" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="1140" y="830" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">字体与文字排版</text>
+<text x="1520" y="824" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-typography</text>
+<text x="1140" y="879" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  字号层级、字重、行高、可变字体、换行、截断恢复、等宽数字与语言方向。</text>
+<text x="1140" y="924" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  长文本可读且可查看完整内容，数字更新更稳定。</text>
+<text x="1140" y="967" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  标题换行失衡、表格跳动、内容被截断。</text>
+<rect x="80" y="1047" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="105" y="1095" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">颜色系统与测量</text>
+<text x="485" y="1089" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-colors</text>
+<text x="105" y="1144" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  色阶、原始与语义变量、明暗主题、色域回退、渐变空间及实际前背景对比度。</text>
+<text x="105" y="1189" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  颜色各司其职；输出色板、变量映射或测量记录。</text>
+<text x="105" y="1232" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  新配色系统、主题不清晰、颜色用途混乱。</text>
+<rect x="1115" y="1047" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="1140" y="1095" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">可操作性与无障碍</text>
+<text x="1520" y="1089" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-accessibility</text>
+<text x="1140" y="1144" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  原生语义、控件名称、键盘、焦点、表单关联、动态播报、缩放与减少动效。</text>
+<text x="1140" y="1189" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  不同操作方式能理解控件、感知状态并完成流程。</text>
+<text x="1140" y="1232" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  鼠标可用但键盘不通；弹窗焦点或表单提示失效。</text>
+<rect x="80" y="1312" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="105" y="1360" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">布局与内容适应</text>
+<text x="485" y="1354" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-layout</text>
+<text x="105" y="1409" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  空间分组、对齐、阅读顺序、控件间距、容器适配、翻译增长、RTL 与安全区。</text>
+<text x="105" y="1454" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  窄屏与长内容下结构稳定，关键内容和操作可达。</text>
+<text x="105" y="1497" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  小屏溢出、布局拥挤、多语言撑坏容器。</text>
+<rect x="1115" y="1312" width="1005" height="245" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="1140" y="1360" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">产品界面文案</text>
+<text x="1520" y="1354" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">better-writing</text>
+<text x="1140" y="1409" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">能力  按钮标签、术语一致、链接目的、开关含义、错误恢复、空状态引导与本地化表</text>
+<text x="1140" y="1446" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#5F715B">达。</text>
+<text x="1140" y="1491" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">效果  看懂要做什么、发生什么，以及下一步怎么做。</text>
+<text x="1140" y="1534" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">何时用  按钮含义不明、只说“出错了”、空页面无引导。</text>
+<text x="80" y="1629" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">03</text>
+<text x="136" y="1644" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">五个工作流程：决定“这次怎么做、交付什么”</text>
+<text x="80" y="1684" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">整体审查协调六个领域；变更审查先界定版本范围。★ 表示上游要求用户主动调用。</text>
+<rect x="80" y="1700" width="2040" height="54" rx="7" fill="#263F31" stroke="#263F31"/>
+<text x="103" y="1733" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#F7FAEF">工作流程 / 入口</text>
+<text x="610" y="1733" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#F7FAEF">具体工作与适用场景</text>
+<text x="1540" y="1733" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#F7FAEF">交付物与关键边界</text>
+<rect x="80" y="1754" width="2040" height="125" rx="0" fill="#FCFDF8"/>
+<text x="103" y="1801" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#243C30">better-interface</text>
+<text x="103" y="1844" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">跨领域整体审查</text>
+<text x="610" y="1797" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">审查页面或完整流程；按无障碍→布局→文案→排版→颜色→UI 细节检查，合并</text>
+<text x="610" y="1833" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">根因并按影响排序。</text>
+<text x="1540" y="1796" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">范围、覆盖表、问题清单与验证记录。</text>
+<text x="1540" y="1831" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">默认审查；要求修复后再落实改动。</text>
+<path d="M80 1879L2120 1879" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<rect x="80" y="1879" width="2040" height="125" rx="0" fill="#EDF0E8"/>
+<text x="103" y="1926" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#243C30">interface-review ★</text>
+<text x="103" y="1969" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">代码变更审查</text>
+<text x="610" y="1922" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">审查分支、PR 或未提交改动；对比前后与删除内容，追踪受影响页面，区分新</text>
+<text x="610" y="1958" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">增、退化、历史问题。</text>
+<text x="1540" y="1921" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">分类报告、版本与代码位置。</text>
+<text x="1540" y="1956" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">只读审查；不替代通用代码审查。</text>
+<path d="M80 2004L2120 2004" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<rect x="80" y="2004" width="2040" height="125" rx="0" fill="#FCFDF8"/>
+<text x="103" y="2051" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#243C30">explain-interface ★</text>
+<text x="103" y="2094" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">参考网页实现解析</text>
+<text x="610" y="2047" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">解释全站前端或一个视觉效果；分析图层、CSS 与动画，区分实测、推导和推断。</text>
+<text x="1540" y="2046" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">实现机制与可迁移配方。</text>
+<text x="1540" y="2081" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">截图只能有限推断，不是源码恢复。</text>
+<path d="M80 2129L2120 2129" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<rect x="80" y="2129" width="2040" height="125" rx="0" fill="#EDF0E8"/>
+<text x="103" y="2176" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#243C30">break ★</text>
+<text x="103" y="2219" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">组件极端场景观察</text>
+<text x="610" y="2172" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">用真实组件展示空数据、长文本、多条目、窄容器与支持的异常状态；只记录实际</text>
+<text x="610" y="2208" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">看到的破损。</text>
+<text x="1540" y="2171" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">临时场景页与破损标注。</text>
+<text x="1540" y="2206" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">不是持续回归套件；修复另行提出。</text>
+<path d="M80 2254L2120 2254" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<rect x="80" y="2254" width="2040" height="125" rx="0" fill="#FCFDF8"/>
+<text x="103" y="2301" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#243C30">variant ★</text>
+<text x="103" y="2344" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">单个部件的方案探索</text>
+<text x="610" y="2297" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">围绕结构、密度、强调等一个主要维度，默认制作三个可切换候选，在真实页面中</text>
+<text x="610" y="2333" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#5F715B">比较取舍。</text>
+<text x="1540" y="2296" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">候选方案、选择器与取舍说明。</text>
+<text x="1540" y="2331" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#243C30">用户选择后落地并清理临时方案。</text>
+<path d="M80 2379L2120 2379" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<text x="80" y="2440" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">04</text>
+<text x="136" y="2455" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">什么场景用？从手头的问题选入口</text>
+<text x="80" y="2495" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">以下为任务组合示例。审查、修复、解释、观察与探索有不同完成标准，不能互相替代。</text>
+<rect x="80" y="2511" width="660" height="136" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="102" y="2553" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">已有页面需要打磨</text>
+<text x="102" y="2593" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">better-interface → 对应领域修复</text>
+<text x="102" y="2633" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">先找阻断操作的问题，再处理视觉细节。</text>
+<rect x="770" y="2511" width="660" height="136" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="792" y="2553" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">分支 / PR 即将合入</text>
+<text x="792" y="2593" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">interface-review → 整体与领域规则</text>
+<text x="792" y="2633" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">确认改动是否引入退化，并追踪影响。</text>
+<rect x="1460" y="2511" width="660" height="136" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="1482" y="2553" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">组件接入真实内容</text>
+<text x="1482" y="2593" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">break → 对应领域修复 → 重看场景</text>
+<text x="1482" y="2633" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">长名称、空列表、大量条目和窄容器。</text>
+<rect x="80" y="2661" width="660" height="136" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="102" y="2703" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">从零设计界面 / 比较方向</text>
+<text x="102" y="2743" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">领域技能指导；部件探索用 variant</text>
+<text x="102" y="2783" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">需要用途、内容与技术栈；不是整站引擎。</text>
+<rect x="770" y="2661" width="660" height="136" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="792" y="2703" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">研究参考网站的效果</text>
+<text x="792" y="2743" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">explain-interface</text>
+<text x="792" y="2783" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">提供 URL 与具体对象；学习实现方法。</text>
+<rect x="1460" y="2661" width="660" height="136" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="1482" y="2703" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">深色主题 / 表单可用性问题</text>
+<text x="1482" y="2743" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#243C30">better-colors + better-accessibility</text>
+<text x="1482" y="2783" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">测真实颜色对，核对焦点、标签与状态。</text>
+<text x="80" y="2857" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">05</text>
+<text x="136" y="2872" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">如何用？给目标、选技能、看交付、做验证</text>
+<text x="80" y="2912" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">技能是指导文件；真正的读取、修改、运行和浏览器观察，由宿主 AI 与可用工具完成。</text>
+<rect x="80" y="2929" width="805" height="349" rx="12" fill="#263F31" stroke="#263F31"/>
+<text x="107" y="2978" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#F3F8E8">① 在支持技能的助手中安装</text>
+<text x="107" y="3023" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#C8D5B7">上游提供的安装示例</text>
+<text x="107" y="3058" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#E4EFBC">npx skills add jakubkrehel/skills</text>
+<path d="M107 3090L856 3090" fill="none" stroke="#506447" stroke-width="1"/>
+<text x="107" y="3138" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#F3F8E8">② 提供上下文，明确想得到什么</text>
+<text x="107" y="3183" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#CFDAC2">页面 / 组件 / PR + 技术栈与约束 + 真实内容</text>
+<text x="107" y="3218" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#CFDAC2">说清：只审查、实施修复、解释，还是比较方案。</text>
+<text x="107" y="3253" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#CFDAC2">视觉与交互验证还需要可运行预览和相应工具。</text>
+<rect x="910" y="2929" width="1210" height="349" rx="12" fill="#FCFDF8" stroke="#D5DECA"/>
+<text x="935" y="2978" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#243C30">③ 主动调用适合的入口，再核对结果</text>
+<text x="935" y="3024" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">/better-interface 审查账户设置页，覆盖错误和窄屏状态。</text>
+<text x="935" y="3066" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24" font-weight="400" fill="#243C30">/break 检查 TagList 的空数据、长标签与窄容器，保留场景页。</text>
+<text x="935" y="3105" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#5F715B">入口写法随宿主而异；Claude 插件示例：/interfaces:better-interface</text>
+<path d="M935 3132L2095 3132" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<text x="935" y="3173" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="700" fill="#5F715B">执行链路</text>
+<text x="935" y="3217" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#243C30">明确任务 → 加载规则 → 理解项目 → 执行与观察 → 报告 / 改动 → 验证</text>
+<text x="935" y="3260" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="400" fill="#5F715B">核对范围、文件位置、前后行为与未验证项；报告中的 After 可能只是建议。</text>
+<text x="80" y="3340" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#5F715B">06</text>
+<text x="136" y="3355" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="35" font-weight="700" fill="#243C30">意义是什么？把经验变成可重复的判断与协作</text>
+<text x="80" y="3395" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">预期价值来自流程设计，仍需在真实项目中验证；不能直接换算成效率、满意度或转化率的提升。</text>
+<rect x="80" y="3410" width="660" height="153" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="104" y="3458" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#243C30">对开发者</text>
+<text x="104" y="3502" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">把“看起来不对”转成可定位、可修改的问题；</text>
+<text x="104" y="3538" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">优先处理共享变量和基础组件的根因。</text>
+<rect x="770" y="3410" width="660" height="153" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="794" y="3458" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#243C30">对设计与产品协作</text>
+<text x="794" y="3502" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">围绕真实页面比较方案，用效果与代价讨论；</text>
+<text x="794" y="3538" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">让交付要求从审美描述变为可检查条件。</text>
+<rect x="1460" y="3410" width="660" height="153" rx="12" fill="#E8EFDB" stroke="#D5DECA"/>
+<text x="1484" y="3458" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#243C30">对团队长期积累</text>
+<text x="1484" y="3502" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">统一常见问题的规则与表达，减少重复解释；</text>
+<text x="1484" y="3538" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">可继续补充团队规范、检查工具与回归样例。</text>
+<rect x="80" y="3595" width="2040" height="227" rx="12" fill="#F1EEDC" stroke="#D5DECA"/>
+<text x="108" y="3646" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#243C30">边界与前提：能力成立到哪一步？</text>
+<text x="108" y="3698" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#243C30">主要职责之外：产品定位与用户研究、后台接口与数据库、完整安全 / 性能工程、发布运维、商业效果实验。</text>
+<text x="108" y="3750" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#243C30">需要另外确认：原生端适配、目标浏览器与辅助技术、工具可用性。安装不会自动优化页面，也不等于重新训练模型。</text>
+<text x="108" y="3800" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#5F715B">证据原则：未渲染不能宣称视觉通过；未运行不能宣称已验证；未做用户实验不能宣称转化改善。</text>
+<path d="M80 3863L2120 3863" fill="none" stroke="#D5DECA" stroke-width="1"/>
+<text x="80" y="3909" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="400" fill="#5F715B">来源 github.com/jakubkrehel/skills  ·  固定提交 267330e1adfc66a718fb65fa6918c1f06d0a689e  ·  MIT</text>
+<text x="80" y="3945" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="400" fill="#5F715B">研究整理 2026-09-29  /  11 个技能全部覆盖  /  能力与效果依据上游文档归纳，示例为研究构造，未运行上游技能实测。</text>
+<text x="80" y="3982" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="400" fill="#5F715B">本图展示的是工作方法与预期交付；模型的其他通用能力，不应全部归入这个技能库。</text>
+</svg>

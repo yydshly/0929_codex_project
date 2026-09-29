@@ -15,6 +15,7 @@
 | 003 | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作方法：38 项技能、6 类成果摘要图、6 个交互场景与当前到长期的个人价值 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
 | 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
 | 005 | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
+| 006 | [Jakub Krehel Skills](projects/006-jakubkrehel-skills/README.md) | 面向 Web 界面设计、优化与验证：6 个专业领域、2 个审查流程、3 个探索流程；说明报告、改动、场景与候选效果，以及研究页、个人工具和长期维护中的个人价值 | 已完成 | [能力摘要与个人场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/) |
 | 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
 
 ## 项目图览
@@ -84,6 +85,18 @@
 [完整研究](projects/007-ojo-design-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) · [可缩放摘要图](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/map.html)
 
 固定版本文档研究；未安装或运行上游 Skill。产物与价值是预期效果，不代表实测效率或转化收益。
+
+### 006 · Jakub Krehel Skills
+
+把界面设计经验变成 AI 可遵循的规则与工作流程。11 个技能覆盖视觉动效、排版、颜色、无障碍、布局和文案，以及整体审查、变更审查、极端场景、设计候选与网页解析；分别交付问题报告、明确要求后的界面改动、场景页、可切换方案和机制解释。
+
+![Jakub Krehel Skills：方向、11 个技能、效果、场景、用法与意义](projects/006-jakubkrehel-skills/assets/capability-map.png)
+
+对你：现在用来改善开源研究展示页；以后制作个人工具时检查表单、状态和操作；改版前观察真实内容与界面退化；长期沉淀自己的界面规则和验收样例。让“美化一下”变成有范围、有成果、有验证的任务。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#summary) · [我的使用场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#personal) · [放大摘要图](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/capability-map.html) · [完整研究](projects/006-jakubkrehel-skills/README.md)
+
+固定版本文档研究；使用既有能力总图。预期效果未运行上游技能实测，完整产品仍需需求、后台、安全与部署等配套工作。
 
 ## 仓库结构
 

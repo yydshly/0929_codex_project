@@ -99,3 +99,13 @@ CI 执行 `node projects/005-skills-hub/web/build.mjs` 和 `node projects/005-sk
 内容明确一个独立 Skill 与九份参考资料的能力、可交付效果、使用时机与实际用法，补充对当前开源研究网页、未来个人工具与后台、产品官网、改版审查及长期设计积累的意义。图片沿用此前确认的总览图；预期收益不等于上游 Skill 实测效果。
 
 CI 执行 `python3 projects/007-ojo-design-skills/scripts/build.py` 和 `python3 projects/007-ojo-design-skills/scripts/verify.py`，默认复用已提交图片，仅依赖 Python 标准库。核对固定来源哈希、1 + 9 项完整覆盖、能力摘要表、五个个人场景、图片尺寸、链接锚点与发布副本。只提交项目 007 及对应索引和发布配置。
+
+## 项目 006 · Jakub Krehel Skills
+
+- 能力摘要：https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#summary
+- 个人场景：https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#personal
+- 完整能力图：https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/capability-map.html
+
+说明 Web 界面设计、优化与验证的定位，按 6 个专业领域、2 个审查流程、3 个探索流程展示能力与效果；增加研究展示页、个人工具、交付检查、方案学习和长期维护五个个人场景。摘要沿用既有完整能力图，提供 PNG / SVG 下载。
+
+CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对 11 个技能、113 条细化能力、63 个来源文件、三类摘要、五个个人场景、资源同步及内部链接。图像使用已提交资源，CI 不依赖 Windows 字体或图像生成环境。上游技能未安装或运行实测。
