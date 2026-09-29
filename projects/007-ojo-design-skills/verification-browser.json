@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-29",
+  "baseUrl": "http://127.0.0.1:8767/007-ojo-design-skills/",
+  "results": {
+    "sequentialModules": 10,
+    "lastNextDisabled": true,
+    "previousWorks": true,
+    "detailsExpand": true,
+    "scenarioLinkWorks": true,
+    "bothRoutesWork": true,
+    "keyboardEnter": true,
+    "historyBack": true,
+    "deepLinkReload": true,
+    "consoleErrors": 0
+  },
+  "responsive": [
+    {
+      "panel": "module-core",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-anti-patterns",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-material-metaphor",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-visual-tokens",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-component-recipe",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-motion-system",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-icon-guidelines",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-hero-enrichment",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-component-libraries",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-design-audit",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "panel": "module-core",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-anti-patterns",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-material-metaphor",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-visual-tokens",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-component-recipe",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-motion-system",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-icon-guidelines",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-hero-enrichment",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-component-libraries",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "panel": "module-design-audit",
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "screenshots": [
+    "assets/overview-desktop.png",
+    "assets/overview-mobile.png",
+    "assets/capabilities-desktop.png"
+  ],
+  "scope": "研究展示页验证；非上游 Skill 执行效果验证"
+}

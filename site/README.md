@@ -13,3 +13,7 @@
 [003 · Matt Pocock Skills 能力摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/)：38 项技能、六类能力与成果摘要图、六个交互场景、当前到长期的个人使用价值；保留全部技能的检索与相近能力对照。
 
 [005 · Skills Hub 能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/)：Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值；提供一图说明、14 项能力明细、6 个场景和 6 项扩展建议。
+
+[007 · OJO Design Skills 能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/)：说明产品界面设计能力、各模块产物与适用场景、如何调用，以及对研究网页、个人工具、产品介绍和长期设计积累的价值；沿用完整摘要图。
+
+007 已补充产品开发覆盖、完整能力总览图、六步使用指南及预期价值；总览图支持 PNG / SVG 下载和独立缩放阅读。

@@ -89,3 +89,13 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 摘要明确 Skills Hub 是管理 Skill 的工具，支持外部技能接入和增删改查，附带 manage-skills-hub 管理 Skill。页面同时说明使用场景、底层原理、如何使用、可扩展方向，以及对当前开源研究工作的意义。引用本研究生成的能力图，未使用上游应用截图冒充功能验证。
 
 CI 执行 `node projects/005-skills-hub/web/build.mjs` 和 `node projects/005-skills-hub/web/verify.mjs`，无需安装依赖；核对来源哈希、14 项能力、6 个场景、6 项建议、汇总图、内部链接及发布副本。上游应用与技能未运行实测。
+
+## 项目 007 · OJO Design Skills
+
+- 在线能力摘要：https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/
+- 个人使用场景：项目首页的 `#personal`。
+- 已确认的摘要图：`map.html` 支持缩放；`capability-summary.png` 和 `capability-summary.svg` 可下载。
+
+内容明确一个独立 Skill 与九份参考资料的能力、可交付效果、使用时机与实际用法，补充对当前开源研究网页、未来个人工具与后台、产品官网、改版审查及长期设计积累的意义。图片沿用此前确认的总览图；预期收益不等于上游 Skill 实测效果。
+
+CI 执行 `python3 projects/007-ojo-design-skills/scripts/build.py` 和 `python3 projects/007-ojo-design-skills/scripts/verify.py`，默认复用已提交图片，仅依赖 Python 标准库。核对固定来源哈希、1 + 9 项完整覆盖、能力摘要表、五个个人场景、图片尺寸、链接锚点与发布副本。只提交项目 007 及对应索引和发布配置。

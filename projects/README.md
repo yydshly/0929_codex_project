@@ -13,3 +13,7 @@
 新增已完成研究：[003 · Matt Pocock Skills](003-mattpocock-skills/README.md)，覆盖 38 项技能、六类能力与成果、六个交互场景、技术原理和个人使用价值；[在线摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/)可直接查看成果样张与场景。
 
 新增已完成研究：[005 · Skills Hub](005-skills-hub/README.md)，Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值；[在线能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/)引用本研究生成的能力汇总图。
+
+新增已完成研究：[007 · OJO Design Skills](007-ojo-design-skills/README.md)，产品界面设计方法：一个核心 Skill 与九份参考资料，输出页面方向、视觉参数、组件状态和审查建议；[在线摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/)含全部能力速查、五个个人场景及已确认的总览图。
+
+007 已补充产品开发覆盖、完整能力总览图、六步使用指南及预期价值；总览图支持 PNG / SVG 下载和独立缩放阅读。

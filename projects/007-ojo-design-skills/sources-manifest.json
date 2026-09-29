@@ -1,0 +1,286 @@
+{
+  "repository": "touchine-ojo/OJO-Design-Skills",
+  "commit": "fbd2c2d158e5ebda8930f4bc63ed635a8500d31f",
+  "commit_date": "2026-07-29T10:20:08Z",
+  "research_date": "2026-09-29",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "git_blob": "a9c94bd5b4efd67135e49cd80acf5555d974cc72",
+      "sha256": "4dac1b9faaf48f1cf398e695670fcaa5f01b8357d1a9aff2706764f438d3d46b",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob": "ead290b41bba60389077a6564a815d688b20ddda",
+      "sha256": "03f9b33086f2196ca56a2ea388cebca2a5f617a0b0adf1d8c01ade9c9cb9bd02",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "e55067ca5c0dce72f997b6b569cd914ab7b6df60",
+      "sha256": "8e1b3b19d43741bf8b5bbbb7ce7cf16e1fe0106878c00a2a96d2709d7fd2bda9",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/README.md"
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "git_blob": "7b8765017f8b6482b77f305edc794e5bf116dc7f",
+      "sha256": "5b969b764b78a6a66b36c8177d40d9d6096e35d406baaf1dfb3ded5413d6adc8",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/docs/README.zh-CN.md"
+    },
+    {
+      "path": "docs/comparison-prompts.md",
+      "git_blob": "066db6a871d152ea38d33367c817472cf2cfc8a4",
+      "sha256": "2551d0451fab587d1a6027b750067428fb9f8101b58b5a710a1cd53a40e49cb1",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/docs/comparison-prompts.md"
+    },
+    {
+      "path": "scripts/install.sh",
+      "git_blob": "31660ad639a212e5272e7dbeaee9b8a59525f557",
+      "sha256": "e2fb2d6f3bd7c1c3acf496b5b182c1b2270d9f54ae54f3ba53cd5e4a1d699689",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/scripts/install.sh"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/SKILL.md",
+      "git_blob": "e4966282cdc7b75f6ff0a982ee23632c274fef4b",
+      "sha256": "d0722a59b6a1266cede69b4c5d948c63ca5ce250c5540fd4599c77e20bd7e34b",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/SKILL.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/anti-patterns.md",
+      "git_blob": "8e498e932d26cfb2a70349d1e49cdc671be9650e",
+      "sha256": "60b08712bb9f1cdbc439d240d201859119e4273ace9e777eac0c92c77bd56916",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/anti-patterns.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/component-libraries.md",
+      "git_blob": "0ab72dcfa9ad105158dd419f174f5d3dedb01eb0",
+      "sha256": "9102e1b6b1aad783147d6912bd1dfa910522ab9532b532c9f6c2df7792b454a5",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/component-libraries.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/component-recipe.md",
+      "git_blob": "5dfc96189e28676c1405376e1cb1cade5d44d8e7",
+      "sha256": "9f35c59097212529665f01ef1ac745c44e1ffd173b02e107039b39e35a5637a7",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/component-recipe.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/design-audit.md",
+      "git_blob": "fdbb4cb26284f1bffe579b649b2981e62b8ba70b",
+      "sha256": "278cdff39c9ac6d0392604b211fdb6caddf2006e095edf90b8a771652c7e92fa",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/design-audit.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/hero-enrichment.md",
+      "git_blob": "4fa568c7d8482aab90273dd02bb030d7be62d4f9",
+      "sha256": "fbf0553b2e384bc3e6766a39ed08e6bb4c30daad752553f8570e3cfb285bf710",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/hero-enrichment.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/icon-guidelines.md",
+      "git_blob": "8f1816678b882a65f5f3409b72af3ce83c3b499d",
+      "sha256": "6591f3487a0e4b389831040e772292f075dca65f937e1589518ac8a74ac6e3fc",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/icon-guidelines.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/material-metaphor.md",
+      "git_blob": "2a4b83d5d621555e81a51c5e5953d6631209be64",
+      "sha256": "9e9ca96da19ffaceaf3feffbda0d9e0ee6ec9106853d03926bed058bcb890e48",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/material-metaphor.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/motion-system.md",
+      "git_blob": "ccf6ec99be500b74067a20a743dbe9dd54b8611f",
+      "sha256": "d440db12ed6d8ffded199696907c086997818e0158df3cb765290802e2739193",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/motion-system.md"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/visual-tokens.md",
+      "git_blob": "ccb8f41edca1af75445d52e78f292740915ac5d2",
+      "sha256": "177dfcb50c36e7b34a8d6e2bded76e1f89d76f5f2b656c71c26ff4f7690900ee",
+      "url": "https://github.com/touchine-ojo/OJO-Design-Skills/blob/fbd2c2d158e5ebda8930f4bc63ed635a8500d31f/skills/app-ui-ux-best-practices/references/visual-tokens.md"
+    }
+  ],
+  "tree": [
+    {
+      "path": ".github",
+      "type": "tree"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "type": "blob"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "type": "tree"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "blob"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "blob"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.md",
+      "type": "blob"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "type": "blob"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "type": "blob"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "type": "blob"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "type": "blob"
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob"
+    },
+    {
+      "path": "SUPPORT.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "path": "docs/README.es-ES.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/README.ja-JP.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/README.ko-KR.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/comparison-prompts.md",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images",
+      "type": "tree"
+    },
+    {
+      "path": "docs/images/showcase-1-with.gif",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-1-without.gif",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-2-riot.gif",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-design-1.png",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-design-2.png",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-design-3.png",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-design-4.png",
+      "type": "blob"
+    },
+    {
+      "path": "docs/images/showcase-design.png",
+      "type": "blob"
+    },
+    {
+      "path": "scripts",
+      "type": "tree"
+    },
+    {
+      "path": "scripts/install.sh",
+      "type": "blob"
+    },
+    {
+      "path": "skills",
+      "type": "tree"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices",
+      "type": "tree"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/SKILL.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references",
+      "type": "tree"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/anti-patterns.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/component-libraries.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/component-recipe.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/design-audit.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/hero-enrichment.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/icon-guidelines.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/material-metaphor.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/motion-system.md",
+      "type": "blob"
+    },
+    {
+      "path": "skills/app-ui-ux-best-practices/references/visual-tokens.md",
+      "type": "blob"
+    }
+  ]
+}

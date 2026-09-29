@@ -9,6 +9,7 @@ on:
       - 'projects/003-mattpocock-skills/**'
       - 'projects/004-mengto-skills/**'
       - 'projects/005-skills-hub/**'
+      - 'projects/007-ojo-design-skills/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -48,6 +49,10 @@ jobs:
         run: |
           node projects/005-skills-hub/web/build.mjs
           node projects/005-skills-hub/web/verify.mjs
+      - name: Build and verify OJO Design Skills summary
+        run: |
+          python3 projects/007-ojo-design-skills/scripts/build.py
+          python3 projects/007-ojo-design-skills/scripts/verify.py
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-29",
+  "graphic": {
+    "width": 2000,
+    "height": 3320,
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "coreSkills": 1,
+    "referenceModules": 9,
+    "visuallyInspected": true
+  },
+  "desktop": {
+    "width": 1280,
+    "pageWidth": 1265,
+    "coverageAreas": 6,
+    "usageSteps": 6
+  },
+  "viewer": [
+    {
+      "container": 485,
+      "image": 2000,
+      "loaded": true,
+      "mode": "100",
+      "page": 534,
+      "viewport": 534
+    },
+    {
+      "container": 485,
+      "image": 3000,
+      "loaded": true,
+      "mode": "150",
+      "page": 534,
+      "viewport": 534
+    },
+    {
+      "container": 485,
+      "image": 485.3333435058594,
+      "loaded": true,
+      "mode": "fit",
+      "page": 534,
+      "viewport": 534
+    }
+  ],
+  "responsive": [
+    {
+      "imageLoaded": true,
+      "page": 375,
+      "sections": [
+        {
+          "id": "scope",
+          "scroll": 335,
+          "width": 334.66668701171875
+        },
+        {
+          "id": "summary",
+          "scroll": 335,
+          "width": 334.66668701171875
+        },
+        {
+          "id": "usage",
+          "scroll": 335,
+          "width": 334.66668701171875
+        },
+        {
+          "id": "value",
+          "scroll": 335,
+          "width": 334.66668701171875
+        }
+      ],
+      "width": 390
+    },
+    {
+      "imageLoaded": true,
+      "page": 305,
+      "sections": [
+        {
+          "id": "scope",
+          "scroll": 265,
+          "width": 264.66668701171875
+        },
+        {
+          "id": "summary",
+          "scroll": 265,
+          "width": 264.66668701171875
+        },
+        {
+          "id": "usage",
+          "scroll": 265,
+          "width": 264.66668701171875
+        },
+        {
+          "id": "value",
+          "scroll": 265,
+          "width": 264.66668701171875
+        }
+      ],
+      "width": 320
+    }
+  ],
+  "regression": {
+    "moduleKeyboardSelection": true,
+    "brandRoute": true,
+    "viewerReturn": true
+  },
+  "console": [],
+  "scope": "固定版本研究展示验证；未执行上游 Skill。"
+}

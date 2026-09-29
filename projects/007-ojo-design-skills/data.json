@@ -1,0 +1,446 @@
+{
+  "modules": [
+    {
+      "id": "core",
+      "kind": "skill",
+      "title": "设计流程总控",
+      "file": "SKILL.md",
+      "name": "app-ui-ux-best-practices",
+      "phase": "贯穿全流程",
+      "summary": "从产品需求出发，选择设计路线，把视觉方向逐步落实为可供开发使用的规范。",
+      "capabilities": [
+        "按产品价值选择效率路线或品牌路线；从活力、完成质感、密度、视觉重量、严肃程度五个维度推导风格。",
+        "要求研究真实参考，把布局、页面结构与视觉方向一起决定，避免只换颜色。",
+        "串联设计参数、组件、动效、布局、素材、图标和最终审查；品牌路线还会选择合适的设计方法。"
+      ],
+      "scenes": [
+        "从零开始设计后台、工具或消费应用",
+        "已有参考图，需要转换为一致的界面规范",
+        "产品页面增多，需要统一视觉语言"
+      ],
+      "inputs": "产品目标、用户、核心流程、平台、品牌或参考图，以及现有技术和设计约束。",
+      "outputs": "视觉方向、设计原则、颜色与排版、间距、组件状态、动效参数、素材要求和建议使用的库。",
+      "example": "为一个供门店店长每日查看缺货、处理补货的后台定义设计规范。先解释适用路线，再给出方向与关键组件状态。",
+      "effect": "预期把“帮我做得好看”转化为有理由、可交接的设计决定；实际效果仍需页面验证。",
+      "boundary": "是流程型 Skill，搜索、读图、编码和浏览器操作由宿主提供。完整新设计流程要求方向确认；General Skill Mode 对点评、改进等允许按调用者要求调整，不宜一概声称每次都必须等待。",
+      "markers": [
+        "## Step 0:",
+        "## General Skill Mode Override",
+        "## Step 8:"
+      ]
+    },
+    {
+      "id": "anti-patterns",
+      "kind": "reference",
+      "title": "反模式与质量约束",
+      "file": "references/anti-patterns.md",
+      "name": "anti-patterns.md",
+      "phase": "开始前 · 全程检查",
+      "summary": "提醒 AI 避免未经思考的配色、布局、文案和素材套路，并检查实现中容易出错的地方。",
+      "capabilities": [
+        "把“高级感、克制、简洁”等形容词翻译成饱和度、密度、字距、动效幅度等具体决定。",
+        "识别同质化配色、套版布局、占位图片、泛化文案和不一致图标；要求内容与业务相符。",
+        "检查硬编码尺寸、文字溢出、交互反馈等实现风险，并讨论无障碍和响应式问题。"
+      ],
+      "scenes": [
+        "AI 生成页面有明显模板感",
+        "界面到处写着“了解更多”，不能表达业务动作",
+        "长标题、中文字体或手机布局容易出问题"
+      ],
+      "inputs": "产品定位、视觉方向、界面截图或代码、真实内容与素材。",
+      "outputs": "反模式清单、具体替换建议、可观察的风格参数，以及需要保留的合理例外。",
+      "example": "审查这个会员服务首页：指出与品牌无关的装饰、含糊按钮文案和占位素材，按位置给出修改建议。",
+      "effect": "预期减少模板化表达和明显界面缺陷；“不像 AI”属于主观判断，不能证明任务效率更高。",
+      "boundary": "规则带有作者的强烈审美偏好，不应替代品牌约束或用户测试。它引用的 emfont-fonts 等外部能力不包含在本库内。",
+      "markers": [
+        "## AI-Generated Style Signatures",
+        "### ⛔ Vague-Word Firewall",
+        "## Honest Copy"
+      ]
+    },
+    {
+      "id": "material-metaphor",
+      "kind": "reference",
+      "title": "材质隐喻与品牌表达",
+      "file": "references/material-metaphor.md",
+      "name": "material-metaphor.md",
+      "phase": "品牌路线 · 方向推导",
+      "summary": "把品牌感受映射到材质和环境，进一步推导表面、光线、边缘、层次与运动。",
+      "capabilities": [
+        "先明确情绪关键词，再选择能表达它们的材质及环境；支持平静、精细，也支持粗粝、强烈的方向。",
+        "将纸张、织物、玻璃、金属等联想转译为阴影、透明度、纹理、边缘与层次关系。",
+        "用统一的视觉物理规则约束组件与动效，减少不同页面各自发挥。"
+      ],
+      "scenes": [
+        "品牌电商、生活方式、日记或创意应用",
+        "已有品牌故事，却没有可落地的视觉语言",
+        "需要统一跨页面的触感与氛围"
+      ],
+      "inputs": "品牌个性、目标人群、情绪关键词、文化背景与视觉参考。",
+      "outputs": "材质与环境说明、光照和深度规则、边缘与纹理策略、组件和动效转译依据。",
+      "example": "为强调沉静阅读与手写记忆的日记产品，将品牌感受转换为材质、光线、层次和组件处理，并解释选择依据。",
+      "effect": "预期让颜色、阴影和运动共享一套解释逻辑，而不只是一组孤立的漂亮效果。",
+      "boundary": "这是品牌路线的一种方法。角色原型、叙事和文化符号也在核心 Skill 中被允许，并没有各自独立的 Skill 文件。材质隐喻不是实际物理模拟引擎。",
+      "markers": [
+        "# Material",
+        "## Step 2:",
+        "## Step 3:"
+      ]
+    },
+    {
+      "id": "visual-tokens",
+      "kind": "reference",
+      "title": "设计参数体系",
+      "file": "references/visual-tokens.md",
+      "name": "visual-tokens.md",
+      "phase": "方向确定后 · 基础规范",
+      "summary": "定义应有哪些颜色、字体、间距与阴影变量，让各页面能使用同一套视觉基础。",
+      "capabilities": [
+        "区分品牌色、背景、表面、文字、边框与成功/警告/错误等语义颜色。",
+        "组织标题、正文、说明文字等排版角色，以及间距和阴影尺度。",
+        "讨论明暗模式、冷暖关系、色彩比例和饱和度预算；给出参数表达与主题衔接建议。"
+      ],
+      "scenes": [
+        "多个页面颜色和圆角各不相同",
+        "已有方向，需要输出开发可用的主题参数",
+        "准备维护明暗主题或移动端视觉一致性"
+      ],
+      "inputs": "确认的方向、参考图、品牌颜色、阅读密度、平台与技术约束。",
+      "outputs": "带用途的设计参数表、色值与使用规则、排版和间距体系；部分上下文约定输出 theme.json。",
+      "example": "将已确认的门店后台方向整理为颜色角色、文字层级、间距和阴影变量，标注按钮、列表和异常提示如何使用。",
+      "effect": "预期让主题调整能沿共享参数传递，减少逐个页面修补。",
+      "boundary": "文档主要定义参数结构，具体值由模型推导。包含 Tailwind v3.4 和外部 color-palette-library.md 的上下文；对比度须按实际文字与背景测量，不能照抄表格就宣称合规。",
+      "markers": [
+        "# Visual Design",
+        "## Token Structure Checklist",
+        "#### Color Construction Methodology"
+      ]
+    },
+    {
+      "id": "component-recipe",
+      "kind": "reference",
+      "title": "组件与八种交互状态",
+      "file": "references/component-recipe.md",
+      "name": "component-recipe.md",
+      "phase": "组件落地",
+      "summary": "把设计意图翻译为组件样式和状态规则，避免页面只有静态外观。",
+      "capabilities": [
+        "覆盖默认、悬停、聚焦、按下、禁用、加载、错误和成功状态，并提供原子化 Tailwind 类示例。",
+        "给出卡片、主次按钮、输入框、导航项和标签等组件配方，衔接不同视觉路线。",
+        "涉及键盘、焦点、语义标签、触摸目标和响应式行为，以及悬停时避免布局跳动。"
+      ],
+      "scenes": [
+        "表单只做了正常状态，异常状态没有设计",
+        "报价卡、按钮或导航要交接给开发",
+        "组件库需要统一视觉和交互规范"
+      ],
+      "inputs": "设计参数、组件职责、用户操作、异步与错误行为、目标设备。",
+      "outputs": "按组件整理的状态规格、Tailwind 类组合、可访问性和响应式要求。",
+      "example": "为保存补货单按钮与数量输入框写完整状态规范，包括提交中防重复操作、库存不足错误和保存成功反馈。",
+      "effect": "预期让开发明确“点击之后发生什么”，并让不同组件的同类状态一致。",
+      "boundary": "类字符串不能单独实现数据请求、状态管理或业务校验。并非每个组件都适用全部八种状态；需要注明适用性。它不是可直接安装的 React 组件包。",
+      "markers": [
+        "## The 8-State",
+        "## Required Components",
+        "## Accessibility Requirements"
+      ]
+    },
+    {
+      "id": "motion-system",
+      "kind": "reference",
+      "title": "动效与行为规范",
+      "file": "references/motion-system.md",
+      "name": "motion-system.md",
+      "phase": "交互反馈与运动",
+      "summary": "先说明为什么需要动画，再确定运动参数、性能要求和减少动态效果时的替代方案。",
+      "capabilities": [
+        "用反馈、引导、连续性或品牌表达解释动画目的，避免无意义的运动。",
+        "提供弹簧、阻尼、过渡与错峰等设计建议，讨论按钮、弹窗和页面切换。",
+        "要求考虑减少动态效果偏好、资源和渲染性能，并解释滚动显现等模式的适用条件。"
+      ],
+      "scenes": [
+        "按钮点击没有反馈，弹窗出现突兀",
+        "品牌页需要有目的的动态表达",
+        "页面动画太多、令人分心或有性能问题"
+      ],
+      "inputs": "交互状态、动效目的、品牌节奏、目标设备、用户动态效果偏好。",
+      "outputs": "动效目的与触发条件、属性和参数、静态替代方案、性能检查项。",
+      "example": "为补货单的提交、成功反馈和侧边详情制定动效规则，说明减少动态效果时如何保持全部信息可见。",
+      "effect": "预期让运动帮助用户理解操作和位置变化，而不阻碍任务。",
+      "boundary": "是动效规范，不包含动画运行引擎。motion-system 允许有明确目的的滚动显现，但 design-audit 仍有禁止项，采用前应先统一规则。",
+      "markers": [
+        "## Motion Purpose Test",
+        "## Motion Pattern Trade-offs",
+        "### 4. Reduced Motion"
+      ]
+    },
+    {
+      "id": "icon-guidelines",
+      "kind": "reference",
+      "title": "图标一致性",
+      "file": "references/icon-guidelines.md",
+      "name": "icon-guidelines.md",
+      "phase": "视觉细节",
+      "summary": "统一图标的来源、形态、线宽、尺寸和状态颜色，避免界面像不同素材的拼接。",
+      "capabilities": [
+        "要求选定统一图标库与风格，保持线宽及基准网格一致。",
+        "区分导航、激活、禁用和辅助场景的颜色用途。",
+        "限制随机符号、装饰性发光和混搭图标，提供交付前检查表。"
+      ],
+      "scenes": [
+        "导航栏混用了描边、填充和 emoji",
+        "多个开发者引入了不同图标库",
+        "需要规范工具栏与按钮中的图标"
+      ],
+      "inputs": "现有图标清单、平台、品牌风格和交互状态。",
+      "outputs": "统一库与风格选择、尺寸/线宽/颜色规则、替换清单。",
+      "example": "检查现有后台的导航和操作按钮，统一图标来源、线宽和选中状态，列出需要替换的项目。",
+      "effect": "预期降低视觉噪声，保持操作入口的辨识度和一致性。",
+      "boundary": "不会自动下载或授权图标；库名称、默认参数、平台适配与许可需另核对。禁止所有 emoji 或混合风格是作者策略，不是通用无障碍标准。",
+      "markers": [
+        "# Icon Guidelines",
+        "## Icon Color Rules",
+        "## Pre-Flight Checklist"
+      ]
+    },
+    {
+      "id": "hero-enrichment",
+      "kind": "reference",
+      "title": "首屏与品牌构图",
+      "file": "references/hero-enrichment.md",
+      "name": "hero-enrichment.md",
+      "phase": "存在首屏展示区时",
+      "summary": "先判断是否需要展示型首屏，再选择文字、图片、编辑式构图或动态内容。",
+      "capabilities": [
+        "用 0/A/B/C/D/E 六档区分无 Hero、文字型、单图型、编辑式构图、动态型和沉浸型首屏。",
+        "把档位与用户当前任务、品牌意图、真实素材和制作成本关联，而非越复杂越好。",
+        "给出构图要求、素材策略、主行动、参数引用和动态效果降级要求。"
+      ],
+      "scenes": [
+        "营销落地页、品牌电商首页、编辑内容入口",
+        "首屏总是居中大标题加两个按钮",
+        "后台页面被巨大宣传区挤占操作空间"
+      ],
+      "inputs": "页面目的、用户是否已进入工作区、品牌关键词、可用图片或视频、预算。",
+      "outputs": "首屏档位及理由、构图、主行动和素材规格；上下文中约定写入 theme.hero。",
+      "example": "这个后台登录后的首页是否需要 Hero？请给出档位和理由；另为其公开产品介绍页选择一个适当的首屏结构。",
+      "effect": "预期让首屏直接服务工作或品牌表达，避免给所有页面套同一版式。",
+      "boundary": "不是六个独立 Skill，也不自带图片、视频、3D 模型或 WebGL 系统。文件依赖 design-dna/write-code 约定，且默认兜底档位的文字有不一致。",
+      "markers": [
+        "## Tier ladder",
+        "## Decision tree",
+        "## Output contract"
+      ]
+    },
+    {
+      "id": "component-libraries",
+      "kind": "reference",
+      "title": "组件与工具库选型",
+      "file": "references/component-libraries.md",
+      "name": "component-libraries.md",
+      "phase": "实现选型",
+      "summary": "按用途整理界面、动效、图标和专项组件库，帮助寻找符合项目需求的实现基础。",
+      "capabilities": [
+        "整理桌面、移动、Tailwind 和无样式组件库的适用方向。",
+        "涵盖表格、图表、表单、弹窗、通知、拖拽、媒体和虚拟列表等专项需求。",
+        "建议根据既有项目、所需视觉自由度与风格一致性选择方案，避免混用多个设计系统。"
+      ],
+      "scenes": [
+        "确定设计后，不知道用哪套组件实现",
+        "后台需要复杂表格或虚拟列表",
+        "高度定制品牌界面，需要评估无样式组件"
+      ],
+      "inputs": "项目框架、平台、已安装依赖、组件需求、自定义程度、维护限制。",
+      "outputs": "候选库及适用理由、可复用能力与需要自行实现的部分。",
+      "example": "为已有 React 后台的表格、弹窗和通知挑选尽可能少的依赖，先检查现有组件，再说明采用与不采用理由。",
+      "effect": "预期减少选型盲目性与重复实现，但并不保证列出的库均适合当前版本。",
+      "boundary": "这是上游静态推荐目录，不是依赖安装器或实时生态数据库。部分条目可能过时或平台描述不准确，实际采用前须查官方文档、版本和维护状况。",
+      "markers": [
+        "# UI Component Libraries",
+        "## Specialized Components",
+        "## Library Selection Guide"
+      ]
+    },
+    {
+      "id": "design-audit",
+      "kind": "reference",
+      "title": "设计审查与交付检查",
+      "file": "references/design-audit.md",
+      "name": "design-audit.md",
+      "phase": "交付前 · 改进时",
+      "summary": "按清单查找设计与交互问题，说明严重程度、影响位置和修复方向。",
+      "capabilities": [
+        "检查风格与已选方向是否一致，检查颜色、排版、交互状态、动效和素材。",
+        "把问题分为 Critical、High、Medium、Low，并给出修复引用和交付建议。",
+        "包含快速扫描、详细审查和结构化报告格式，既记录问题，也记录值得保留的设计。"
+      ],
+      "scenes": [
+        "AI 页面交付前需要检查",
+        "页面感觉不统一，需要定位问题",
+        "修复前要确定优先级和影响范围"
+      ],
+      "inputs": "设计方向与参数、页面截图、组件与交互代码；行为结论需要真实操作证据。",
+      "outputs": "带位置和严重程度的问题报告、修复建议、正面发现与交付判断。",
+      "example": "审查补货后台的键盘焦点、错误反馈、手机布局和颜色层级；区分代码可确认的问题与尚未操作验证的行为。",
+      "effect": "预期把笼统的“设计不够好”转化为有位置、有优先级的改进任务。",
+      "boundary": "正文明确为文档审查模式，没有自动检测器；AI 自检不等于实测通过。部分颜色和动效禁令与其他文件冲突，且引用了本库未提供的 design-refine.md 等资源。",
+      "markers": [
+        "## Audit Overview",
+        "## Output Format",
+        "## Remediation Map"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "门店运营与 SaaS 后台",
+      "route": "Convention",
+      "need": "店长要快速发现缺货、筛选门店、完成补货。",
+      "modules": [
+        "core",
+        "visual-tokens",
+        "component-recipe",
+        "design-audit"
+      ],
+      "deliver": "信息层级、数据与异常颜色、表单状态、导航和审查报告。",
+      "accept": "检查缺货是否容易找到、错误是否能恢复、键盘是否能完成主要操作。",
+      "prompt": "为多门店补货后台定义清晰、紧凑的设计系统，保留既有业务流程，补齐表单和异步状态。"
+    },
+    {
+      "title": "品牌电商与订阅服务",
+      "route": "Innovation",
+      "need": "用产地、商品和服务特点建立品牌辨识度，同时帮助用户选购。",
+      "modules": [
+        "core",
+        "material-metaphor",
+        "hero-enrichment",
+        "visual-tokens"
+      ],
+      "deliver": "品牌视觉方向、商品素材要求、首屏构图和订阅入口规范。",
+      "accept": "检查商品内容是否真实相关，购买行动是否明确，移动端是否易读。",
+      "prompt": "为强调产地溯源和烘焙日期的咖啡订阅服务建立视觉方向，说明图片、字体、首屏和订阅按钮如何服务用户选择。"
+    },
+    {
+      "title": "个人工具与阅读应用",
+      "route": "Convention / 视品牌需求调整",
+      "need": "用户进入页面就要记录、阅读或查找，不想先看宣传。",
+      "modules": [
+        "core",
+        "hero-enrichment",
+        "component-recipe",
+        "icon-guidelines"
+      ],
+      "deliver": "工作区布局、列表与详情关系、编辑状态和统一导航图标。",
+      "accept": "检查核心任务能否直接开始，导航是否与真实信息层级一致。",
+      "prompt": "为读书笔记工具规划一个直接进入工作区的首页，定义编辑、保存、空状态和导航图标。"
+    },
+    {
+      "title": "创意品牌与活动页面",
+      "route": "Innovation",
+      "need": "传递具体的音乐、文化或创作气质，而不是统一套“高级简约”。",
+      "modules": [
+        "material-metaphor",
+        "hero-enrichment",
+        "motion-system",
+        "anti-patterns"
+      ],
+      "deliver": "材质/情境说明、编辑式首屏、动效目的与静态替代方案。",
+      "accept": "检查风格是否匹配活动内容，信息能否读清，减少动态效果后内容是否完整。",
+      "prompt": "为地下现场音乐活动构建设计方向，保留强烈、粗粝的表达，同时保证时间、地点与购票入口清晰。"
+    },
+    {
+      "title": "现有 AI 页面改版",
+      "route": "General Skill Mode",
+      "need": "页面内容空泛、风格混搭、按钮反馈不完整，需要定向修复。",
+      "modules": [
+        "anti-patterns",
+        "visual-tokens",
+        "component-recipe",
+        "design-audit"
+      ],
+      "deliver": "问题清单、应保留的部分、定向修复规格和复核计划。",
+      "accept": "逐条检查问题是否解决；不要把更换配色当作任务成功。",
+      "prompt": "点评现有会员中心并直接给出一个改进方向，不必再列三套方案；优先处理真实内容、信息层级和交互状态。"
+    },
+    {
+      "title": "团队规范与开发交接",
+      "route": "两条路线均可",
+      "need": "多个页面和开发者需要共享规则，而非每次重新定义组件。",
+      "modules": [
+        "visual-tokens",
+        "component-recipe",
+        "icon-guidelines",
+        "component-libraries",
+        "design-audit"
+      ],
+      "deliver": "参数表、组件状态规范、图标规则、依赖选型依据与交付检查表。",
+      "accept": "检查同类角色是否复用同一参数，组件状态是否可实现，库是否兼容项目。",
+      "prompt": "把已确认的视觉方案整理为开发交接规范，优先复用现有组件库，并标注缺失状态和仍待验证的事项。"
+    }
+  ],
+  "findings": [
+    {
+      "title": "只有一个独立 Skill",
+      "text": "固定版本中 skills/ 下只有一个 SKILL.md。九个 references 文件属于它的知识资料；design-dna、write-code 等名称只在文字中引用，不能计为本库提供的独立技能。",
+      "file": "SKILL.md",
+      "marker": "## Agent Usage Context"
+    },
+    {
+      "title": "文字要求不等于程序保障",
+      "text": "质量门禁主要由模型阅读与自检执行。安装脚本负责复制技能文件，没有把审美禁令转换为浏览器检测、测试或自动修复引擎。",
+      "path": "scripts/install.sh",
+      "marker": "cp -R"
+    },
+    {
+      "title": "颜色规则存在冲突",
+      "text": "反模式文档强调单独色相可以使用，但审查表仍含“主色不能是紫色”的绝对条目。应明确品牌依据与规则优先级，避免误判。",
+      "file": "references/design-audit.md",
+      "marker": "Accent color is NOT purple"
+    },
+    {
+      "title": "动效规则存在冲突",
+      "text": "motion-system 将滚动显现视为需说明目的的技术，审查表仍要求静态内容不得滚动淡入。采用前应统一条件与例外。",
+      "file": "references/motion-system.md",
+      "marker": "## Motion Pattern Trade-offs"
+    },
+    {
+      "title": "外部编排与资源未随包提供",
+      "text": "正文引用 emfont-fonts、write-mobile、design-refine.md、color-palette-library.md 以及 save_final_prd 等工具或资源。固定文件树没有对应实现，宿主需适配或替代。",
+      "file": "SKILL.md",
+      "marker": "## Post-Completion:"
+    },
+    {
+      "title": "展示案例不能证明因果",
+      "text": "comparison-prompts.md 声称前后使用同一需求，但第一组 after 提示额外加入品牌定位、受众和卖点。这个对照不能单独证明差异由 Skill 带来；本研究也未运行对照实验。",
+      "path": "docs/comparison-prompts.md",
+      "marker": "## 1"
+    }
+  ],
+  "extensions": [
+    {
+      "title": "接入团队设计系统",
+      "action": "增加品牌参数、已有组件映射与允许例外，优先复用项目资产。",
+      "value": "让每次生成遵循团队规范。"
+    },
+    {
+      "title": "让审查可测量",
+      "action": "增加实际截图、键盘流程、对比度与响应式检测，记录证据而非仅勾选清单。",
+      "value": "区分规格完整与运行通过。"
+    },
+    {
+      "title": "清理规则冲突与隐含依赖",
+      "action": "建立优先级和能力声明，统一颜色、动效、方向确认等例外，补齐缺失引用。",
+      "value": "提高跨宿主使用的可预测性。"
+    },
+    {
+      "title": "固定输出格式与平台适配",
+      "action": "为参数和组件状态定义可校验结构，将设计方法与 Tailwind 配方分离。",
+      "value": "支持多技术栈和自动化交接。"
+    },
+    {
+      "title": "建立受控效果评测",
+      "action": "保持需求、模型、工具与素材条件一致，多次比较带/不带 Skill 的产物。",
+      "value": "检验可访问性、任务完成率与人工评价，而非只看截图。"
+    }
+  ]
+}

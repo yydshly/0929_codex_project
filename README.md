@@ -15,6 +15,7 @@
 | 003 | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作方法：38 项技能、6 类成果摘要图、6 个交互场景与当前到长期的个人价值 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
 | 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
 | 005 | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
+| 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
 
 ## 项目图览
 
@@ -71,6 +72,18 @@
 [完整研究](projects/005-skills-hub/README.md) · [在线能力汇总](https://yydshly.github.io/0929_codex_project/005-skills-hub/) · [下载汇总图](projects/005-skills-hub/assets/capability-summary.svg)
 
 图示为本研究整理的能力关系，不是上游应用运行证据。
+
+### 007 · OJO Design Skills
+
+面向产品界面设计的 AI 技能包：一个核心 Skill 串联九份参考资料，从初步产品需求形成页面方向、颜色与排版参数、组件状态、动效规范和审查建议。配合宿主的编码与测试工具，可进一步落地为可运行的前端页面。
+
+![OJO Design Skills：产品开发定位、技能、场景、用法与意义](projects/007-ojo-design-skills/assets/capability-summary.png)
+
+对你：现在用于开源研究网页的信息层级与视觉统一；以后用于个人工具、业务后台、产品官网与改版检查，长期积累可复用的设计规则。页面包含全部能力与效果速查、五个个人场景、六步用法、原理和边界。摘要图沿用已确认的总览图。
+
+[完整研究](projects/007-ojo-design-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) · [可缩放摘要图](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/map.html)
+
+固定版本文档研究；未安装或运行上游 Skill。产物与价值是预期效果，不代表实测效率或转化收益。
 
 ## 仓库结构
 
