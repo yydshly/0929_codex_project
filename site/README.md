@@ -7,3 +7,5 @@
 发布 Git 中已提交的 site 静态内容；其他本地研究草稿不属于本轮发布范围。
 
 [002 · Agent Skills 能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/)：全部 25 项研发能力按六类工作和技能路由展示，包含场景、产出、预期效果、个人价值、扩展方向与可缩放全量图。
+
+[004 · MengTo/Skills 能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/)：146 项视觉设计与前端能力、完整能力图、六种可切换实景、五个个人使用场景；包含技能类型、组合与企业 AI 页的开发边界。

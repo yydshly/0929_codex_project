@@ -12,6 +12,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 001 | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 技能与技能集合目录：20 类能力、预期产物和 5 个个人场景；1,108 项中文简介 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) |
 | 002 | [Agent Skills](projects/002-agent-skills/README.md) | 25 项研发流程：能力、产物、场景、扩展与个人价值；摘要图及全量图 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
+| 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
 
 ## 项目图览
 
@@ -34,6 +35,18 @@
 对你：现在借鉴它组织开源研究的目标、上下文和决策记录；做网页或个人工具时直接采用开发验证流程；长期维护时补齐流水线、观测与发布。价值是让临时对话沉淀为可复用的工程方法。研究场景属于方法迁移，效果未实测。
 
 [完整研究](projects/002-agent-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) · [25 项全量图](https://yydshly.github.io/0929_codex_project/002-agent-skills/full-map.html)
+
+### 004 · MengTo/Skills
+
+以视觉设计与前端体验为核心的 146 项技能：指导整页表达、风格布局、动效细节、三维与游戏原型，并支持参考拆解、素材、审查和交付。提供完整能力图、六种实际构造效果，以及面向开源研究、产品官网和长期方法积累的使用建议。
+
+![MengTo Skills 完整能力摘要：代表技能、预期效果、适用场景和组合边界](projects/004-mengto-skills/assets/capability-map.svg)
+
+对你：先用于开源研究展示页与个人工具介绍页；有参考时拆解交互，需要空间或玩法时再选择三维与游戏能力。长期把成功实现和验收经验积累为自己的制作方法。企业 AI 页面能说明审批、审计与回退，实际后台能力仍需另行开发。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) · [直接看六种实际效果](https://yydshly.github.io/0929_codex_project/004-mengto-skills/#real-effects) · [可切换风格实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/styles-lab.html) · [放大能力图](https://yydshly.github.io/0929_codex_project/004-mengto-skills/map.html) · [完整研究](projects/004-mengto-skills/README.md)
+
+数量依据固定版本 798db0a。六种风格为本项目按技能规范实际构造，其余能力按原文归纳，未全部实测。
 
 ## 仓库结构
 
