@@ -1,0 +1,110 @@
+[
+  {
+    "path": "README.md",
+    "local": "README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/README.md",
+    "sha256": "FE13915E217F905739B64124CBB03B72758FA2081B7198CABEEFAEE4914A6F14"
+  },
+  {
+    "path": "LICENSE",
+    "local": "LICENSE",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/LICENSE",
+    "sha256": "0457F5BCEC3B3B211605DFB5D1A49042FD638F3686A410FE099C24A25AF13C48"
+  },
+  {
+    "path": "packages/coding-agent/package.json",
+    "local": "packages__coding-agent__package.json",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/package.json",
+    "sha256": "CB0F782F13B3ACB1DA0632631F60BA5BF38B169F906C172F8B4C258E6D6626B8"
+  },
+  {
+    "path": "packages/coding-agent/docs/how-pi-works.md",
+    "local": "packages__coding-agent__docs__how-pi-works.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/how-pi-works.md",
+    "sha256": "7D43AB8E2B886CD1047DCEE503588A1C828B92333DD4F177526B89E6DB8AAA8B"
+  },
+  {
+    "path": "packages/coding-agent/docs/usage.md",
+    "local": "packages__coding-agent__docs__usage.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/usage.md",
+    "sha256": "A2DDA66C065FF20F6A6C05B084076ABEF276FE02B11F1D604B9FDD8B891F0C4A"
+  },
+  {
+    "path": "packages/coding-agent/docs/sessions.md",
+    "local": "packages__coding-agent__docs__sessions.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/sessions.md",
+    "sha256": "5AD5BDA19CAAA0794BB44F86C85C8E66BE6F493C52BB5E6A4D127B58CD8C2C1E"
+  },
+  {
+    "path": "packages/coding-agent/docs/quickstart.md",
+    "local": "packages__coding-agent__docs__quickstart.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/quickstart.md",
+    "sha256": "3E406C9D241073CD9F231E9DD596270D61A8B81E7B88A03801696B6B80A3B689"
+  },
+  {
+    "path": "packages/coding-agent/docs/sdk.md",
+    "local": "packages__coding-agent__docs__sdk.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/sdk.md",
+    "sha256": "FF4F59A5A3B4721C184581DB645994855D3AA4CEA6D06D5FA631FC2E152D4190"
+  },
+  {
+    "path": "packages/coding-agent/docs/extensions.md",
+    "local": "packages__coding-agent__docs__extensions.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/extensions.md",
+    "sha256": "04BDAF9F7584B8720720B3EEF21F49D95B82EC9EE819E54B460469EA353EB304"
+  },
+  {
+    "path": "packages/coding-agent/docs/security.md",
+    "local": "packages__coding-agent__docs__security.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/security.md",
+    "sha256": "3B1E40A8D28B17C9EB7E496A7BA88FBE04665E3E6AE02873A58B943E325AD504"
+  },
+  {
+    "path": "packages/agent/README.md",
+    "local": "packages__agent__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/agent/README.md",
+    "sha256": "EEEDFBEC69C5A2002E64E8353CD0505FCEBF50B6E24F90B35317002099DAAB7B"
+  },
+  {
+    "path": "packages/ai/README.md",
+    "local": "packages__ai__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/ai/README.md",
+    "sha256": "AE0333FE571581327BFF973C771CD64A6C38E1C763D7F35262EB663437054B41"
+  },
+  {
+    "path": "packages/durable/README.md",
+    "local": "packages__durable__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/durable/README.md",
+    "sha256": "BABC1283AC607BCE0729CB349062C14005653F9FFD8C579F8FBB669251F8AC22"
+  },
+  {
+    "path": "packages/chord/README.md",
+    "local": "packages__chord__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/chord/README.md",
+    "sha256": "765E67D90E55A45EC8269F6AA7A9C38AF6C8828E33DF1EF87E75B89FDB08F7E1"
+  },
+  {
+    "path": "packages/telemetry/README.md",
+    "local": "packages__telemetry__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/telemetry/README.md",
+    "sha256": "D68B25B6D319C7A02B509C9CCF1BAFEA2CC1EFA7F15AF756FB59FA451B2FB4D7"
+  },
+  {
+    "path": "packages/tui/README.md",
+    "local": "packages__tui__README.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/tui/README.md",
+    "sha256": "2CB1B0D02B94BA20DB9F812379BBB9B98D56D68C6E38CDC0C6CBD5491F610E7E"
+  },
+  {
+    "path": "packages/coding-agent/src/core/tools/index.ts",
+    "local": "packages__coding-agent__src__core__tools__index.ts",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/src/core/tools/index.ts",
+    "sha256": "3C66EA1E03530FB85436EE639F35ADD8BF72718AC6E76B738A1F41BE58A2B472"
+  },
+  {
+    "path": "packages/coding-agent/docs/mcp.md",
+    "local": "packages__coding-agent__docs__mcp.md",
+    "url": "https://raw.githubusercontent.com/earendil-works/pi/4df1574339bfbd1a9750ff485bb618da397ba135/packages/coding-agent/docs/mcp.md",
+    "sha256": "437D9FB1316469128F2261EFE6006E4B722AE8B355CF9F8C6D44F42C9C4098C9"
+  }
+]

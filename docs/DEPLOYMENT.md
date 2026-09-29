@@ -131,3 +131,20 @@ CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对
 发布静态语音能力研究网页，涵盖能力、效果、场景、个人价值与使用路线。官方音频与截图直接引用原站，需要联网；本次不部署语音模型服务。构建复制已有摘要图，CI 无需图像渲染依赖。部署结果以 GitHub Actions 和公开页面验证为准。
 
 2026-09-29，[VoiceStudio 发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36569465710)构建与部署成功，对应内容提交 ec5734a33ae88b0bef36ae75facd29917fe3e236。首页、摘要图阅读页、样式、脚本、PNG、SVG、来源清单与示例文稿共 8 项公开资源均返回 HTTP 200，并与本地文件一致（文本按 Git 换行规则比对）；PNG 与已确认原图逐字节一致。公开总入口已收录 011，浏览器确认四项摘要与原图阅读入口。只提交 VoiceStudio 及相关索引、发布步骤，其他未提交项目保留原状。
+
+## 项目 010 · Pi Agent Harness
+
+Pi 对照展示在 `site/010-pi/`，与 QM 一同接入 Pages 发布。先运行 `node projects/010-pi/web/build.mjs` 与 `node projects/010-pi/web/verify.mjs`。可发布文件均为静态资源，无模型调用或用户凭据；由同一 Pages 工作流构建和验证。
+
+内容包括十类能力、六步原理、七个公开模块、五个场景、个人价值、固定来源和原创 SVG 总览。上游未运行实测。
+
+## 项目 012 · QM
+
+- 在线摘要：https://yydshly.github.io/0929_codex_project/012-qm/
+- 原摘要图的缩放阅读：https://yydshly.github.io/0929_codex_project/012-qm/map.html
+- Pi 关联研究：https://yydshly.github.io/0929_codex_project/010-pi/
+
+网页明确能力、预期成果、场景、个人意义及采用时机，使用已确认的 `qm-overview.png` 原文件，并补充与 Codex 的能力关系。发布研究网站，不部署 QM 服务或接入私人数据。
+
+通过现有 GitHub Pages 工作流构建 010 / 012，分别执行 build.mjs 与 verify.mjs。验证固定来源哈希、原摘要图一致性、页面资源与跨项目链接。上游模型未实测。
+

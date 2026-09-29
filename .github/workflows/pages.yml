@@ -13,7 +13,9 @@ on:
       - 'projects/006-jakubkrehel-skills/**'
       - 'projects/008-handraw-style/**'
       - 'projects/009-duix-avatar/**'
+      - 'projects/010-pi/**'
       - 'projects/011-voicestudio/**'
+      - 'projects/012-qm/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -74,6 +76,12 @@ jobs:
         run: |
           node projects/011-voicestudio/web/build.mjs
           node projects/011-voicestudio/web/verify.mjs
+      - name: Build and verify QM research and Pi reference
+        run: |
+          node projects/010-pi/web/build.mjs
+          node projects/012-qm/web/build.mjs
+          node projects/010-pi/web/verify.mjs
+          node projects/012-qm/web/verify.mjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

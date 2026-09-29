@@ -19,7 +19,9 @@
 | 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
 | 008 | [Handraw Style](projects/008-handraw-style/README.md) | 手绘视觉参考与提示词库：280 风格、124 版式、36 主题色；适合按具体内容需求选型，出图依赖外部模型 | 已完成 | [在线摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [一图总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) |
 | 009 | [Duix Avatar](projects/009-duix-avatar/README.md) | 本地数字人口播：人物视频＋文案或音频生成新口播；适合研究导读、产品介绍与培训，减少重复拍摄；含演示证据与原摘要图，模型未实测 | 已完成研究与网页 | [在线能力、效果与价值](https://yydshly.github.io/0929_codex_project/009-duix-avatar/) |
+| 010 | [Pi Agent Harness](projects/010-pi/README.md) | QM 的执行基础对照；Agent 执行基础与终端助手：10 类能力、7 个公开模块、5 个场景；从模型判断、工具执行与反馈理解自己的 Agent 产品 | 已完成文档与展示；上游未实测 | [Pi 对照研究](https://yydshly.github.io/0929_codex_project/010-pi/) |
 | 011 | [VoiceStudio](projects/011-voicestudio/README.md) | 语音制作工作台：文稿配音、克隆、转写、视频配音与有声书；用于研究旁白、教程、知识音频与数字人声音接入 | 已完成资料研究与展示；模型未实测 | [能力、效果与个人价值](https://yydshly.github.io/0929_codex_project/011-voicestudio/) |
+| 012 | [QM](projects/012-qm/README.md) | Agent 工作平台：研究资料、处理代码与文件，形成报告、测试记录和内部工具；适合持续项目跟踪与团队协作，需要长期自动化、共享资源和分权时再试点 | 已完成研究与网页；上游未实测 | [能力、效果与采用时机](https://yydshly.github.io/0929_codex_project/012-qm/) |
 
 ## 项目图览
 
@@ -135,6 +137,28 @@
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/011-voicestudio/) · [放大摘要图](https://yydshly.github.io/0929_codex_project/011-voicestudio/map.html) · [完整研究](projects/011-voicestudio/README.md)
 
 沿用已确认的完整汇报图；官方试听与教学示意分别标识。固定版本 eef0e23，未运行本机模型或验证数字人组合。发布结果记录见子项目 RESEARCH.md。
+
+### 010 · Pi Agent Harness
+
+Pi 是可扩展的 Agent 执行基础，也自带终端助手。先了解十类能力及成果，再通过六步执行循环、七个公开模块、五个使用场景理解模型、工具与运行时如何协作。对我们的价值是学习执行基础、固化研究方法，并逐步构建专用 Agent 产品。
+
+![Pi 能力、原理、模块与场景总览](projects/010-pi/assets/overview.svg)
+
+[完整研究](projects/010-pi/README.md) · [本地交互展示](site/010-pi/index.html) · [能力总览图](projects/010-pi/assets/overview.svg)
+
+固定版本 `4df1574`；18 份来源留存，原版未运行。页面交互为教学示意，成果与收益未进行真实模型验证。静态展示通过 GitHub Pages 发布。
+
+### 012 · QM
+
+以 Agent 执行为核心的个人与团队工作平台：调用 Codex、Pi 等引擎进行资料研究、代码与文件处理，并组织记忆、权限、后台任务和成果发布，可形成研究报告、代码差异、测试记录、项目清单与内部看板。
+
+![QM 能力、效果、场景、价值与采用时机](projects/012-qm/assets/qm-overview.png)
+
+对我们：现在学习架构与复用研究方法；当需要长期跟踪多个项目、定期交付、主动提醒，或多人共享且凭据分别管理时，先用一个仓库周报试点，再评估采用。个人临时研究与写网页若已有工具满足，不必急着迁移。
+
+[在线摘要](https://yydshly.github.io/0929_codex_project/012-qm/) · [可缩放摘要图](https://yydshly.github.io/0929_codex_project/012-qm/map.html) · [完整研究](projects/012-qm/README.md) · [Pi 对照](https://yydshly.github.io/0929_codex_project/010-pi/)
+
+沿用已确认摘要图；固定版本 `9143874`，16 份来源留存。文档与源码研究，上游未部署实测。
 
 ## 仓库结构
 

@@ -1,0 +1,87 @@
+{
+  "repository": "https://github.com/yc-software/qm",
+  "commit": "9143874bfa00ca13cf8a9df5f6bf8b033c89e11e",
+  "retrieved": "2026-09-29",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/README.md",
+      "sha256": "ac1aef9df1411fce93140540948b9725954530d366ac43a8814624f7fa6ab602"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/LICENSE",
+      "sha256": "586fe8965302b57c7a490a42911f847f0dba54e60d95df53f3ad53ed9eed6b83"
+    },
+    {
+      "path": "SECURITY.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/SECURITY.md",
+      "sha256": "ec543f125049f6d6a43cf72b60d680548a8f842d728e724351238e4ebc961c5d"
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/package.json",
+      "sha256": "99ba8531be0eefe84db2476ed9d9b822175138fdb23476e0bd58dd7c63447421"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/getting-started.md",
+      "sha256": "96da98ebb6ec46a04401d024a5fc8906a259ad203030c1b086617c320fecf022"
+    },
+    {
+      "path": "docs/swarms.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/swarms.md",
+      "sha256": "052dec8a849b1e9611c678fa1236e9dab92b4ac80fc1ca0c46ebdc40f131eaa6"
+    },
+    {
+      "path": "docs/memory-providers.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/memory-providers.md",
+      "sha256": "e806507a161694aa9e319302cee7611365e5a51af9d2daf7fbc8a827b8464e43"
+    },
+    {
+      "path": "docs/skill-registry.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/skill-registry.md",
+      "sha256": "4ada60ca959bdee6dd4e683bfe666b6e7fbdec74b021578099d65305bc55e3ba"
+    },
+    {
+      "path": "docs/sandbox-resources.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/sandbox-resources.md",
+      "sha256": "0f743dd387ada3cabcb9e7fe274ec8a65d9029ba73b69b1a00a23340c4882664"
+    },
+    {
+      "path": "docs/files-publication.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/docs/files-publication.md",
+      "sha256": "80e6f4491c996b501184314d497f6338025a005066740c32ccdbbf60d113d6e7"
+    },
+    {
+      "path": "cli/templates/deployment/deployment.md",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/cli/templates/deployment/deployment.md",
+      "sha256": "e935594e220b882f5a78cf4ac44cf36d0a75c35ae77a96d1aff5e2a7e4231ad0"
+    },
+    {
+      "path": "src/harness/harness-router.ts",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/src/harness/harness-router.ts",
+      "sha256": "b4607a47530153acc63f19e4f8c4ba62aaf7269e23aa29f5e25268a6b19c16b0"
+    },
+    {
+      "path": "src/harness/pi-harness.ts",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/src/harness/pi-harness.ts",
+      "sha256": "186c8ac2de76222bc6b422b29d827a7ea61a15cf82a887c36ada85ca14b7a5e9"
+    },
+    {
+      "path": "src/core/orchestrator.ts",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/src/core/orchestrator.ts",
+      "sha256": "090b9072002991ae0a1f007f5b83773459d6b3416f5a75caa211aaefdd59be50"
+    },
+    {
+      "path": "src/index.ts",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/src/index.ts",
+      "sha256": "b50573a87866b6d1904d972c2a7e390657d99fc88d4a494d37d22671ac733bf8"
+    },
+    {
+      "path": "src/harness/codex-harness.ts",
+      "url": "https://github.com/yc-software/qm/blob/9143874bfa00ca13cf8a9df5f6bf8b033c89e11e/src/harness/codex-harness.ts",
+      "sha256": "0e2a045badaa0ee72585f75a0c1d2fb1a98602354d450c285752f042d54c01b1"
+    }
+  ]
+}

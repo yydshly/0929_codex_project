@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-29",
+  "commit": "9143874bfa00ca13cf8a9df5f6bf8b033c89e11e",
+  "scope": "Static research page and retained evidence; upstream QM not executed",
+  "sourceSha256Checks": {
+    "count": 16,
+    "result": "pass"
+  },
+  "javascriptSyntax": "pass",
+  "localAssetsAndAnchors": "pass",
+  "researchHomeRegistration": "pass",
+  "qmPiBidirectionalNavigation": "pass",
+  "browser": {
+    "url": "http://127.0.0.1:8810/012-qm/",
+    "activation": "Semantic keyboard activation verified via rendered content",
+    "capabilityFilter": "Automation shows 2 capabilities; All restores 10",
+    "scope": "Shared project updates resource explanations",
+    "executionStep": "Step 4 shows harness, model and runtime explanation",
+    "scenario": "Internal tools and dashboard shows expected workflow and result",
+    "desktopVisual": "pass",
+    "mobileViewportOverride": "390 x 844",
+    "mobileDocumentClientWidth": 375,
+    "mobileDocumentScrollWidth": 375,
+    "comparisonTable": "650px table scrolls inside 333px region; document does not overflow",
+    "consoleErrors": [],
+    "screenshot": "assets/browser-home.png"
+  },
+  "relatedPiVerification": "18 source hashes, page links and generated copies pass",
+  "publicDeployment": "GitHub Pages configured; publication result recorded in docs/DEPLOYMENT.md",
+  "upstreamRuntimeValidation": "not performed",
+  "summaryUpdate": {
+    "approvedImage": "Original qm-overview.png reused with identical SHA-256",
+    "coverage": [
+      "capabilities",
+      "expected outcomes",
+      "scenarios",
+      "personal value",
+      "adoption timing",
+      "Codex relationship"
+    ],
+    "mapZoom": "120% and fit-width reset verified",
+    "mobile": "375px content within 375px document",
+    "screenshot": "assets/browser-summary.png"
+  }
+}

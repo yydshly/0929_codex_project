@@ -1,0 +1,62 @@
+Use case: infographic-diagram
+Asset type: one polished Chinese knowledge-summary infographic for the existing QM research project.
+Create ONE high-resolution portrait infographic, preferably 1800x2400 or similarly spacious 3:4 canvas. Entire content in accurate Simplified Chinese. Clean editorial information design, pale cool background, dark navy typography and anchor blocks, restrained cobalt and mint accents consistent with a professional research website. No photography, no mascot, no fake screenshots. Sharp legible Chinese sans-serif typography, large headings, generous whitespace, tidy alignment. Five clear numbered sections and one compact footer. Mix simple icons, layered diagram, cards and a left-to-right adoption path. It must be easily zoom-readable and include all essential text below verbatim. Do not add unsupported product features or safety claims. The name is QM, NOT QOM. Codex and Pi are alternative engines, never imply both mandatory. This is a research synthesis, not official product material.
+
+HEADER:
+Small eyebrow: “开源项目研究 / 012”
+Large title: “一张图读懂 QM”
+Subtitle: “能力、场景、价值，以及何时值得使用”
+
+SECTION 01 — 本质是什么
+Large central definition: “让个人与团队使用 Agent 的工作平台”
+Secondary text: “以 Agent 执行为核心，把空间、资源、权限和持续工作组织起来。”
+Three-layer diagram:
+Top layer “QM：空间 · 记忆 · 文件 · 权限 · 调度”
+Down arrow labeled “选择执行引擎”
+Middle layer “Codex / Pi / OpenCode / Claude Code”
+Down arrow
+Bottom layer “模型判断 + 工具操作 + 结果反馈”
+Compact highlighted relation note:
+“与 Codex 的关系”
+“执行条件相当时，可承接 Codex 能完成的同类任务。”
+“所需文件、工具、插件和权限仍需接入；不会自动继承现有任务。”
+
+SECTION 02 — 包含哪些能力
+Five equal cards, each with a simple meaningful icon and two capabilities:
+“协作” / “个人与共享空间 · 权限与操作记录”
+“执行” / “跨服务检索 · 文件与代码处理”
+“积累” / “工作记忆 · Skills 复用与共享”
+“自动化” / “定时与事件触发 · 多 Agent 分工”
+“交付” / “报告与成果文件 · 内部应用与看板”
+
+SECTION 03 — 可以用在哪里
+Five concise rows pairing scenario and output:
+“开源研究 → 持续跟踪仓库，整理变化与结论”
+“开发维护 → 修改代码，运行测试，整理评审材料”
+“团队协作 → 共享背景，汇总进展，跟进待办”
+“信息整理 → 汇总文档与邮件，生成报告或草稿”
+“内部工具 → 构建共享看板，持续更新数据”
+Small note: “场景为能力推导，实际效果取决于接入与配置。”
+
+SECTION 04 — 对我们的价值
+Three horizontal cards connected by arrows:
+“现在：看懂架构” / “辨别模型、引擎与工作平台的分工”
+“下一步：沉淀方法” / “复用研究模板，积累项目知识”
+“以后：持续协作” / “把个人操作变成可共享的长期流程”
+
+SECTION 05 — 什么时候用它
+Clear 3-stage adoption roadmap, with restrained status labels:
+“暂不急用” / “个人临时研究、写网页，现有 Codex 已够用”
+“值得试用” / “需要长期跟踪多个项目、定期产出和主动提醒”
+“考虑正式采用” / “出现多人共享、凭据分开管理、统一后台运行的需求”
+Prominent final recommendation:
+“从一个仓库的每周变化报告开始试点”
+Small supporting line:
+“核对结果质量、权限边界、重启恢复与实际成本”
+
+FOOTER:
+“研究结论：QM 的增量在于组织与持续工作；具体任务能力取决于执行引擎和工具。”
+“依据 yc-software/qm · 9143874 · 2026-09-29”
+“文档与源码研究，未部署实测；上游仍属早期实验项目。”
+
+Design constraints: Give section 01 sufficient space so diagram and Codex caveat are readable. Use small consistent outline icons only as visual aids. Each numbered section is visually separated. Avoid huge empty decoration or excessively tiny footnotes. Proofread every Chinese character. One complete infographic, no montage of separate pages.

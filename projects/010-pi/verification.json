@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-29",
+  "upstreamCommit": "4df1574339bfbd1a9750ff485bb618da397ba135",
+  "upstreamRuntimeTested": false,
+  "publicDeployment": false,
+  "sourceFilesVerified": 18,
+  "staticChecks": ["Source SHA-256 matches", "Fixed commit URLs", "10 capability cards", "7 public modules", "5 scenarios", "6 execution steps", "Local resource links", "Source and site copies match", "JavaScript syntax"],
+  "browserChecks": {
+    "capabilityFilter": "Tool integration and extensions displays one matching card; all restored",
+    "executionSteps": "Step 4 switches to Pi + tools and explains real execution",
+    "scenarios": "Periodic maintenance displays scheduler prerequisites and expected outputs",
+    "consoleErrors": 0,
+    "overviewMap": "Responsive diagram visually inspected; all three capability columns and six execution steps fit the default viewport width",
+    "mobileViewport": {"width": 390, "height": 844, "documentScrollWidth": 375, "horizontalOverflow": false},
+    "screenshot": "assets/browser-home.png"
+  },
+  "limitations": ["Educational interactions only", "No real model invocation", "No task success-rate, performance or cost benchmark"]
+}
