@@ -48,3 +48,5 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 - 摘要图片：https://yydshly.github.io/0929_codex_project/002-agent-skills/capability-summary.svg（同名 PNG 可下载）
 
 项目 002 的静态文件提交于 `site/002-agent-skills/`，发布前执行 `node projects/002-agent-skills/web/verify.mjs`。该检查核对 25 项技能覆盖、图表、图片尺寸、资源同步与本地链接；不会安装或执行上游技能。
+
+2026-09-29，项目 002 的[发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36519587049)已成功，提交 `d0ad640981d06f92766ccd70f8d51217ab0cc457`。首页、全量图和两种图的 SVG / PNG、网页数据均通过 HTTP 200 检查；浏览器确认摘要图与全部 25 项能力可见。
