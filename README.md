@@ -127,9 +127,9 @@
 
 ![Handraw Style 的能力、风格、实测效果、适用场景与个人使用时机](projects/008-handraw-style/assets/capability-map.png)
 
-**可实现效果与使用场景：**适合探索手绘海报、科普信息图、品牌插画、活动物料等视觉方向。网页提供全部 440 张上游参考图，以及 12 组按场景出图、9 组对照实测；这些是单次样例，文字、主体和布局仍需人工校验。
+**可实现效果与使用场景：** 适合探索手绘海报、科普信息图、品牌插画、活动物料等视觉方向。网页提供全部 440 张上游参考图，以及 12 组按场景出图、9 组对照实测；这些是单次样例，文字、主体和布局仍需人工校验。
 
-**对你的意义与使用时机：**现在把它作为可检索的视觉选型资料收录即可。以后当具体产品需要持续制作上述内容时，再选择风格、版式和配色，结合品牌要求与所用模型试生成、筛选和修正；没有明确内容需求时，无需为了接入这个库单独开发功能。
+**对你的意义与使用时机：** 现在把它作为可检索的视觉选型资料收录即可。以后当具体产品需要持续制作上述内容时，再选择风格、版式和配色，结合品牌要求与所用模型试生成、筛选和修正；没有明确内容需求时，无需为了接入这个库单独开发功能。
 
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [放大摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [按场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) · [全量图鉴](https://yydshly.github.io/0929_codex_project/008-handraw-style/gallery.html) · [完整研究](projects/008-handraw-style/README.md)
 
