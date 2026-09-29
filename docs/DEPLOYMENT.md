@@ -1,38 +1,36 @@
-# 多个 Web 演示的部署约定
+# Web 研究站点部署
 
-当前仅初始化目录与约定，尚未创建网页、启用 GitHub Pages 或配置部署流程。
+本仓库使用一个 GitHub Pages 站点，通过子路径托管研究页面。本轮接入项目 001，部署完成状态将在实际访问验证后记录。
 
-## 一个总入口，多个子路径
+## 地址与范围
 
-GitHub Pages 每个仓库最多对应一个站点，可托管静态 HTML、CSS 和 JavaScript。因此本仓库计划在同一站点下为各研究项目分配独立路径。
+- 总入口：`https://yydshly.github.io/0929_codex_project/`
+- 001 能力摘要：`https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/`
+- 中文目录：项目路径下的 `catalog.html`
+- 完整地图：项目路径下的 `atlas.html`
+- 摘要图：项目路径下的 `summary.svg`，可通过 Markdown 图片语法嵌入 README
 
-计划中的地址（尚未发布）：
+发布范围为 Git 中提交的 `site/` 静态文件。其他研究项目的本地草稿不属于本轮提交和发布内容。
 
-```text
-https://yydshly.github.io/0929_codex_project/                       总入口
-https://yydshly.github.io/0929_codex_project/001-project-name/      项目 001
-https://yydshly.github.io/0929_codex_project/002-another-project/   项目 002
+## 自动发布流程
+
+工作流位于 `.github/workflows/pages.yml`，在 `main` 的项目 001、站点目录或工作流文件变更时触发，也支持手动触发。
+
+1. 使用 Node.js 22 执行项目 001 的 `web/build.mjs`，无需安装依赖。
+2. 执行 `web/verify.mjs`，核对 1,108 项双语数据、20 类摘要、5 个场景、SVG 覆盖和本地链接。
+3. 将 `site/` 上传为 Pages 产物。
+4. 部署到 `github-pages` 环境；部署任务仅获得 Pages 和身份令牌写权限。
+
+GitHub Pages 使用 GitHub Actions 作为构建来源。只有提交到远端的静态内容进入发布产物，网页不包含服务端或服务密钥。新增项目应自行完成研究、生成发布文件并接入总入口后再提交。
+
+## 本地验证
+
+```powershell
+node projects/001-awesome-agent-skills/web/build.mjs
+node projects/001-awesome-agent-skills/web/verify.mjs
+python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-来源：[GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
+所有页面资源使用相对路径，以兼容 `/0929_codex_project/` 项目路径。在线验收应检查首页、中文检索、详情、完整地图、摘要 SVG 和手机布局。
 
-## 源码与发布目录
-
-- 演示源码放在 `projects/<编号-名称>/web/`，各项目自行选择技术栈并记录启动、构建命令。
-- 静态发布文件整理到 `site/<编号-名称>/`，该目录中的 `index.html` 是对应演示入口。
-- 总站点首页放在 `site/index.html`，后续按与总 README 相同的编号顺序展示演示入口。
-- 未来使用 GitHub Actions 构建各演示，统一上传 `site/` 作为 Pages 发布产物；首个演示接入时再添加实际工作流。
-
-## 子路径兼容
-
-每个演示必须能在 `/0929_codex_project/<编号-名称>/` 下工作。配置框架的资源基础路径，避免把资源写成指向域名根目录的 `/assets/...`。
-
-需要前端路由时，优先选择哈希路由，或明确设计静态页面路由方案；验收时检查直接打开、刷新、跨页面导航和图片加载。
-
-纯静态页面可直接整理到发布目录。需要构建的项目应提交依赖锁文件，在子项目 README 中记录所需运行时版本和构建命令。
-
-## 发布前记录
-
-首个演示就绪时，在仓库 Settings → Pages 中选择 GitHub Actions，并接入实际构建与部署流程。部署成功且验证访问后，再将总 README 中的“未发布”替换为真实演示链接。
-
-GitHub Pages 不运行服务端程序。有后端需求的项目应单独部署后端或提供明确标注的静态示例数据，并在子项目 README 中说明演示范围。客户端代码和发布目录中不得包含服务密钥。
+参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。

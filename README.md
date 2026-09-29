@@ -10,11 +10,19 @@
 
 | 编号 | 研究项目 | 摘要 / 关注点 | 进度 | Web 演示 |
 | :--- | :--- | :--- | :--- | :--- |
-| — | 暂无研究项目 | 下一个项目从 `001` 开始 | 待收录 | — |
+| 001 | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 技能与技能集合目录：20 类能力、预期产物和 5 个个人场景；1,108 项中文简介 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/)（部署目标） |
 
 ## 项目图览
 
-后续在这里按相同编号顺序展示各项目的代表截图、简短说明和研究入口。图片保存在对应项目的 `assets/` 目录中；尚未添加的图片或尚未发布的演示不放占位链接。
+### 001 · Awesome Agent Skills
+
+这是一个外部技能与技能集合的发现目录。下图直接展示 20 类能力、预期产物和使用时机；结合具体技能与工具，可以用于研究资料、交付文档、制作网页及自动化重复工作。
+
+![Awesome Agent Skills 的 20 类能力、预期产物与使用场景](projects/001-awesome-agent-skills/assets/capability-summary.svg)
+
+[完整研究](projects/001-awesome-agent-skills/README.md) · [能力摘要网页](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) · [下载摘要图](projects/001-awesome-agent-skills/assets/capability-summary.svg)
+
+图示为固定版本目录的中文研究归纳；目录包含技能集合，1,108 是入口数，实际技能效果尚未逐项实测。
 
 ## 仓库结构
 
@@ -28,7 +36,7 @@
 │   ├── assets/                # 封面、截图、结构图
 │   └── web/                   # 可选的 Web 演示源码
 ├── docs/                      # 收录规范与部署约定
-└── site/                      # 未来统一发布的静态站点目录
+└── site/                      # 统一发布的静态站点目录
 ```
 
 ## 开始研究

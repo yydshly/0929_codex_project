@@ -4,4 +4,4 @@
 
 目录使用 `三位编号-英文短名称`，例如 `001-project-name`。按数字编号排序，已分配的编号不改动、不复用。
 
-当前还没有收录项目。新增时参考[收录规范](../docs/PROJECT_GUIDE.md)，从 `001` 开始。
+已完成：[001 · Awesome Agent Skills](001-awesome-agent-skills/README.md)，包括 20 类能力摘要、1,108 项中文目录与个人使用场景。新增项目参考[收录规范](../docs/PROJECT_GUIDE.md)，按已分配的最大编号加一。

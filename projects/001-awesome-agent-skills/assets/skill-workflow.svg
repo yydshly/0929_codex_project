@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Skills：从发现到交付</title>
+  <desc id="desc">目录用于发现技能。用户任务进入 Agent，Agent 加载技能并使用工具，最后独立验证交付结果。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#65758c"/></marker></defs>
+  <rect width="1200" height="560" rx="24" fill="#f3f6fb"/>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <text x="44" y="57" font-size="28" font-weight="700" fill="#16243a">Agent Skills：从发现到交付</text>
+    <text x="44" y="91" font-size="17" fill="#56677e">001 · Awesome Agent Skills 研究 / 职责与执行关系</text>
+    <rect x="44" y="125" width="335" height="110" rx="16" fill="#e0e9ff" stroke="#b3c7f7"/>
+    <text x="65" y="163" font-size="23" font-weight="700" fill="#233e79">技能目录</text>
+    <text x="65" y="196" font-size="17" fill="#344f82">分类、来源、候选入口</text>
+    <rect x="443" y="125" width="335" height="110" rx="16" fill="#e0e9ff" stroke="#b3c7f7"/>
+    <text x="464" y="163" font-size="23" font-weight="700" fill="#233e79">选定的技能包</text>
+    <text x="464" y="196" font-size="17" fill="#344f82">说明、参考资料、脚本、模板</text>
+    <path d="M379 180H432" stroke="#65758c" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M570 235V283" stroke="#65758c" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="590" y="268" font-size="15" fill="#56677e">按需加载</text>
+    <g fill="#fff" stroke="#cfdae7"><rect x="44" y="294" width="235" height="119" rx="16"/><rect x="324" y="294" width="330" height="119" rx="16"/><rect x="700" y="294" width="206" height="119" rx="16"/><rect x="950" y="294" width="206" height="119" rx="16"/></g>
+    <g font-size="22" font-weight="700" fill="#16243a"><text x="65" y="337">用户任务</text><text x="345" y="337">宿主 Agent</text><text x="720" y="337">工具与执行</text><text x="970" y="337">结果验证</text></g>
+    <g font-size="16" fill="#56677e"><text x="65" y="373">输入与完成标准</text><text x="345" y="373">模型判断、上下文、权限</text><text x="720" y="373">文件、浏览器、API</text><text x="970" y="373">检查业务目标</text></g>
+    <g stroke="#65758c" stroke-width="2" marker-end="url(#arrow)"><path d="M279 352H313"/><path d="M654 352H689"/><path d="M906 352H939"/></g>
+    <rect x="44" y="450" width="1112" height="65" rx="14" fill="#e4f1ea"/>
+    <text x="65" y="490" font-size="19" fill="#285b42">研究重点：技能提供方法；实际收益需要用相同任务、明确标准和重复实验验证。</text>
+    <text x="44" y="541" font-size="13" fill="#728197">原创概念图 · 根据 agentskills.io 归纳 · 2026-09-29 · 非运行截图</text>
+  </g>
+</svg>
