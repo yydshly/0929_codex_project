@@ -1,0 +1,74 @@
+{
+  "voiceboxCommit": "51f49dea198384b4eb6087b72c17057c6eb1c1cd",
+  "researchedAt": "2026-09-29",
+  "repository": "https://github.com/debpalash/VoiceStudio",
+  "commit": "eef0e2304be21c9bfd08cfca0254918522105b06",
+  "commitDate": "2026-09-29T00:58:38Z",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "4FB9D23AB4DBC0FA269F282652515C0988A0C15FD58C4693EC5AA16F000A470A",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/README.md"
+    },
+    {
+      "path": "docs/feature-catalog.md",
+      "sha256": "E168B2A65E07C4919B049C571C17C1A387FD3EF8AD2A205BE2243501E146D4DF",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/docs/feature-catalog.md"
+    },
+    {
+      "path": "docs/mcp.md",
+      "sha256": "BB2DB4924DAEE905724DBCC29C54B157962874D2F36DDD716DFCD85DBA439559",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/docs/mcp.md"
+    },
+    {
+      "path": "docs/performance.md",
+      "sha256": "758A012C8E13C7DF3A2526261AF4CC820444FAB2693F7898E08820EC05882105",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/docs/performance.md"
+    },
+    {
+      "path": "docs/benchmarks.md",
+      "sha256": "D0C60F58F50E8C90355EBB920D3F2AA357F5A50864EB1493E03084C2837697F1",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/docs/benchmarks.md"
+    },
+    {
+      "path": "electron/README.md",
+      "sha256": "B2776C1CC9633EDFCFD50078824967840720744C8CAC209E994802B59D210D70",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/electron/README.md"
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "sha256": "2A387EDE1873C6286BFA841CE1AAB59532F334566ECE99A024B6D8969671C07B",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/LICENSE-NOTICE.md"
+    },
+    {
+      "path": "backend/services/tts_backend.py",
+      "sha256": "E5C39E934052A4E9B320E2E949F55E13AB2FE054AF49F0CEE8947B328B0ADD0D",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/tts_backend.py"
+    },
+    {
+      "path": "backend/services/asr_backend.py",
+      "sha256": "6CFFA2FC095182A3BB3BEB408EA9109816949F96976B7C8609918F4116DB3B65",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/asr_backend.py"
+    },
+    {
+      "path": "backend/services/dub_pipeline.py",
+      "sha256": "3D8F4FAA6C894940B5989FEE4E1B389F69E008A560C06B921BCD152406F53AD8",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/dub_pipeline.py"
+    },
+    {
+      "path": "backend/services/translator.py",
+      "sha256": "35F47F33F377583C8CD962D692C6B9271FABB499F24EEA87A705CA5F503E9487",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/translator.py"
+    },
+    {
+      "path": "backend/services/audiobook.py",
+      "sha256": "7077F1ABE639D79145CC87E52B68E7AEC3445640FA71EDAB0B5D336D073B5DD0",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/audiobook.py"
+    },
+    {
+      "path": "backend/services/chunked_tts.py",
+      "sha256": "0CD7CD41CD5B55A8B82CB1EC927479FA304FCF14F7E14D55270FD18982292FFF",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/eef0e2304be21c9bfd08cfca0254918522105b06/backend/services/chunked_tts.py"
+    }
+  ]
+}

@@ -23,3 +23,5 @@
 新增已完成研究：[008 · Handraw Style](008-handraw-style/README.md)，梳理手绘风格、排版、主题色、图文模式与模型适配，并提供 440 张上游编号原图的全量图鉴、十二组按场景实际出图、九组对照实测和交互式拼装预览。先看[在线能力摘要与使用判断](https://yydshly.github.io/0929_codex_project/008-handraw-style/)，再按需查看[摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png)和[场景样例](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html)。
 
 新增已完成研究：[009 · Duix Avatar](009-duix-avatar/README.md)，整理数字人口播能力、硬件与软件依赖、本地模型和应用流程、使用场景，以及面向现有开源研究的视频表达价值；附固定版本证据、许可冲突说明和待执行样片方案。未部署或实测模型。
+
+[011 · VoiceStudio 在线摘要](https://yydshly.github.io/0929_codex_project/011-voicestudio/)：语音制作工作台，提供旁白、克隆、转写、视频配音与有声书；适合研究内容配音、教程、知识音频和后续数字人声音接入，复用已有成果与声音模板。网页含官方试听、模块原理、个人用法，并直接采用已确认摘要图；模型和跨项目组合未实测。

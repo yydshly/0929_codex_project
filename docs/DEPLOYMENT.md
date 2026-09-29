@@ -121,3 +121,11 @@ CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对
 既有 Pages 工作流加入项目 009 的变更触发、构建与检查。页面汇总能力、可实现效果、社区演示、适用场景和个人价值，沿用已有摘要图，并保留模型、硬件及许可来源。发布静态研究网页，不部署 Duix 模型服务；实际运行结果以 GitHub Actions 为准。
 
 2026-09-29，[项目 009 发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36568281365)构建和部署成功，内容提交为 `cbbef2eb8fa252072806f11bad6d66dba1b5c40b`。17 个公开页面与资源均返回 HTTP 200，项目静态文件与本地内容一致，摘要 PNG 字节一致。浏览器确认四项摘要、两个演示入口及 1536×1024 原摘要图正常加载。其他未提交子项目未被带入本次发布。
+
+## 项目 011 · VoiceStudio
+
+- 网页：https://yydshly.github.io/0929_codex_project/011-voicestudio/
+- 完整汇报图：项目路径下 map.html；PNG 与 SVG 使用已确认原文件。
+- 构建与检查：node projects/011-voicestudio/web/build.mjs 和 node projects/011-voicestudio/web/verify.mjs。
+
+发布静态语音能力研究网页，涵盖能力、效果、场景、个人价值与使用路线。官方音频与截图直接引用原站，需要联网；本次不部署语音模型服务。构建复制已有摘要图，CI 无需图像渲染依赖。部署结果以 GitHub Actions 和公开页面验证为准。

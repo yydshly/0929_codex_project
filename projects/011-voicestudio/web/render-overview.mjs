@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const sharp=require(process.argv[2]||'sharp');
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const output=path.resolve(root,'../../site/011-voicestudio');
+await sharp(path.join(root,'assets/capability-summary.svg')).png().toFile(path.join(root,'assets/capability-summary.png'));
+fs.copyFileSync(path.join(root,'assets/capability-summary.png'),path.join(output,'capability-summary.png'));
+console.log('Rendered full report: 1800 × 2710 PNG.');

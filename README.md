@@ -19,6 +19,7 @@
 | 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
 | 008 | [Handraw Style](projects/008-handraw-style/README.md) | 手绘视觉参考与提示词库：280 风格、124 版式、36 主题色；适合按具体内容需求选型，出图依赖外部模型 | 已完成 | [在线摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [一图总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) |
 | 009 | [Duix Avatar](projects/009-duix-avatar/README.md) | 本地数字人口播：人物视频＋文案或音频生成新口播；适合研究导读、产品介绍与培训，减少重复拍摄；含演示证据与原摘要图，模型未实测 | 已完成研究与网页 | [在线能力、效果与价值](https://yydshly.github.io/0929_codex_project/009-duix-avatar/) |
+| 011 | [VoiceStudio](projects/011-voicestudio/README.md) | 语音制作工作台：文稿配音、克隆、转写、视频配音与有声书；用于研究旁白、教程、知识音频与数字人声音接入 | 已完成资料研究与展示；模型未实测 | [能力、效果与个人价值](https://yydshly.github.io/0929_codex_project/011-voicestudio/) |
 
 ## 项目图览
 
@@ -122,6 +123,18 @@
 
 沿用已有总览图。页面收录官方 README 引用的旧版社区演示，并说明与当前版本的差异；本机模型未实测。
 
+
+### 011 · VoiceStudio
+
+整合本地语音模型、音频处理和任务管理的制作工作台：将文稿与参考声音制作成旁白，将录音转为文字，将视频制作成其他语言的配音版本，并支持有声书、批量任务与 API / MCP 接入。它本身不是基础大模型，在数字人方案中可以提供声音，口型和人物画面由其他系统完成。
+
+![VoiceStudio 完整能力、模块、数字人位置与个人价值汇报](projects/011-voicestudio/assets/capability-summary.png)
+
+对我：研究摘要需要旁白、录屏教程需要配音、笔记需要转为可听资料、系列内容需要统一声音时使用；以后通过接口连接个人助手与数字人。价值是复用研究成果、减少重复录制，积累可替换模型的语音制作流程。先验证 60 秒小样，再做自动化与组合。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/011-voicestudio/) · [放大摘要图](https://yydshly.github.io/0929_codex_project/011-voicestudio/map.html) · [完整研究](projects/011-voicestudio/README.md)
+
+沿用已确认的完整汇报图；官方试听与教学示意分别标识。固定版本 eef0e23，未运行本机模型或验证数字人组合。发布结果记录见子项目 RESEARCH.md。
 
 ## 仓库结构
 

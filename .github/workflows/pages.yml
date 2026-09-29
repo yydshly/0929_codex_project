@@ -13,6 +13,7 @@ on:
       - 'projects/006-jakubkrehel-skills/**'
       - 'projects/008-handraw-style/**'
       - 'projects/009-duix-avatar/**'
+      - 'projects/011-voicestudio/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -69,6 +70,10 @@ jobs:
         run: |
           node projects/009-duix-avatar/web/build.mjs
           node projects/009-duix-avatar/web/verify.mjs
+      - name: Build and verify VoiceStudio research
+        run: |
+          node projects/011-voicestudio/web/build.mjs
+          node projects/011-voicestudio/web/verify.mjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
