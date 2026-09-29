@@ -8,24 +8,28 @@
 
 按编号升序排列。编号代表收录顺序，不代表排名；已分配编号保持不变，归档后也不复用。
 
-| 编号 | 研究项目 | 摘要 / 关注点 | 进度 | Web 演示 |
-| :--- | :--- | :--- | :--- | :--- |
-| 001 | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 技能与技能集合目录：20 类能力、预期产物和 5 个个人场景；1,108 项中文简介 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) |
-| 002 | [Agent Skills](projects/002-agent-skills/README.md) | 25 项研发流程：能力、产物、场景、扩展与个人价值；摘要图及全量图 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
-| 003 | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作方法：38 项技能、6 类成果摘要图、6 个交互场景与当前到长期的个人价值 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
-| 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
-| 005 | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
-| 006 | [Jakub Krehel Skills](projects/006-jakubkrehel-skills/README.md) | 面向 Web 界面设计、优化与验证：6 个专业领域、2 个审查流程、3 个探索流程；说明报告、改动、场景与候选效果，以及研究页、个人工具和长期维护中的个人价值 | 已完成 | [能力摘要与个人场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/) |
-| 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
-| 008 | [Handraw Style](projects/008-handraw-style/README.md) | 手绘视觉参考与提示词库：280 风格、124 版式、36 主题色；适合按具体内容需求选型，出图依赖外部模型 | 已完成 | [在线摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [一图总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) |
-| 009 | [Duix Avatar](projects/009-duix-avatar/README.md) | 本地数字人口播：人物视频＋文案或音频生成新口播；适合研究导读、产品介绍与培训，减少重复拍摄；含演示证据与原摘要图，模型未实测 | 已完成研究与网页 | [在线能力、效果与价值](https://yydshly.github.io/0929_codex_project/009-duix-avatar/) |
-| 010 | [Pi Agent Harness](projects/010-pi/README.md) | QM 的执行基础对照；Agent 执行基础与终端助手：10 类能力、7 个公开模块、5 个场景；从模型判断、工具执行与反馈理解自己的 Agent 产品 | 已完成文档与展示；上游未实测 | [Pi 对照研究](https://yydshly.github.io/0929_codex_project/010-pi/) |
-| 011 | [VoiceStudio](projects/011-voicestudio/README.md) | 语音制作工作台：文稿配音、克隆、转写、视频配音与有声书；用于研究旁白、教程、知识音频与数字人声音接入 | 已完成资料研究与展示；模型未实测 | [能力、效果与个人价值](https://yydshly.github.io/0929_codex_project/011-voicestudio/) |
-| 012 | [QM](projects/012-qm/README.md) | Agent 工作平台：研究资料、处理代码与文件，形成报告、测试记录和内部工具；适合持续项目跟踪与团队协作，需要长期自动化、共享资源和分权时再试点 | 已完成研究与网页；上游未实测 | [能力、效果与采用时机](https://yydshly.github.io/0929_codex_project/012-qm/) |
+点击“源库”中的作者/仓库名查看上游，点击“中文研究”查看本仓库的分析，点击“在线展示”打开网页。“已完成”仅表示本轮研究与展示已完成，具体实测范围见各项目文档。
+
+| 编号 | 源库 | 中文研究 | 能力与用途 | 研究进度 | 在线展示 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 001 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | [Awesome Agent Skills](projects/001-awesome-agent-skills/README.md) | 外部技能发现目录：按任务寻找研究、文档、网页与自动化方法 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/001-awesome-agent-skills/) |
+| 002 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Agent Skills](projects/002-agent-skills/README.md) | 研发流程技能：组织需求、实现、测试、审查与发布 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
+| 003 | [mattpocock/skills](https://github.com/mattpocock/skills) | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作技能：形成规格、代码、研究与交接材料 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
+| 004 | [MengTo/Skills](https://github.com/MengTo/Skills) | [MengTo/Skills](projects/004-mengto-skills/README.md) | 视觉与前端技能：指导页面、交互、动效与视觉实现 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
+| 005 | [qufei1993/skills-hub](https://github.com/qufei1993/skills-hub) | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部接入、增删改查与分发 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
+| 006 | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | [Jakub Krehel Skills](projects/006-jakubkrehel-skills/README.md) | Web 界面技能：设计、优化、审查与效果验证 | 已完成 | [能力摘要与个人场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/) |
+| 007 | [touchine-ojo/OJO-Design-Skills](https://github.com/touchine-ojo/OJO-Design-Skills) | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计技能：从需求形成视觉与交互规范 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
+| 008 | [yang0/handraw-style](https://github.com/yang0/handraw-style) | [Handraw Style](projects/008-handraw-style/README.md) | 手绘提示词与参考库：组合风格、版式和配色，交给模型出图 | 已完成 | [在线摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [一图总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) |
+| 009 | [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | [Duix Avatar](projects/009-duix-avatar/README.md) | 数字人口播工具：人物素材＋文稿或音频生成新口播 | 已完成 | [在线能力、效果与价值](https://yydshly.github.io/0929_codex_project/009-duix-avatar/) |
+| 010 | [earendil-works/pi](https://github.com/earendil-works/pi) | [Pi Agent Harness](projects/010-pi/README.md) | Agent 执行基础：连接模型与工具，可供 QM 等产品集成 | 已完成 | [Pi 对照研究](https://yydshly.github.io/0929_codex_project/010-pi/) |
+| 011 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | [VoiceStudio](projects/011-voicestudio/README.md) | 语音工作台：配音、克隆、转写、视频配音与有声书 | 已完成 | [能力、效果与个人价值](https://yydshly.github.io/0929_codex_project/011-voicestudio/) |
+| 012 | [yc-software/qm](https://github.com/yc-software/qm) | [QM](projects/012-qm/README.md) | Agent 工作平台：组织执行、记忆、权限、协作与后台任务 | 已完成 | [能力、效果与采用时机](https://yydshly.github.io/0929_codex_project/012-qm/) |
 
 ## 项目图览
 
 ### 001 · Awesome Agent Skills
+
+源库：[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 
 这是一个外部技能与技能集合的发现目录。下图直接展示 20 类能力、预期产物和使用时机；结合具体技能与工具，可以用于研究资料、交付文档、制作网页及自动化重复工作。
 
@@ -37,6 +41,8 @@
 
 ### 002 · Agent Skills
 
+源库：[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
 这是 Addy Osmani 的软件研发流程技能库：25 项工作流指导 AI 澄清需求、规划、实现、验证、审查和发布，产出规格、代码、测试及发布准备材料。摘要图直接展示全部技能类别的能力、场景和预期效果。
 
 ![Agent Skills：25项能力、场景、预期效果及个人价值](projects/002-agent-skills/assets/capability-summary.svg)
@@ -45,19 +51,9 @@
 
 [完整研究](projects/002-agent-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) · [25 项全量图](https://yydshly.github.io/0929_codex_project/002-agent-skills/full-map.html)
 
-### 004 · MengTo/Skills
-
-以视觉设计与前端体验为核心的 146 项技能：指导整页表达、风格布局、动效细节、三维与游戏原型，并支持参考拆解、素材、审查和交付。提供完整能力图、六种实际构造效果，以及面向开源研究、产品官网和长期方法积累的使用建议。
-
-![MengTo Skills 完整能力摘要：代表技能、预期效果、适用场景和组合边界](projects/004-mengto-skills/assets/capability-map.svg)
-
-对你：先用于开源研究展示页与个人工具介绍页；有参考时拆解交互，需要空间或玩法时再选择三维与游戏能力。长期把成功实现和验收经验积累为自己的制作方法。企业 AI 页面能说明审批、审计与回退，实际后台能力仍需另行开发。
-
-[在线能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) · [直接看六种实际效果](https://yydshly.github.io/0929_codex_project/004-mengto-skills/#real-effects) · [可切换风格实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/styles-lab.html) · [放大能力图](https://yydshly.github.io/0929_codex_project/004-mengto-skills/map.html) · [完整研究](projects/004-mengto-skills/README.md)
-
-数量依据固定版本 798db0a。六种风格为本项目按技能规范实际构造，其余能力按原文归纳，未全部实测。
-
 ### 003 · Matt Pocock Skills
+
+源库：[mattpocock/skills](https://github.com/mattpocock/skills)
 
 把需求澄清、研究、开发验证、协作交接和学习写作组织成可复用的 AI 工作方法。38 项技能按六类用途说明，能留下规格、研究结论、原型、代码与测试、交接材料和文章；摘要图直接展示成果样张。
 
@@ -69,7 +65,23 @@
 
 固定版本 c55ee460；成果样张与小组件为本项目制作，上游技能未运行实测，效率收益未量化。
 
+### 004 · MengTo/Skills
+
+源库：[MengTo/Skills](https://github.com/MengTo/Skills)
+
+以视觉设计与前端体验为核心的 146 项技能：指导整页表达、风格布局、动效细节、三维与游戏原型，并支持参考拆解、素材、审查和交付。提供完整能力图、六种实际构造效果，以及面向开源研究、产品官网和长期方法积累的使用建议。
+
+![MengTo Skills 完整能力摘要：代表技能、预期效果、适用场景和组合边界](projects/004-mengto-skills/assets/capability-map.svg)
+
+对你：先用于开源研究展示页与个人工具介绍页；有参考时拆解交互，需要空间或玩法时再选择三维与游戏能力。长期把成功实现和验收经验积累为自己的制作方法。企业 AI 页面能说明审批、审计与回退，实际后台能力仍需另行开发。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) · [直接看六种实际效果](https://yydshly.github.io/0929_codex_project/004-mengto-skills/#real-effects) · [可切换风格实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/styles-lab.html) · [放大能力图](https://yydshly.github.io/0929_codex_project/004-mengto-skills/map.html) · [完整研究](projects/004-mengto-skills/README.md)
+
+数量依据固定版本 798db0a。六种风格为本项目按技能规范实际构造，其余能力按原文归纳，未全部实测。
+
 ### 005 · Skills Hub
+
+源库：[qufei1993/skills-hub](https://github.com/qufei1993/skills-hub)
 
 一个管理 Skill 的桌面工具：支持外部 Skill 接入、集中增删改查，并分发给 AI 工具使用；附带 manage-skills-hub 管理 Skill。研究说明使用场景、底层原理、上手方法、扩展方向，以及如何把筛选后的技能用于自己的研究工作。
 
@@ -79,19 +91,9 @@
 
 图示为本研究整理的能力关系，不是上游应用运行证据。
 
-### 007 · OJO Design Skills
-
-面向产品界面设计的 AI 技能包：一个核心 Skill 串联九份参考资料，从初步产品需求形成页面方向、颜色与排版参数、组件状态、动效规范和审查建议。配合宿主的编码与测试工具，可进一步落地为可运行的前端页面。
-
-![OJO Design Skills：产品开发定位、技能、场景、用法与意义](projects/007-ojo-design-skills/assets/capability-summary.png)
-
-对你：现在用于开源研究网页的信息层级与视觉统一；以后用于个人工具、业务后台、产品官网与改版检查，长期积累可复用的设计规则。页面包含全部能力与效果速查、五个个人场景、六步用法、原理和边界。摘要图沿用已确认的总览图。
-
-[完整研究](projects/007-ojo-design-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) · [可缩放摘要图](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/map.html)
-
-固定版本文档研究；未安装或运行上游 Skill。产物与价值是预期效果，不代表实测效率或转化收益。
-
 ### 006 · Jakub Krehel Skills
+
+源库：[jakubkrehel/skills](https://github.com/jakubkrehel/skills)
 
 把界面设计经验变成 AI 可遵循的规则与工作流程。11 个技能覆盖视觉动效、排版、颜色、无障碍、布局和文案，以及整体审查、变更审查、极端场景、设计候选与网页解析；分别交付问题报告、明确要求后的界面改动、场景页、可切换方案和机制解释。
 
@@ -103,7 +105,23 @@
 
 固定版本文档研究；使用既有能力总图。预期效果未运行上游技能实测，完整产品仍需需求、后台、安全与部署等配套工作。
 
+### 007 · OJO Design Skills
+
+源库：[touchine-ojo/OJO-Design-Skills](https://github.com/touchine-ojo/OJO-Design-Skills)
+
+面向产品界面设计的 AI 技能包：一个核心 Skill 串联九份参考资料，从初步产品需求形成页面方向、颜色与排版参数、组件状态、动效规范和审查建议。配合宿主的编码与测试工具，可进一步落地为可运行的前端页面。
+
+![OJO Design Skills：产品开发定位、技能、场景、用法与意义](projects/007-ojo-design-skills/assets/capability-summary.png)
+
+对你：现在用于开源研究网页的信息层级与视觉统一；以后用于个人工具、业务后台、产品官网与改版检查，长期积累可复用的设计规则。页面包含全部能力与效果速查、五个个人场景、六步用法、原理和边界。摘要图沿用已确认的总览图。
+
+[完整研究](projects/007-ojo-design-skills/README.md) · [在线能力摘要](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) · [可缩放摘要图](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/map.html)
+
+固定版本文档研究；未安装或运行上游 Skill。产物与价值是预期效果，不代表实测效率或转化收益。
+
 ### 008 · Handraw Style
+
+源库：[yang0/handraw-style](https://github.com/yang0/handraw-style)
 
 这是一个**手绘视觉参考与提示词库**：按主题组合 280 种风格、124 种版式、36 种主题色，生成供外部生图模型使用的提示词，并可附参考图。它不直接生成图片，也不保证模型严格遵守版式。
 
@@ -117,6 +135,8 @@
 
 ### 009 · Duix Avatar
 
+源库：[duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar)
+
 用人物视频和新文案或音频，生成同一人物讲新内容的口播视频。适合研究导读、产品介绍、教程与培训；对你是复用现有研究与人物素材、减少重复出镜的候选工具，实际质量与省时程度仍需用自己的素材验证。
 
 ![Duix Avatar 能力、原理、依赖、场景与个人意义](projects/009-duix-avatar/assets/capability-summary.png)
@@ -125,8 +145,21 @@
 
 沿用已有总览图。页面收录官方 README 引用的旧版社区演示，并说明与当前版本的差异；本机模型未实测。
 
+### 010 · Pi Agent Harness
+
+源库：[earendil-works/pi](https://github.com/earendil-works/pi)
+
+Pi 是可扩展的 Agent 执行基础，也自带终端助手。先了解十类能力及成果，再通过六步执行循环、七个公开模块、五个使用场景理解模型、工具与运行时如何协作。对我们的价值是学习执行基础、固化研究方法，并逐步构建专用 Agent 产品。
+
+![Pi 能力、原理、模块与场景总览](projects/010-pi/assets/overview.svg)
+
+[完整研究](projects/010-pi/README.md) · [在线交互展示](https://yydshly.github.io/0929_codex_project/010-pi/) · [能力总览图](projects/010-pi/assets/overview.svg)
+
+固定版本 `4df1574`；18 份来源留存，原版未运行。页面交互为教学示意，成果与收益未进行真实模型验证。静态展示通过 GitHub Pages 发布。
 
 ### 011 · VoiceStudio
+
+源库：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 
 整合本地语音模型、音频处理和任务管理的制作工作台：将文稿与参考声音制作成旁白，将录音转为文字，将视频制作成其他语言的配音版本，并支持有声书、批量任务与 API / MCP 接入。它本身不是基础大模型，在数字人方案中可以提供声音，口型和人物画面由其他系统完成。
 
@@ -136,19 +169,11 @@
 
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/011-voicestudio/) · [放大摘要图](https://yydshly.github.io/0929_codex_project/011-voicestudio/map.html) · [完整研究](projects/011-voicestudio/README.md)
 
-沿用已确认的完整汇报图；官方试听与教学示意分别标识。固定版本 eef0e23，未运行本机模型或验证数字人组合。发布结果记录见子项目 RESEARCH.md。
-
-### 010 · Pi Agent Harness
-
-Pi 是可扩展的 Agent 执行基础，也自带终端助手。先了解十类能力及成果，再通过六步执行循环、七个公开模块、五个使用场景理解模型、工具与运行时如何协作。对我们的价值是学习执行基础、固化研究方法，并逐步构建专用 Agent 产品。
-
-![Pi 能力、原理、模块与场景总览](projects/010-pi/assets/overview.svg)
-
-[完整研究](projects/010-pi/README.md) · [本地交互展示](site/010-pi/index.html) · [能力总览图](projects/010-pi/assets/overview.svg)
-
-固定版本 `4df1574`；18 份来源留存，原版未运行。页面交互为教学示意，成果与收益未进行真实模型验证。静态展示通过 GitHub Pages 发布。
+沿用已确认的完整汇报图；官方试听与教学示意分别标识。固定版本 `eef0e23`，未运行本机模型或验证数字人组合。发布结果见[研究记录](projects/011-voicestudio/RESEARCH.md)。
 
 ### 012 · QM
+
+源库：[yc-software/qm](https://github.com/yc-software/qm)
 
 以 Agent 执行为核心的个人与团队工作平台：调用 Codex、Pi 等引擎进行资料研究、代码与文件处理，并组织记忆、权限、后台任务和成果发布，可形成研究报告、代码差异、测试记录、项目清单与内部看板。
 

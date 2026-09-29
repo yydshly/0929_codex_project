@@ -2,7 +2,7 @@
 
 > Pi 是可扩展的 Agent 执行基础，也自带终端助手。它把模型判断连接到文件、命令和真实工具，让一个目标经过多轮操作形成可检查的成果。
 
-[本地交互展示](index.html) · [研究记录](https://github.com/earendil-works/pi/blob/4df1574339bfbd1a9750ff485bb618da397ba135/) · [能力总览图](overview.svg) · [上游固定版本](https://github.com/earendil-works/pi/blob/4df1574339bfbd1a9750ff485bb618da397ba135/)
+[本地交互展示](index.html) · [研究记录](https://github.com/earendil-works/pi/blob/4df1574339bfbd1a9750ff485bb618da397ba135/) · [能力总览图](overview.svg) · [上游固定版本](https://github.com/earendil-works/pi/tree/4df1574339bfbd1a9750ff485bb618da397ba135/)
 
 ## 与主研究 QM 的关系
 
