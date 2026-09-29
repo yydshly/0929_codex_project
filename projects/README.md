@@ -19,3 +19,5 @@
 007 已补充产品开发覆盖、完整能力总览图、六步使用指南及预期价值；总览图支持 PNG / SVG 下载和独立缩放阅读。
 
 新增已完成研究：[006 · Jakub Krehel Skills](006-jakubkrehel-skills/README.md)，面向 Web 界面设计、优化与验证：6 个专业领域、2 个审查流程、3 个探索流程；说明报告、改动、场景与候选效果，以及研究页、个人工具和长期维护中的个人价值；[在线能力摘要](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/)沿用已生成的完整能力图。
+
+新增已完成研究：[008 · Handraw Style](008-handraw-style/README.md)，梳理手绘风格、排版、主题色、图文模式与模型适配，并提供 440 张上游编号原图的全量图鉴、十二组按场景实际出图、九组对照实测和交互式拼装预览。先看[在线能力摘要与使用判断](https://yydshly.github.io/0929_codex_project/008-handraw-style/)，再按需查看[摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png)和[场景样例](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html)。

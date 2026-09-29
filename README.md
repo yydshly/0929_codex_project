@@ -17,6 +17,7 @@
 | 005 | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
 | 006 | [Jakub Krehel Skills](projects/006-jakubkrehel-skills/README.md) | 面向 Web 界面设计、优化与验证：6 个专业领域、2 个审查流程、3 个探索流程；说明报告、改动、场景与候选效果，以及研究页、个人工具和长期维护中的个人价值 | 已完成 | [能力摘要与个人场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/) |
 | 007 | [OJO Design Skills](projects/007-ojo-design-skills/README.md) | 产品界面设计：1 个 Skill + 9 份参考，输出页面方向、视觉与交互规范；含能力效果速查、5 个个人场景和既有摘要图 | 已完成 | [能力与使用价值](https://yydshly.github.io/0929_codex_project/007-ojo-design-skills/) |
+| 008 | [Handraw Style](projects/008-handraw-style/README.md) | 手绘视觉参考与提示词库：280 风格、124 版式、36 主题色；适合按具体内容需求选型，出图依赖外部模型 | 已完成 | [在线摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [一图总览](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) |
 
 ## 项目图览
 
@@ -97,6 +98,18 @@
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#summary) · [我的使用场景](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/#personal) · [放大摘要图](https://yydshly.github.io/0929_codex_project/006-jakubkrehel-skills/capability-map.html) · [完整研究](projects/006-jakubkrehel-skills/README.md)
 
 固定版本文档研究；使用既有能力总图。预期效果未运行上游技能实测，完整产品仍需需求、后台、安全与部署等配套工作。
+
+### 008 · Handraw Style
+
+这是一个**手绘视觉参考与提示词库**：按主题组合 280 种风格、124 种版式、36 种主题色，生成供外部生图模型使用的提示词，并可附参考图。它不直接生成图片，也不保证模型严格遵守版式。
+
+![Handraw Style 的能力、风格、实测效果、适用场景与个人使用时机](projects/008-handraw-style/assets/capability-map.png)
+
+**可实现效果与使用场景：**适合探索手绘海报、科普信息图、品牌插画、活动物料等视觉方向。网页提供全部 440 张上游参考图，以及 12 组按场景出图、9 组对照实测；这些是单次样例，文字、主体和布局仍需人工校验。
+
+**对你的意义与使用时机：**现在把它作为可检索的视觉选型资料收录即可。以后当具体产品需要持续制作上述内容时，再选择风格、版式和配色，结合品牌要求与所用模型试生成、筛选和修正；没有明确内容需求时，无需为了接入这个库单独开发功能。
+
+[在线能力摘要](https://yydshly.github.io/0929_codex_project/008-handraw-style/) · [放大摘要图](https://yydshly.github.io/0929_codex_project/008-handraw-style/capability-map.png) · [按场景实测](https://yydshly.github.io/0929_codex_project/008-handraw-style/scenarios.html) · [全量图鉴](https://yydshly.github.io/0929_codex_project/008-handraw-style/gallery.html) · [完整研究](projects/008-handraw-style/README.md)
 
 ## 仓库结构
 
