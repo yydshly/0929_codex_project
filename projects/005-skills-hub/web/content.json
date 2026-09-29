@@ -1,0 +1,44 @@
+{
+  "title": "Skills Hub",
+  "revision": "7714f1f0fb0cdd42639c6a390ac66e0381453e1d",
+  "date": "2026-09-29",
+  "version": "0.11.0",
+  "groups": [
+    {"id":"collect","name":"获取与归集","note":"从分散的来源，建立自己的技能库。"},
+    {"id":"distribute","name":"分发与配置","note":"决定哪些工具、哪些项目使用哪些技能。"},
+    {"id":"maintain","name":"维护与恢复","note":"让来源、内容和本机状态持续可追踪。"},
+    {"id":"connect","name":"跨设备与自动化","note":"在电脑之间共享内容，让 AI 参与管理。"}
+  ],
+  "capabilities": [
+    {"id":"C01","group":"collect","title":"从 Git 或本地安装","body":"接收仓库地址、技能子目录或本地文件夹，将内容保存到中心目录。","result":"一份纳入管理、可追溯来源的 Skill。","boundary":"安装文件不会自动补齐技能执行所需的软件、账号或服务。","evidence":"代码核验","source":"src-tauri/src/core/installer.rs"},
+    {"id":"C02","group":"collect","title":"搜索与发现技能","body":"通过精选列表和在线搜索寻找技能，在线搜索实现调用 skills.sh。","result":"带名称和来源的候选技能列表。","boundary":"搜索依赖外部服务；被收录不等于经过效果或安全认证。","evidence":"代码核验","source":"src-tauri/src/core/skills_search.rs"},
+    {"id":"C03","group":"collect","title":"导入已有技能","body":"扫描选择的工具目录，将已有技能接入统一管理。","result":"分散技能进入同一份管理清单。","boundary":"发现范围受扫描目录配置影响，不能等同于全盘搜索。","evidence":"文档描述","source":"README.md"},
+    {"id":"C04","group":"collect","title":"阅读与分类整理","body":"浏览文件树、Markdown 和代码；为技能设置标签并执行批量操作。","result":"可按用途整理、阅读和维护的个人技能库。","boundary":"标签用于组织内容，不决定 AI 何时触发技能。","evidence":"文档描述","source":"README.md"},
+    {"id":"C05","group":"distribute","title":"分发到多个工具","body":"按内置适配器的目录规则，将中心技能同步到目标 AI 工具。","result":"多个工具目录拥有同一技能的链接或副本。","boundary":"48 个适配器代表目录适配数量，不代表 48 种环境均已实测。","evidence":"代码核验","source":"src-tauri/src/core/tool_adapters/mod.rs"},
+    {"id":"C06","group":"distribute","title":"限定全局或项目范围","body":"为技能配置全局目标，或指定项目中的技能目录。","result":"个人通用方法与项目专用规则可分别配置。","boundary":"部分工具只有全局目录；范围设置不等于安全隔离。","evidence":"代码核验","source":"src-tauri/src/core/tool_adapters/mod.rs"},
+    {"id":"C07","group":"distribute","title":"接入自定义工具目录","body":"给内部工具配置技能目录、项目相对目录和同步模式。","result":"自有 Agent 也能接收中心库中的技能文件。","boundary":"适用于按目录读取技能的工具；不自动转换工具接口或技能语义。","evidence":"代码核验","source":"src-tauri/src/core/tool_adapters/mod.rs"},
+    {"id":"C08","group":"distribute","title":"按需启用与停用","body":"停用时移除工具侧同步，保留中心技能与配置，方便重新启用。","result":"控制工具侧可见的技能集合。","boundary":"是否需要重新加载，由目标工具的技能发现机制决定。","evidence":"文档描述","source":"README.md"},
+    {"id":"C09","group":"maintain","title":"按来源更新","body":"从原 Git 仓库或本地来源取得新内容，再更新已配置的同步目标。","result":"来源、中心内容与目标目录得到维护。","boundary":"更新结果仍需关注冲突、来源失效和目标同步失败。","evidence":"代码核验","source":"src-tauri/src/core/installer.rs"},
+    {"id":"C10","group":"maintain","title":"系统定时更新","body":"通过操作系统的调度机制执行技能更新，支持记录运行结果。","result":"不必每次打开窗口后手动逐项更新。","boundary":"实际可运行性取决于系统调度、凭据与网络；本研究未执行任务。","evidence":"代码核验","source":"src-tauri/src/core/system_scheduler.rs"},
+    {"id":"C11","group":"maintain","title":"删除后恢复","body":"本机回收站保留删除的技能及保存的本地配置，文档标明保留 30 天。","result":"误删内容可在保留期内恢复。","boundary":"恢复受原位置是否可用等条件影响，不等同于任意版本回滚。","evidence":"文档描述","source":"README.md"},
+    {"id":"C12","group":"connect","title":"多台电脑同步内容","body":"使用 GitHub、GitLab 或 Gitee 仓库同步技能内容、描述、标签等可移植信息。","result":"不同电脑共享技能库，各自保留本机工具配置。","boundary":"可移植清单剥离本地来源路径，不会把整台机器的配置照搬。","evidence":"代码核验","source":"src-tauri/src/core/device_sync/manifest.rs"},
+    {"id":"C13","group":"connect","title":"识别与处理同步冲突","body":"比较基线、本地和远端的状态，规划合并、删除或保留冲突，并尝试文本合并。","result":"可区分独立修改与需要人工处理的冲突。","boundary":"自动合并有适用条件，不能保证所有并发修改无冲突。","evidence":"代码核验","source":"src-tauri/src/core/device_sync/merge.rs"},
+    {"id":"C14","group":"connect","title":"通过 AI 或命令行管理","body":"skillshub-cli 提供列出、搜索、安装、部署、更新、标签与移除等命令，并支持 JSON 输出。","result":"AI 工具可按管理 Skill 的说明操作同一技能库。","boundary":"设备同步、账号授权、计划任务和应用设置仍由桌面端负责。","evidence":"代码核验","source":"src-tauri/src/cli/args.rs"}
+  ],
+  "scenarios": [
+    {"title":"多个 AI 工具来回切换","who":"个人开发者","problem":"同一套代码审查方法，在不同工具中反复安装。","steps":"安装一次 → 选择目标工具 → 统一更新","result":"减少重复维护，让方法文件保持一致。","boundary":"各工具对技能的理解与执行效果仍需分别验证。","capabilities":["C01","C05","C09"]},
+    {"title":"不同项目有不同规范","who":"多项目维护者","problem":"通用规范和项目专用要求混在一起，不易维护。","steps":"通用技能设为全局 → 专用技能分配给指定项目","result":"每个项目获得适合自己的技能集合。","boundary":"需确认目标工具支持项目目录；不提供运行时权限隔离。","capabilities":["C06","C08"]},
+    {"title":"换电脑或双机办公","who":"多设备用户","problem":"新电脑缺少常用技能，旧电脑内容已发生变化。","steps":"连接同步仓库 → 同步内容 → 在新电脑配置工具目标","result":"复用技能内容，减少重新整理的工作。","boundary":"路径、工具目标和凭据需要按设备配置。","capabilities":["C12","C13"]},
+    {"title":"整理逐渐膨胀的技能库","who":"重度技能使用者","problem":"来源不清楚、用途重叠、停用和清理成本高。","steps":"扫描导入 → 阅读内容 → 添加标签 → 批量启停","result":"形成容易查找、取舍和维护的清单。","boundary":"是否高质量、是否重复，仍需要内容判断。","capabilities":["C03","C04","C08","C11"]},
+    {"title":"团队分发共同工作方法","who":"小型开发团队","problem":"新人需要反复获取评审、测试和文档规范。","steps":"维护共享 Git 来源 → 成员安装 → 分发给各自工具","result":"用同一来源传播可复用的工作方法。","boundary":"这是建议的用法；企业审批、成员权限和审计需另行建设。","capabilities":["C01","C05","C09"]},
+    {"title":"在对话中维护技能","who":"习惯使用 AI 助手的用户","problem":"安装、整理和检查技能时，经常切换窗口。","steps":"启用 AI 管理 → 加载管理 Skill → 由 AI 调用 CLI","result":"用对话完成受支持的技能管理操作。","boundary":"对话由宿主 AI 提供；Skills Hub 本身不承担通用 AI 推理。","capabilities":["C14","C04"]}
+  ],
+  "extensions": [
+    {"priority":"01","title":"版本锁定与可复现安装","existing":"已记录来源版本，具备更新和设备同步历史。","next":"增加项目锁定文件、固定提交安装策略、升级差异和受控回滚。","value":"让团队明确每个项目使用哪一套技能版本。","entry":"installer.rs · skill_store.rs"},
+    {"priority":"02","title":"兼容性检查与效果评估","existing":"已有目录适配、状态检查和 CLI doctor 入口。","next":"声明系统、软件和工具依赖；用固定任务评估触发、输出与失败率。","value":"把文件安装成功与任务执行成功分别衡量。","entry":"tool_adapters · CLI · 独立评估模块"},
+    {"priority":"03","title":"团队发布与治理","existing":"支持 Git 来源和跨设备内容同步。","next":"增加团队技能目录、发布审批、角色权限、签名与操作审计。","value":"从个人管理扩展到团队可控的内容分发。","entry":"内容发布服务 · 身份权限层"},
+    {"priority":"04","title":"可复用的技能组合包","existing":"已有标签、批量操作和项目目标。","next":"将一组技能及版本组成前端包、入职包或发布检查包。","value":"减少逐个挑选和配置，支持项目模板化初始化。","entry":"skill_store.rs · 安装流程"},
+    {"priority":"05","title":"面向外部系统的自动化接口","existing":"已有 CLI、JSON 输出和对话式管理。","next":"在既有命令能力上完善 CI 接入、稳定协议或 MCP 服务。","value":"让项目初始化与技能维护进入已有自动化流程。","entry":"cli/args.rs · cli/handlers.rs"},
+    {"priority":"06","title":"基于真实使用的反馈","existing":"管理信息可描述安装和同步状态。","next":"在用户授权下采集触发、耗时、失败及人工评价，按技能版本比较。","value":"帮助用户决定保留、改进或淘汰哪些技能。","entry":"宿主工具集成 · 评估数据模型"}
+  ]
+}

@@ -11,3 +11,5 @@
 新增已完成研究：[004 · MengTo/Skills](004-mengto-skills/README.md)，覆盖 146 项能力、11 类地图、六种实景及个人场景；详见[在线能力摘要](https://yydshly.github.io/0929_codex_project/004-mengto-skills/)。
 
 新增已完成研究：[003 · Matt Pocock Skills](003-mattpocock-skills/README.md)，覆盖 38 项技能、六类能力与成果、六个交互场景、技术原理和个人使用价值；[在线摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/)可直接查看成果样张与场景。
+
+新增已完成研究：[005 · Skills Hub](005-skills-hub/README.md)，Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值；[在线能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/)引用本研究生成的能力汇总图。

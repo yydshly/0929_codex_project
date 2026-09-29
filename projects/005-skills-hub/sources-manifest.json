@@ -1,0 +1,92 @@
+{
+  "repository": "https://github.com/qufei1993/skills-hub",
+  "revision": "7714f1f0fb0cdd42639c6a390ac66e0381453e1d",
+  "commit_date": "2026-09-29T02:50:53Z",
+  "collected": "2026-09-29",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/LICENSE",
+      "local": "sources/LICENSE",
+      "sha256": "36f3d88328565cfd61e18002835fec58bdcd69e7c5428d2feb89b4000992d61c"
+    },
+    {
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/package.json",
+      "local": "sources/package.json",
+      "sha256": "85719361e8b9f52dde4aae81e2d756c807971d4fd66a06561e45a00ff00a3ec3"
+    },
+    {
+      "path": "src-tauri/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/Cargo.toml",
+      "local": "sources/src-tauri__Cargo.toml",
+      "sha256": "50f1c584a25ed589f65fb16cb1ceb0919799f788d9120af1a409c5f629dfd445"
+    },
+    {
+      "path": "src-tauri/src/core/tool_adapters/mod.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/tool_adapters/mod.rs",
+      "local": "sources/src-tauri__src__core__tool_adapters__mod.rs",
+      "sha256": "bbeb1eedaef426213ea40475df53deec98f2acde205c08d6dd0b784a9077e75e"
+    },
+    {
+      "path": "src-tauri/src/core/installer.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/installer.rs",
+      "local": "sources/src-tauri__src__core__installer.rs",
+      "sha256": "abd9e1811eadcd30d5f9ed05fb241fd0fe5344969cdbc669e76bb65822fcbbe6"
+    },
+    {
+      "path": "src-tauri/src/core/sync_engine.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/sync_engine.rs",
+      "local": "sources/src-tauri__src__core__sync_engine.rs",
+      "sha256": "6346e7949a4d2f248fa47e101ef62d1de0080db6d14f917b84d4df44a24aea46"
+    },
+    {
+      "path": "src-tauri/src/core/skill_store.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/skill_store.rs",
+      "local": "sources/src-tauri__src__core__skill_store.rs",
+      "sha256": "c684305008665e1a5c9314beed409a1a56ce4155b6146d7c9777ff2b7e041681"
+    },
+    {
+      "path": "src-tauri/src/core/system_scheduler.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/system_scheduler.rs",
+      "local": "sources/src-tauri__src__core__system_scheduler.rs",
+      "sha256": "3b24e328c2a77319e15fd8dc1041c93dc2779d3f86415c0c36bbc48761e17ada"
+    },
+    {
+      "path": "src-tauri/src/core/skills_search.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/skills_search.rs",
+      "local": "sources/src-tauri__src__core__skills_search.rs",
+      "sha256": "7b544b8fc835b98a9179cde1b00cd2721754f4c288777bfdd5beb559e379109a"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/README.md",
+      "local": "sources/README.md",
+      "sha256": "63dafcf7b068a9cdfd85aceade4ceb5c6789d288bffcd88bb876f11d8d4cd355"
+    },
+    {
+      "path": "src-tauri/src/cli/args.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/cli/args.rs",
+      "local": "sources/src-tauri__src__cli__args.rs",
+      "sha256": "ceaddd4b43c898ecdec7467804e61a24a55bd1a9d5c32633c1622388e9905579"
+    },
+    {
+      "path": "src-tauri/src/cli/handlers.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/cli/handlers.rs",
+      "local": "sources/src-tauri__src__cli__handlers.rs",
+      "sha256": "5b739046745e4738a363bb6555c60a8ec15c4625c8a201dd0cf648fd8d462e08"
+    },
+    {
+      "path": "src-tauri/src/core/device_sync/manifest.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/device_sync/manifest.rs",
+      "local": "sources/src-tauri__src__core__device_sync__manifest.rs",
+      "sha256": "752166fe978c1c9375f59b15c86c9064b4175c549f8bfb589e855286a0aead8b"
+    },
+    {
+      "path": "src-tauri/src/core/device_sync/merge.rs",
+      "url": "https://raw.githubusercontent.com/qufei1993/skills-hub/7714f1f0fb0cdd42639c6a390ac66e0381453e1d/src-tauri/src/core/device_sync/merge.rs",
+      "local": "sources/src-tauri__src__core__device_sync__merge.rs",
+      "sha256": "f0afcdc3e6e43cb4e5ee7e0ed46a8b891ff239bdfd1f2d228ec123d01c8142f5"
+    }
+  ]
+}

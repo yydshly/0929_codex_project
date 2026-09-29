@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+<title id="title">Skills Hub：管理 Skill 的工具</title><desc id="desc">外部 Git 仓库、本地技能和已安装技能进入 Skills Hub 中心库，支持增加、删除、修改配置与来源更新、查询。用户可操作桌面界面，也可让 AI 读取附带的 manage-skills-hub 技能并调用命令行管理。中心库通过链接或复制把技能分发给 AI 工具，由 AI 工具实际执行任务。可通过 Git 仓库同步到其他电脑。汇总管理不会自动把多个技能串成工作流。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#508c88" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:'Segoe UI','Microsoft YaHei',sans-serif;fill:#18323e}.muted{fill:#526976}.light{fill:#d8edec}.title{font-size:31px;font-weight:700}.h{font-size:24px;font-weight:650}.body{font-size:21px}.small{font-size:18px}.tiny{font-size:16px}.line{fill:none;stroke:#508c88;stroke-width:2.5;marker-end:url(#arrow)}</style>
+<rect width="1200" height="840" rx="18" fill="#f0f6f6"/>
+<text x="38" y="54" class="title">Skills Hub = 一个管理 Skill 的工具</text>
+<text x="38" y="90" class="body muted">外部技能接入 · 集中增删改查 · 按工具分发 · 可用 AI 对话管理</text>
+<rect x="354" y="120" width="492" height="112" rx="12" fill="#e0eee9" stroke="#9ac8ba"/>
+<text x="378" y="152" class="small">附带的管理 Skill</text>
+<text x="378" y="186" class="h">manage-skills-hub</text>
+<text x="378" y="216" class="small muted">教 AI 调用 skillshub-cli，管理下面的技能库</text>
+<path d="M600 233V278" class="line"/>
+<text x="863" y="165" class="small muted">另一个操作入口：</text><text x="863" y="196" class="body">你直接使用桌面界面</text>
+<path d="M980 216V249H771V278" class="line"/>
+<rect x="30" y="296" width="252" height="294" rx="12" fill="white" stroke="#d1dfe2"/>
+<text x="53" y="337" class="h">① 外部 Skill 接入</text>
+<text x="53" y="384" class="body">Git 仓库中的技能</text><text x="53" y="424" class="body">本地文件夹中的技能</text><text x="53" y="464" class="body">工具中已安装的技能</text>
+<path d="M53 490H258" stroke="#dbe5e7"/>
+<text x="53" y="522" class="small muted">搜索是发现入口</text><text x="53" y="552" class="small muted">写作、审查等技能按需导入</text>
+<path d="M284 438H330" class="line"/>
+<rect x="340" y="286" width="520" height="314" rx="14" fill="#153641"/>
+<text x="367" y="329" class="h" style="fill:white">② Skills Hub · 本地统一管理处</text>
+<text x="367" y="363" class="small light">多个 Skill 集中保存，每个 Skill 仍然独立</text>
+<rect x="363" y="385" width="225" height="81" rx="8" fill="#244955"/><rect x="609" y="385" width="225" height="81" rx="8" fill="#244955"/>
+<rect x="363" y="480" width="225" height="91" rx="8" fill="#244955"/><rect x="609" y="480" width="225" height="91" rx="8" fill="#244955"/>
+<text x="381" y="416" class="h" style="fill:#bde8d9">增</text><text x="381" y="448" class="small light">安装 / 导入外部技能</text>
+<text x="627" y="416" class="h" style="fill:#bde8d9">删</text><text x="627" y="448" class="small light">删除 / 单独停用</text>
+<text x="381" y="511" class="h" style="fill:#bde8d9">改</text><text x="381" y="542" class="small light">标签、目标、启用配置</text><text x="381" y="565" class="tiny light">也支持从原始来源更新内容</text>
+<text x="627" y="511" class="h" style="fill:#bde8d9">查</text><text x="627" y="546" class="small light">搜索 / 筛选 / 查看内容</text>
+<path d="M862 438H907" class="line"/>
+<rect x="920" y="296" width="250" height="294" rx="12" fill="white" stroke="#d1dfe2"/>
+<text x="943" y="337" class="h">③ 分发给 AI 工具</text>
+<text x="943" y="383" class="body">Claude Code</text><text x="943" y="421" class="body">Codex / Cursor 等</text>
+<text x="943" y="461" class="small muted">全局使用 / 指定项目</text>
+<path d="M943 490H1148" stroke="#dbe5e7"/>
+<text x="943" y="522" class="small">AI 工具读取技能</text><text x="943" y="553" class="small">完成写作、审查等任务</text>
+<path d="M600 602V638" class="line"/>
+<rect x="340" y="650" width="520" height="62" rx="9" fill="#e0eee9" stroke="#9ac8ba"/>
+<text x="366" y="689" class="body">可选：通过 Git 仓库同步到其他电脑</text>
+<text x="38" y="756" class="small">理解边界：汇总技能不会自动串成工作流；默认是本地管理中心。</text>
+<text x="38" y="788" class="small muted">“改”主要指配置调整与来源更新，不代表内置完整的技能正文编辑器。</text>
+<text x="38" y="819" class="tiny muted">005 · 独立研究示意 / 固定提交 7714f1f / 已有功能与运行效果需分别判断</text>
+</svg>

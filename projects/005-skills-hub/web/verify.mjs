@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {readFileSync, existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {dirname, resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const web = dirname(fileURLToPath(import.meta.url));
+const project = resolve(web,'..');
+const published = resolve(project,'../../site/005-skills-hub');
+const read = p=>readFileSync(p,'utf8').replace(/^\uFEFF/,'');
+const data = JSON.parse(read(resolve(web,'content.json')));
+const manifest = JSON.parse(read(resolve(project,'sources-manifest.json')));
+assert.equal(data.revision,manifest.revision);
+assert.equal(data.capabilities.length,14);
+assert.equal(data.scenarios.length,6);
+assert.equal(data.extensions.length,6);
+const paths = new Set(manifest.files.map(f=>f.path));
+for(const file of manifest.files) assert.equal(createHash('sha256').update(readFileSync(resolve(project,file.local))).digest('hex'),file.sha256,file.path);
+for(const capability of data.capabilities) assert(paths.has(capability.source),capability.source);
+for(const scenario of data.scenarios) for(const id of scenario.capabilities) assert(data.capabilities.some(c=>c.id===id),id);
+const html = read(resolve(web,'index.html'));
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(ids.length,new Set(ids).size,'duplicate HTML ids');
+for(const id of ['summary','crud','usage','value','scenarios','architecture','extensions','sources',...data.capabilities.map(c=>c.id)]) assert(ids.includes(id),id);
+for(const [,ref] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
+  if(/^(https?:|data:)/.test(ref)) continue;
+  if(ref.startsWith('#')) assert(ids.includes(ref.slice(1)),ref);
+  else assert(existsSync(resolve(web,ref)),ref);
+}
+for(const file of ['index.html','styles.css','summary.svg']) assert.deepEqual(readFileSync(resolve(web,file)),readFileSync(resolve(published,file)),file);
+assert.deepEqual(readFileSync(resolve(web,'summary.svg')),readFileSync(resolve(project,'assets/capability-summary.svg')));
+for(const phrase of ['manage-skills-hub','增删改查','如何使用','对你的意义']) assert(html.includes(phrase),phrase);
+assert(!html.includes('127.0.0.1'),'public HTML must not contain localhost links');
+console.log('Skills Hub: source hashes, 14 capabilities, 6 scenarios, 6 proposals, summary diagram, sections, links and published copies verified.');

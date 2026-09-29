@@ -80,3 +80,12 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 本次发布仅包含项目 003 及相关索引、发布配置；保留其他项目的本地未提交工作。展示中的样张与小组件是教学演示，上游技能没有运行实测。
 
 2026-09-29，[发布工作流 36522363357](https://github.com/yydshly/0929_codex_project/actions/runs/36522363357)构建和部署均成功，内容提交为 `8e06f36baf1c9216d6009a5c830dbdb8719ab502`。项目首页与六个资源均返回 HTTP 200，按文本内容与本地发布版本逐一比对一致；总入口也返回 HTTP 200 并包含项目 003。浏览器确认线上摘要图加载成功，六类能力覆盖 38 项技能，展开列表与技能详情正常。手机布局检查已在同版本本地页面完成，未发现页面横向溢出。
+
+## 项目 005 · Skills Hub
+
+- 在线能力摘要：https://yydshly.github.io/0929_codex_project/005-skills-hub/
+- 本次生成的能力汇总图：项目路径下的 `summary.svg`。
+
+摘要明确 Skills Hub 是管理 Skill 的工具，支持外部技能接入和增删改查，附带 manage-skills-hub 管理 Skill。页面同时说明使用场景、底层原理、如何使用、可扩展方向，以及对当前开源研究工作的意义。引用本研究生成的能力图，未使用上游应用截图冒充功能验证。
+
+CI 执行 `node projects/005-skills-hub/web/build.mjs` 和 `node projects/005-skills-hub/web/verify.mjs`，无需安装依赖；核对来源哈希、14 项能力、6 个场景、6 项建议、汇总图、内部链接及发布副本。上游应用与技能未运行实测。

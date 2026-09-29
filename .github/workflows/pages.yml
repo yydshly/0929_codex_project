@@ -8,6 +8,7 @@ on:
       - 'projects/002-agent-skills/**'
       - 'projects/003-mattpocock-skills/**'
       - 'projects/004-mengto-skills/**'
+      - 'projects/005-skills-hub/**'
       - 'site/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -43,6 +44,10 @@ jobs:
           python3 projects/004-mengto-skills/scripts/build_web.py
           python3 projects/004-mengto-skills/scripts/verify_web.py
       - uses: actions/configure-pages@v5
+      - name: Build and verify Skills Hub research
+        run: |
+          node projects/005-skills-hub/web/build.mjs
+          node projects/005-skills-hub/web/verify.mjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

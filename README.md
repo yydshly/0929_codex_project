@@ -14,6 +14,7 @@
 | 002 | [Agent Skills](projects/002-agent-skills/README.md) | 25 项研发流程：能力、产物、场景、扩展与个人价值；摘要图及全量图 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/002-agent-skills/) |
 | 003 | [Matt Pocock Skills](projects/003-mattpocock-skills/README.md) | AI 工程与协作方法：38 项技能、6 类成果摘要图、6 个交互场景与当前到长期的个人价值 | 已完成 | [能力摘要与场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) |
 | 004 | [MengTo/Skills](projects/004-mengto-skills/README.md) | 146 项视觉与前端能力：11 类能力图、6 种实景、5 个个人场景，区分整页指导与真实产品开发 | 已完成 | [能力摘要与实景](https://yydshly.github.io/0929_codex_project/004-mengto-skills/) |
+| 005 | [Skills Hub](projects/005-skills-hub/README.md) | Skill 管理工具：外部技能接入与增删改查，附带管理 Skill；涵盖场景、原理、用法、扩展和个人价值 | 已完成 | [能力摘要](https://yydshly.github.io/0929_codex_project/005-skills-hub/) |
 
 ## 项目图览
 
@@ -60,6 +61,16 @@
 [在线能力摘要](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/) · [直接看场景](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/#scenarios) · [放大摘要图](https://yydshly.github.io/0929_codex_project/003-mattpocock-skills/capability-summary.svg) · [完整研究](projects/003-mattpocock-skills/README.md)
 
 固定版本 c55ee460；成果样张与小组件为本项目制作，上游技能未运行实测，效率收益未量化。
+
+### 005 · Skills Hub
+
+一个管理 Skill 的桌面工具：支持外部 Skill 接入、集中增删改查，并分发给 AI 工具使用；附带 manage-skills-hub 管理 Skill。研究说明使用场景、底层原理、上手方法、扩展方向，以及如何把筛选后的技能用于自己的研究工作。
+
+![Skills Hub 能力汇总：外部接入、增删改查、管理 Skill 与分发](projects/005-skills-hub/assets/capability-summary.svg)
+
+[完整研究](projects/005-skills-hub/README.md) · [在线能力汇总](https://yydshly.github.io/0929_codex_project/005-skills-hub/) · [下载汇总图](projects/005-skills-hub/assets/capability-summary.svg)
+
+图示为本研究整理的能力关系，不是上游应用运行证据。
 
 ## 仓库结构
 
