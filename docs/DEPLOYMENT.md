@@ -129,3 +129,5 @@ CI 执行项目的 web/build.mjs、web/verify.mjs 和 scripts/verify.py，核对
 - 构建与检查：node projects/011-voicestudio/web/build.mjs 和 node projects/011-voicestudio/web/verify.mjs。
 
 发布静态语音能力研究网页，涵盖能力、效果、场景、个人价值与使用路线。官方音频与截图直接引用原站，需要联网；本次不部署语音模型服务。构建复制已有摘要图，CI 无需图像渲染依赖。部署结果以 GitHub Actions 和公开页面验证为准。
+
+2026-09-29，[VoiceStudio 发布工作流](https://github.com/yydshly/0929_codex_project/actions/runs/36569465710)构建与部署成功，对应内容提交 ec5734a33ae88b0bef36ae75facd29917fe3e236。首页、摘要图阅读页、样式、脚本、PNG、SVG、来源清单与示例文稿共 8 项公开资源均返回 HTTP 200，并与本地文件一致（文本按 Git 换行规则比对）；PNG 与已确认原图逐字节一致。公开总入口已收录 011，浏览器确认四项摘要与原图阅读入口。只提交 VoiceStudio 及相关索引、发布步骤，其他未提交项目保留原状。
